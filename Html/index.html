@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>index</title>
+    <link rel="stylesheet" type="text/css" href="../Css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../Css/index.css">
+    <link rel="stylesheet" href="../Css/common/common.css">
+    <!-- 图标库 -->
+    <link rel="stylesheet" href="../Img/font-awesome/css/font-awesome.min.css">
+    <!-- 视频播放控件 -->
+    <link href="http://vjs.zencdn.net/6.6.3/video-js.css" rel="stylesheet">
+</head>
+
+<body>
+    <div>
+        <div class="top-page">
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <img src="../Img/icon/common/logo.png" alt="">
+                    </div>
+
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li class="navbar-nav-itme">
+                                <a href="#">首页</a>
+                            </li>
+
+                            <li class="dropdown navbar-nav-itme">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">线下课程</a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a href="#">2018课程的设置</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">2018课程设置</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">18课程设置</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">课程设置</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">程设置</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">设置</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">置</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="navbar-nav-itme">
+                                <a href="#">线上课程</a>
+                            </li>
+                            <li class="navbar-nav-itme">
+                                <a href="#">资讯中心</a>
+                            </li>
+                            <li class="navbar-nav-itme">
+                                <a href="#">素材中心</a>
+                            </li>
+                        </ul>
+
+                        <div class="topnav-right">
+                            <span>登陆</span>
+                            <span>/</span>
+                            <span>免费注册</span>
+                            <img src="../Img/icon/common/touxiang.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+
+        <div class="indexcentent">
+            <div class="search">
+                <img class="index-input" src="../Img/index/in-search-input.png" alt="">
+                <input maxlength="10" placeholder="初始设置最大程度为10" class="search-input" type="text">
+                <img class="search-icon" src="../Img/index/search-img-icon.png" alt="">
+            </div>
+            <div class="indexbody">
+                <!-- tab菜单 -->
+                <div class="indextab">
+                    <div class="tabbtn hideleftborder">
+                        <!-- 切换按钮 -->
+                        <div class="btn-item yanxueshe checkon">
+                            <span class="btn-text">美博思远</span>
+                            <span class="btn-text">研学社</span>
+                            <div class="circle">
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                            </div>
+                        </div>
+                        <div class="btn-item yunketang">
+                            <span class="btn-text">美博美课</span>
+                            <span class="btn-text">云课堂</span>
+                            <div class="circle" style="display:none">
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bgdiv-black">
+                        <!-- 研学社 -->
+                        <div id="yanxueshe" class="tavbody  bgdiv-white ">
+                            <!--放置背景图 -->
+                            <div class="video-area">
+                                <!-- 存放视频控件 -->
+                                <div class="video-title">
+                                    <span>研学社</span>
+                                </div>
+                                <div class="video-player">
+                                    <video id="my-video" class="video-js" controls preload="auto" width="640" height="264" data-setup="{}">
+                                        <source src="../Img/movie.mp4" type='video/mp4'>
+                                        <p class="vjs-no-js">
+                                            To view this video please enable JavaScript, and consider upgrading to a web browser that
+                                            <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+                                        </p>
+                                    </video>
+                                </div>
+                                <div class="video-control" style="display:none">
+                                    <div class="videotime">
+                                        <span class="nowtime">00:00</span>
+                                        <span>/</span>
+                                        <span class="totaltime">00：50</span>
+                                    </div>
+                                    <div class="fastcontrol">
+                                        <i class="fa fa-backward fa-lg"></i>
+                                        <i class="fa fa-pause fa-lg"></i>
+                                        <i class="fa fa-play fa-lg"></i>
+                                        <i class="fa fa-forward fa-lg"></i>
+                                    </div>
+                                    <div class="full-screen">
+                                        <i class="fa fa-expand fa-lg"></i>
+                                    </div>
+
+                                    <div class="sound">
+                                        <i class="fa fa-volume-up fa-lg" style="display:none"></i>
+                                        <i class="fa fa-volume-off fa-lg "></i>
+                                        <input type="range" class="sound-control" min="1" max="10" step="1" value="1" id="soundcontrol">
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="info row">
+                                <div class="col-sm-4  info-item">
+                                    <img src="../Img/index/in-info.png" alt="">
+                                    <ul class="info-ul">
+                                        <li class="info-li">
+                                            <a href="#">随便写点什么</a>
+                                        </li>
+                                        <li class="info-li">
+                                            <a href="#">随便写点什么</a>
+                                        </li>
+                                        <li class="info-li">
+                                            <a href="#">随便写点什么</a>
+                                        </li>
+                                        <li class="info-li">
+                                            <a href="#">随便写点什么</a>
+                                        </li>
+                                        <li class="info-li">
+                                            <a href="#">随便写点什么</a>
+                                        </li>
+                                    </ul>
+                                    <img src="../Img/index/in-info.png" alt="">
+                                </div>
+                                <div class="col-sm-4  info-item">
+                                    <img src="../Img/index/in-info.png" alt="">
+                                    <ul class="info-ul">
+                                        <li class="info-li">
+                                            <a href="#">随便写点什么</a>
+                                        </li>
+                                        <li class="info-li">
+                                            <a href="#">随便写点什么</a>
+                                        </li>
+                                        <li class="info-li">
+                                            <a href="#">随便写点什么</a>
+                                        </li>
+                                        <li class="info-li">
+                                            <a href="#">随便写点什么</a>
+                                        </li>
+                                        <li class="info-li">
+                                            <a href="#">随便写点什么</a>
+                                        </li>
+                                    </ul>
+                                    <img src="../Img/index/in-info.png" alt="">
+                                </div>
+                                <div class="col-sm-4  info-item">
+                                    <img src="../Img/index/in-info.png" alt="">
+                                    <ul class="info-ul">
+                                        <li class="info-li">
+                                            <a href="#">随便写点什么</a>
+                                        </li>
+                                        <li class="info-li">
+                                            <a href="#">随便写点什么</a>
+                                        </li>
+                                        <li class="info-li">
+                                            <a href="#">随便写点什么</a>
+                                        </li>
+                                        <li class="info-li">
+                                            <a href="#">随便写点什么</a>
+                                        </li>
+                                        <li class="info-li">
+                                            <a href="#">随便写点什么</a>
+                                        </li>
+                                    </ul>
+                                    <img src="../Img/index/in-info.png" alt="">
+                                </div>
+                            </div>
+
+                            <div class="zhanzinfo row">
+                                <div class="zhanzitem col-sm-3">
+                                    <img class="zzitem-img" src="../Img/index/in-zhanz-img.png" alt="">
+                                </div>
+                                <div class="zhanzitem-input zhanzitem  col-sm-6">
+                                    点击占座！开始你的研学之旅！
+                                </div>
+                                <div class="zhanzitem col-sm-3">
+                                    <img class="zzitem-img" src="../Img/index/in-zhanz-img.png" alt="">
+                                </div>
+                            </div>
+
+                            <div class="moreschool row">
+                                <div class="school-title">
+                                    <div>针对院校</div>
+                                    <img src="../Img/index/in-more-title.png" alt="">
+                                </div>
+                                <div class="col-sm-2 school-item">
+                                    <div>清华美术学院</div>
+                                </div>
+                                <div class="col-sm-2 school-item">
+                                    <div>中央美术学院</div>
+                                </div>
+                                <div class="col-sm-2 school-item">
+                                    <div>北京服装学院</div>
+                                </div>
+                                <div class="col-sm-2 school-item">
+                                    <div>北京电影学院</div>
+                                </div>
+                                <div class="col-sm-2 school-item">
+                                    <div>北京理工大学</div>
+                                </div>
+                                <div class="col-sm-2 school-item ">
+                                    <div class="bgcolor-red">更多学校</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 云课堂 -->
+                        <div id="yunketang" class="tavbody  bgdiv-white ">
+                            <!--放置背景图 -->
+                            <div class="video-area">
+                                <!-- 存放视频控件 -->
+                                <div class="video-title">
+                                    <span>研学社</span>
+                                </div>
+                                <div class="video-player">
+                                    <video id="my-video" class="video-js" controls preload="auto" width="640" height="264" data-setup="{}">
+                                        <source src="../Img/movie.mp4" type='video/mp4'>
+                                        <p class="vjs-no-js">
+                                            To view this video please enable JavaScript, and consider upgrading to a web browser that
+                                            <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+                                        </p>
+                                    </video>
+                                </div>
+                                <div class="video-control">
+                                    <div class="videotime">
+                                        <span class="nowtime">00:00</span>
+                                        <span>/</span>
+                                        <span class="totaltime">00：50</span>
+                                    </div>
+                                    <div class="fastcontrol">
+                                        <i class="fa fa-backward fa-lg"></i>
+                                        <i class="fa fa-pause fa-lg"></i>
+                                        <i class="fa fa-play fa-lg"></i>
+                                        <i class="fa fa-forward fa-lg"></i>
+                                    </div>
+                                    <div class="full-screen">
+                                        <i class="fa fa-expand fa-lg"></i>
+                                    </div>
+
+                                    <div class="sound">
+                                        <i class="fa fa-volume-up fa-lg" style="display:none"></i>
+                                        <i class="fa fa-volume-off fa-lg "></i>
+                                        <input type="range" class="sound-control" min="1" max="10" step="1" value="1" id="soundcontrol">
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="info row">
+                                <div class="col-sm-6  info-item">
+                                    <img src="../Img/index/in-info.png" alt="">
+                                    <ul class="info-ul">
+                                        <li class="info-li">
+                                            <a href="#">随便写点什么随便写点什么随便写点什么随便写点什么</a>
+                                        </li>
+                                        <li class="info-li">
+                                            <a href="#">随便写点什么</a>
+                                        </li>
+                                        <li class="info-li">
+                                            <a href="#">随便写点什么</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-sm-6  info-item">
+                                    <img src="../Img/index/in-info.png" alt="">
+                                    <ul class="info-ul">
+                                        <li class="info-li">
+                                            <a href="#">随便随便写点什么随便写点什么随便写点什么写点什么</a>
+                                        </li>
+                                        <li class="info-li">
+                                            <a href="#">随便写点什么</a>
+                                        </li>
+                                        <li class="info-li">
+                                            <a href="#">随便写点什么</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="zhanzinfo row">
+                                <div class="zhanzitem col-sm-3">
+                                    <img class="zzitem-img" src="../Img/index/in-yunkt-img.png" alt="">
+                                </div>
+                                <div class="zhanzitem-input zhanzitem  col-sm-6">
+                                    进入云课堂！随报随学
+                                </div>
+                                <div class="zhanzitem col-sm-3">
+                                    <img class="zzitem-img" src="../Img/index/in-yunkt-img.png" alt="">
+                                </div>
+                            </div>
+
+                            <div class="moreschool row">
+                                <div class="school-title">
+                                    <div>考研史论</div>
+                                    <img src="../Img/index/in-more-title.png" alt="">
+                                </div>
+                                <div class="col-sm-2 school-item">
+                                    <div>现代设计史</div>
+                                </div>
+                                <div class="col-sm-2 school-item">
+                                    <div>中国美术简史</div>
+                                </div>
+                                <div class="col-sm-2 school-item">
+                                    <div>外国美术简史</div>
+                                </div>
+                                <div class="col-sm-2 school-item">
+                                    <div>中国工艺美术史</div>
+                                </div>
+                                <div class="col-sm-2 school-item">
+                                    <div>中国服装史</div>
+                                </div>
+                                <div class="col-sm-2 school-item">
+                                    <div>中国建筑史</div>
+                                </div>
+                            </div>
+                            <div class="moreschool row">
+                                <div class="school-title">
+                                    <div>专业基础</div>
+                                    <img src="../Img/index/in-more-title.png" alt="">
+                                </div>
+                                <div class="col-sm-2 school-item">
+                                    <div>视觉传达设计</div>
+                                </div>
+                                <div class="col-sm-2 school-item">
+                                    <div>环境艺术设计</div>
+                                </div>
+                                <div class="col-sm-2 school-item">
+                                    <div>工业产品设计</div>
+                                </div>
+                                <div class="col-sm-2 school-item">
+                                    <div>服装设计</div>
+                                </div>
+                                <div class="col-sm-2 school-item">
+                                    <div>建筑设计导学</div>
+                                </div>
+                                <div class="col-sm-2 school-item">
+                                    <div>字体基础设计</div>
+                                </div>
+                            </div>
+                            <div class="moreschool row">
+                                <div class="school-title">
+                                    <div>其他课程</div>
+                                    <img src="../Img/index/in-more-title.png" alt="">
+                                </div>
+                                <div class="col-sm-2 school-item">
+                                    <div>考研英语</div>
+                                </div>
+                                <div class="col-sm-2 school-item">
+                                    <div>考研政治</div>
+                                </div>
+                                <div class="col-sm-2 school-item">
+                                    <div>直播·艺环设计理念</div>
+                                </div>
+                                <div class="col-sm-2 school-item">
+                                    <div>直播·服装设计理念</div>
+                                </div>
+                                <div class="col-sm-2 school-item">
+                                    <div>直播·建筑设计理念</div>
+                                </div>
+                                <div class="col-sm-2 school-item">
+                                    <div class="bgcolor-red">更多课程</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 大事件 -->
+                <div class="impthings">
+                    <div class="imptitle index-title">
+                        <span class="title-span">美博思远大事年表</span>
+                        <img src="../Img/index/in-imp-title-icon.png" alt="">
+                    </div>
+                    <div class="bgdiv-black">
+                        <div class="impbody bgdiv-white">
+                            <div class="timeline ">
+                                <div class="line">
+                                    <div class="linepoint one"></div>
+                                    <div class="circle one-c">
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                    </div>
+                                    <div class="linepoint two"></div>
+                                    <div class="circle two-c">
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                    </div>
+                                    <div class="linepoint three"></div>
+                                    <div class="circle three-c">
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                    </div>
+                                    <div class="linepoint four"></div>
+                                    <div class="circle four-c">
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                    </div>
+                                    <div class="linepoint five"></div>
+                                    <div class="circle five-c">
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                    </div>
+                                    <div class="linepoint six"></div>
+                                </div>
+
+                                <div class="lineinfo row">
+                                    <div class="lineinfo-item col-sm-2">
+                                        <p>2018</p>
+                                        <span>点和线的位置是绝对定位的</span>
+                                    </div>
+                                    <div class="lineinfo-item col-sm-2">
+                                        <p>2018</p>
+                                        <span>点和线的位置是绝对定位的</span>
+                                    </div>
+                                    <div class="lineinfo-item col-sm-2">
+                                        <p>2018</p>
+                                        <span>点和线的位置是绝对定位的</span>
+                                    </div>
+                                    <div class="lineinfo-item col-sm-2">
+                                        <p>2018</p>
+                                        <span>点和线的位置是绝对定位的</span>
+                                    </div>
+                                    <div class="lineinfo-item col-sm-2">
+                                        <p>2018</p>
+                                        <span>点和线的位置是绝对定位的</span>
+                                    </div>
+                                    <div class="lineinfo-item col-sm-2">
+                                        <p>2018</p>
+                                        <span>点和线的位置是绝对定位的</span>
+                                    </div>
+                                </div>
+
+                                <div class="impdate row">
+                                    <div class="dateitem col-sm-4">
+                                        <img src="../Img/index/in-imp-img-01.png" alt="">
+                                        <p>10%</p>
+                                    </div>
+                                    <div class="dateitem col-sm-4">
+                                        <img src="../Img/index/in-imp-img-02.png" alt="">
+                                        <p>10%</p>
+                                    </div>
+                                    <div class="dateitem col-sm-4">
+                                        <img src="../Img/index/in-imp-img-03.png" alt="">
+                                        <p>10%</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 学生作品 -->
+                <div class="stuworks">
+                    <div class="stutitle index-title">
+                        <span class="title-span">学生作品</span>
+                        <img src="../Img/index/in-imp-title-icon.png" alt="">
+                    </div>
+                    <div class="workslist">
+                        无限瀑布流存在问题，延后
+                    </div>
+                </div>
+
+                <!-- 教学环境 Teaching environment -->
+                <div class="teachenv">
+                    <div class="teachtitle index-title">
+                        <span class="title-span">教学环境</span>
+                        <img src="../Img/index/in-imp-title-icon.png" alt="">
+                    </div>
+                    <div class="bgdiv-black">
+                        <div class="teachlist bgdiv-white">
+                            <div class="imglist row">
+                                <div class="imgitem col-sm-4">
+                                    <img src="../Img/index/in-teach-img-01.png">
+                                </div>
+                                <div class="imgitem col-sm-4">
+                                    <img src="../Img/index/in-teach-img-01.png">
+                                </div>
+                                <div class="imgitem col-sm-4">
+                                    <img src="../Img/index/in-teach-img-01.png">
+                                </div>
+                            </div>
+                            <div class="hrline"></div>
+                            <div class="imglist row">
+                                <div class="imgitem col-sm-4">
+                                    <img src="../Img/index/in-teach-img-01.png">
+                                </div>
+                                <div class="imgitem col-sm-4">
+                                    <img src="../Img/index/in-teach-img-01.png">
+                                </div>
+                                <div class="imgitem col-sm-4">
+                                    <img src="../Img/index/in-teach-img-01.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="footpage" class="foot-page">
+            <div class="fdiv">
+                <div class="flink">
+
+                    <div class="fcontent">
+
+                        <div class="rword">
+                            <div class="hader-school">
+                                <img src="../Img/icon/common/joinus.png" class="sealine" alt="">
+                                <img src="../Img/icon/common/joinus.png" class="sealine img-2" alt="">
+                                <span class="rword-r">友情链接：</span>
+                            </div>
+                            <ul class="rword-ul school">
+                                <li class="rword-li ">
+                                    <a href="#">清华大学美术学院</a>
+                                </li>
+                                <li class="rword-li">
+                                    <a href="#">中央美术学院</a>
+                                </li>
+                                <li class="rword-li">
+                                    <a href="#">北京服装学院</a>
+                                </li>
+                                <li class="rword-li">
+                                    <a href="#">北京理工大学</a>
+                                </li>
+                                <li class="rword-li">
+                                    <a href="#">北京林业大学</a>
+                                </li>
+                                <li class="rword-li">
+                                    <a href="#">北京电影学院</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                    <div class="fcontent ">
+
+                        <div class="rword">
+                            <div class="hader-school">
+                                <img src="../Img/icon/common/joinus.png" class="sealine" alt="">
+                                <img src="../Img/icon/common/joinus.png" class="sealine img-2" alt="">
+                                <span class="rword-r">官方账号：</span>
+                            </div>
+                            <ul class="rword-ul">
+                                <li class="rword-li">
+                                    <a href="#">
+                                        <img src="../Img/icon/common/zhihu.gif" data-toggle="tooltip" data-placement="bottom" title="知乎">
+                                    </a>
+                                </li>
+                                <li class="rword-li">
+                                    <a href="#">
+                                        <img src="../Img/icon/common/xinlang.gif" data-toggle="tooltip" data-placement="bottom" title="新浪微博">
+                                    </a>
+                                </li>
+                                <li class="rword-li">
+                                    <a href="#">
+                                        <img src="../Img/icon/common/huaban.gif" data-toggle="tooltip" data-placement="bottom" title="花瓣网">
+                                    </a>
+                                </li>
+                                <li class="rword-li">
+                                    <a href="#">
+                                        <img src="../Img/icon/common/tb001.gif" data-toggle="tooltip" data-placement="bottom" title="不知道">
+                                    </a>
+                                </li>
+                                <li class="rword-li">
+                                    <a href="#">
+                                        <img src="../Img/icon/common/xiangji.gif" data-toggle="tooltip" data-placement="bottom" title="不知道">
+                                    </a>
+                                </li>
+                                <li class="rword-li">
+                                    <a href="#">
+                                        <img src="../Img/icon/common/weibo.gif" data-toggle="tooltip" data-placement="bottom" title="腾讯微博">
+                                    </a>
+                                </li>
+                                <li class="rword-li">
+                                    <a href="#">
+                                        <img src="../Img/icon/common/txship.gif" data-toggle="tooltip" data-placement="bottom" title="腾讯视频">
+                                    </a>
+                                </li>
+                                <li class="rword-li">
+                                    <a href="#">
+                                        <img src="../Img/icon/common/txketang.gif" data-toggle="tooltip" data-placement="bottom" title="腾讯课堂">
+                                    </a>
+                                </li>
+                                <li class="rword-li last-li">
+                                    <span class="rword-r">随时随地，都有我们陪伴您的身影！</span>
+                                </li>
+                            </ul>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="fnote">
+                    <span>Copyright &copy; 2011-2016 Mapla.All Rights Reserved.</span>
+                    <span>关于我们</span>
+                    <br>
+                    <span>北京美博惠人国际教育科技有限公司 版权所有 京ICP备11044802号-1</span>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="rightnav">
+        <div class="classdate">
+            <img src="../Img/icon/common/classdate.png" alt="" srcset="">
+        </div>
+
+        <div class="askonline">
+            <div class="askimg">
+                <img src="../Img/icon/common/askonline.png" alt="">
+            </div>
+            <div class="askman">
+                <button class=" btn btn-info">冯老师</button>
+                <button class=" btn btn-info">陶老师</button>
+                <button class=" btn btn-info">王老师</button>
+            </div>
+        </div>
+
+        <div class="todaynews">
+            <div class="newstip bborder">今日推荐
+                <button type="button" id="toclose" class="close" data-dismiss="todaynews" aria-hidden="true">&times;</button>
+            </div>
+            <img class="bborder" src="../Img/icon/common/todaynews.png" data-toggle="modal" data-target="#tadaynewModal">
+            <div class="newstip bborder">点击放大查看</div>
+        </div>
+    </div>
+    <!-- 今日推荐 -->
+    <div class="modal fade tadaynewModal" id="tadaynewModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <!-- 轮播 -->
+            <div id="warpper" class="warpper">
+                <div class="lbcontainer">
+                    <!-- 图片区域 -->
+                    <img class="lbcloser" data-dismiss="modal" aria-hidden="true" src="../Img/icon/common/todaycloser.png" alt="">
+                    <ul class="imgList">
+                        <li>
+                            <img src="../Img/icon/common/todaynews.png" alt="">
+                        </li>
+                        <li>
+                            <img src="../Img/icon/common/todaynews.png" alt="">
+                        </li>
+                        <li>
+                            <img src="../Img/icon/common/todaynews.png" alt="">
+                        </li>
+                        <li>
+                            <img src="../Img/icon/common/todaynews.png" alt="">
+                        </li>
+                        <li>
+                            <img src="../Img/icon/common/todaynews.png" alt="">
+                        </li>
+                        <li>
+                            <img src="../Img/icon/common/todaynews.png" alt="">
+                        </li>
+                    </ul>
+                    <!-- 左右切换图标 -->
+                    <!-- <img src="../Img/icon/common/txship.gif" width="40px" height="60px" class="pre">
+                    <img src="../Img/icon/common/txship.gif" width="40px" height="60px" class="next"> -->
+                    <!-- 下方控制图片按钮 -->
+                    <ul class="dollList">
+                        <li class="sec">
+                            <a href="#">1</a>
+                        </li>
+                        <li>
+                            <a href="#">2</a>
+                        </li>
+                        <li>
+                            <a href="#">3</a>
+                        </li>
+                        <li>
+                            <a href="#">4</a>
+                        </li>
+                        <li>
+                            <a href="#">5</a>
+                        </li>
+                        <li>
+                            <a href="#">6</a>
+                        </li>
+                    </ul>
+
+                    <img id="lbclick" class="lbclick" src="../Img/icon/common/click.png" alt="" srcset="">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="../Js/jquery-3.3.1.min.js"></script>
+<script src="../Js/bootstrap.min.js"></script>
+<script src="../Js/common.js"></script>
+<script src="../Js/index.js"></script>
+<script src="http://vjs.zencdn.net/6.6.3/video.js"></script>
+
+</html>

@@ -1,0 +1,524 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+*div {
+    max-width: 1100px;
+}
+
+body {
+    overflow: auto;
+    width: 1024px;
+    margin: auto;
+}
+
+.fcontent {
+    margin-bottom: 5px;
+}
+
+iv {
+    width: 100%;
+    background-color: white;
+}
+
+.flink {
+    height: 150px;
+}
+
+.lword {
+    font-size: inherit;
+    line-height: 50px;
+}
+
+.sealine {
+    width: 60px;
+}
+
+.rword {
+    height: 50px;
+    line-height: 50px;
+}
+
+.rword .hader-school img {
+    margin-left: 20px;
+}
+
+.rword-r {
+    margin-left: 40px;
+    color: darkgray;
+}
+
+.rword-ul li {
+    list-style: none;
+    float: left;
+    margin-left: 15px;
+}
+
+.rword-ul .last-li {
+    margin-left: 0;
+}
+
+.rword-ul .last-li span {
+    margin-left: 10px;
+}
+
+.rword-ul+span {
+    margin-left: 20px;
+}
+
+.hader-school {
+    float: left;
+}
+
+.school .rword-li a {
+    color: black;
+    border-bottom: 1px solid darkgray;
+    padding-bottom: 3px;
+}
+
+.school .rword-li a:hover {
+    color: rgb(67, 137, 223);
+    text-decoration: none;
+    border-bottom: 1px solid rgb(67, 137, 223);
+}
+
+.tooltip-inner {
+    background: rgb(240, 88, 127);
+}
+
+.tooltip.bottom .tooltip-arrow {
+    border-bottom-color: rgb(240, 88, 127);
+}
+
+.fnote {
+    font-size: smaller;
+    color: darkgray;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+/* 顶部菜单 ↓ */
+
+.navbar {
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+.navbar-default {
+    background-color: #fff;
+}
+
+.navbar-nav .navbar-nav-itme {
+    margin-left: 25px;
+}
+
+.navbar .topnav-right {
+    text-align: right;
+    line-height: 50px;
+}
+
+.navbar .topnav-right span {
+    margin-right: 5px;
+    color: #777;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.navbar .topnav-right span:hover {
+    color: rgb(240, 88, 127);
+}
+
+.navbar .navbar-header {
+    margin-left: 50px;
+}
+
+.navbar .navbar-header img {
+    height: 50px;
+}
+
+.navbar .dropdown .dropdown-menu {
+    min-width: 150px;
+    width: 150px;
+    left: -25px;
+}
+
+.navbar .dropdown .dropdown-menu li {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.navbar .dropdown .dropdown-menu li a {
+    height: 30px;
+}
+
+.dropdown-menu>li>a {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.navbar .dropdown .dropdown-menu li a:hover {
+    background-color: rgb(112, 221, 234);
+    border: 2px solid black;
+    width: 110%;
+    line-height: 1.32857143;
+    margin-left: -5%;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: rgb(240, 88, 127);
+}
+
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:focus,
+.navbar-default .navbar-nav>.open>a:hover {
+    color: rgb(240, 88, 127);
+    background: white;
+}
+
+/* -------左侧菜单-----------  */
+
+.leftnav {
+    width: 130px;
+    height: auto;
+    margin-left: 50px;
+}
+
+.leftnav ul {
+    list-style: none;
+}
+
+.leftnav .ln-item {
+    width: 130px;
+}
+
+.leftnav .ln-top {
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background: #fff;
+    background: -webkit-linear-gradient(right, pink, white, pink);
+}
+
+.leftnav .ln-top * {
+    line-height: 26px;
+    font-size: 16px;
+    font-family: '宋体';
+}
+
+.leftnav .ln-top div:first-child {
+    margin-left: 10px;
+}
+
+.leftnav .ln-top div:last-child {
+    margin-right: 10px;
+}
+
+.leftnav .ln-middle {
+    height: 6px;
+    position: relative;
+}
+
+.leftnav .ln-middle div {
+    height: 6px;
+    width: 5px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.leftnav .ln-middle .left-post {
+    position: absolute;
+    top: 0px;
+    left: 30px;
+    background-color: yellow;
+}
+
+.leftnav .ln-middle .right-post {
+    position: absolute;
+    top: 0px;
+    left: 90px;
+    background-color: pink;
+}
+
+.leftnav .nav-item {
+    height: 30px;
+    width: 130px;
+    border: 1px solid black;
+}
+
+.leftnav .ln-item a:hover {
+    color: white;
+    background-color: aqua;
+}
+
+.leftnav .ln-item a {
+    text-decoration: none;
+    line-height: 30px;
+}
+
+.leftnav .ln-item a:hover {
+    color: white;
+    background-color: aqua;
+}
+
+/* 定义不同样式用于不同情况 */
+
+.leftnav-red-hover {
+    background-color: rgb(240, 88, 127);
+}
+
+.leftnav-blue-hover {
+    background-color: rgb(114, 222, 234);
+}
+
+.leftnav .item-br .br-top {
+    width: 130px;
+    height: 3px;
+    background: -webkit-linear-gradient(left, yellow, pink);
+}
+
+.leftnav .item-br .br-bottom {
+    width: 130px;
+    height: 3px;
+    background: white;
+}
+
+/* -------------右侧------------ */
+
+.askonline {
+    width: 100px;
+}
+
+.askonline .askimg {
+    width: 100px;
+    height: 85px;
+    text-align: center;
+}
+
+.askonline .askman {
+    text-align: center;
+}
+
+.askonline .askman button {
+    margin-bottom: 5px;
+    color: black;
+    border: 1px solid black;
+}
+
+.rightnav {
+    position: fixed;
+    right: 1px;
+    top: 140px;
+}
+
+.rightnav .classdate {
+    margin: 0 auto;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.rightnav .todaynews {
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.rightnav .todaynews .bborder {
+    border: 1px solid black;
+}
+
+.rightnav .todaynews .close {
+    height: 19px;
+    line-height: 0;
+    opacity: 1;
+    margin-right: 4px;
+}
+
+.rightnav .todaynews img {
+    height: 50px;
+    width: 100px;
+}
+
+.rightnav .todaynews .newstip {
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 6px;
+    background: -webkit-linear-gradient(left, rgb(255, 214, 58), rgb(255, 219, 215));
+    /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(right, rgb(255, 214, 58), rgb(255, 219, 215));
+    /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(right, rgb(255, 214, 58), rgb(255, 219, 215));
+    /* Firefox 3.6 - 15 */
+    background: linear-gradient(to right, rgb(255, 214, 58), rgb(255, 219, 215));
+    /* 标准的语法（必须放在最后）*/
+}
+
+/* 关于轮播样式的改动 */
+
+.tadaynewModal .modal-content {
+    background-color: transparent;
+}
+
+.tadaynewModal .modal-dialog {
+    margin: 0 auto;
+    width: 800px;
+    height: 600px;
+    max-width: 800px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+.tadaynewModal ul {
+    list-style: none;
+}
+
+.tadaynewModal a {
+    text-decoration: none;
+}
+
+.tadaynewModal .warpper {
+    width: 800px;
+    height: 600px;
+}
+
+.tadaynewModal .lbcontainer {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.tadaynewModal .imgList {
+    width: 4800px;
+    position: absolute;
+    z-index: 5;
+}
+
+.tadaynewModal .imgList>li {
+    float: left;
+    width: 800px;
+    height: 600px;
+}
+
+.tadaynewModal .lbcontainer .imgList>li>img {
+    width: 100%;
+    height: 100%;
+}
+
+.pre,
+.next {
+    position: absolute;
+    top: 275px;
+    background: rgba(220, 220, 220, 0.7);
+    padding: 10px 0;
+    z-index: 100;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+}
+
+.pre:hover,
+.next:hover {
+    cursor: pointer;
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.pre {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+.tadaynewModal .dollList {
+    position: absolute;
+    z-index: 10;
+    bottom: 80px;
+    left: 310px;
+    text-align: center;
+}
+
+.tadaynewModal .dollList li {
+    float: left;
+    margin-right: 10px;
+}
+
+.tadaynewModal .dollList li.sec a {
+    background: white;
+}
+
+.dollList li a {
+    width: 20px;
+    height: 20px;
+    background: rgba(230, 230, 230, 0.6);
+    color: black;
+    line-height: 20px;
+    display: inline-block;
+}
+
+.tadaynewModal .lbcloser {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 10;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.tadaynewModal .lbclick {
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    z-index: 10;
+    bottom: 30px;
+    left: 300px;
+}
+
+.border {
+    border: 1px solid red;
+}
+
+/* 小圆点 */
+
+.circle div {
+    width: 4px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: black;
+    float: left;
+    margin-left: 8px;
+}
+/* 关于主要“背景图”的定位 */
+ .bgdiv-black{
+    margin: 0 auto;
+    width: 900px;
+    height: 950px;
+    margin-top: 50px;
+    background-color: #ffDBE0;
+    position: relative;
+    border: 1px solid;
+}
+
+.bgdiv-white{
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    width: 100%;
+    height: 950px;
+    background-color: white;
+    border: 1px solid;
+}
+
+
+.relative{
+    position: relative;
+}

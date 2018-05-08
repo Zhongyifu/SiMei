@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../Css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../Css/common/common.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <img src="../../Img/icon/common/logo.png" alt="">
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="navbar-nav-itme">
+                        <a href="#">首页</a>
+                    </li>
+
+                    <li class="dropdown navbar-nav-itme">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">线下课程</a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                    <a href="#">2018课程的设置</a>
+                            </li>
+                            <li>
+                                <a href="#">2018课程设置</a>
+                            </li>
+                            <li>
+                                <a href="#">18课程设置</a>
+                            </li>
+                            <li>
+                                <a href="#">课程设置</a>
+                            </li>
+                            <li>
+                                <a href="#">程设置</a>
+                            </li>
+                            <li>
+                                <a href="#">设置</a>
+                            </li>
+                            <li>
+                                <a href="#">置</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="navbar-nav-itme">
+                        <a href="#">线上课程</a>
+                    </li>
+                    <li class="navbar-nav-itme">
+                        <a href="#">资讯中心</a>
+                    </li>
+                    <li class="navbar-nav-itme">
+                        <a href="#">素材中心</a>
+                    </li>
+                </ul>
+
+                <div class="topnav-right">
+                    <span>登陆</span>
+                    <span>/</span>
+                    <span>免费注册</span>
+                    <img src="../../Img/icon/common/touxiang.png" alt="">
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+</body>
+<script src="../../Js/jquery-3.3.1.min.js"></script>
+<script src="../../Js/bootstrap.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('li.dropdown').mouseover(function () {
+            $(this).addClass('open');
+        }).mouseout(function () {
+            $(this).removeClass('open');
+        });
+    })
+</script>
+
+</html>

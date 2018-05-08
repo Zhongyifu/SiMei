@@ -1,0 +1,301 @@
+/*通用样式*/
+
+.content-shadow {
+    position: absolute;
+    top: 115px;
+    left: 310px;
+    z-index: 1;
+    border: 1px solid black;
+    background-color: rgb(255, 219, 224);
+}
+
+.modal .modal-closer {
+    width: 100px;
+    border-radius: 25px;
+    color: white;
+    background-color: rgb(241, 88, 128);
+}
+
+.modal-title {
+    text-align: center;
+    line-height: 0;
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+
+.modal-footer {
+    text-align: center;
+    border: 0;
+}
+
+.modal-footer .circle {
+    height: 6px;
+    width: 100px;
+    margin-left: 88px;
+    margin-top: 3px;
+}
+
+.loginModal .modal-dialog {
+    width: 300px;
+}
+
+.loginModal .modal-header {
+    padding: 0;
+    border: 0;
+}
+
+.loginModal .modal-header .close {
+    margin: 5px;
+    opacity: 1;
+}
+
+.loginitem img {
+    width: 498px;
+    margin-left: -1px;
+}
+
+.loginitem .inputitem div {
+    float: left;
+    margin-left: 10px;
+    width: 80px;
+}
+
+.logincontent {
+    min-height: 500px;
+    overflow: auto;
+    background-image: url(../Img/login/bg-login.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+.logincontent .logintitle span {
+    font-weight: 600;
+    color: rgb(240, 88, 127);
+}
+
+.logincontent .loginform {
+    width: 500px;
+    margin: 0 auto;
+}
+.logincontent .loginform .inputitem:first-child div{
+    width: 80px;
+}
+
+.logincontent .logininput {
+    margin-top: 15px;
+    width: 622px;
+    height: 291px;
+    background-image: url(../Img/login/registerbg01.png);
+}
+
+.logincontent .inputitem {
+    height: 70px;
+    line-height: 70px;
+}
+
+.logininput .inputitem div {
+    float: left;
+    width: 65px;
+    line-height: 70px;
+    margin-left: 15px;
+}
+
+.logincontent .inputitem input {
+    height: 35px;
+    width: 280px;
+}
+
+.logincontent .inputitem .sendcode {
+    float: right;
+    margin-right: 15px;
+}
+
+.logincontent .inputitem .sendcode span {
+    position: absolute;
+    top: -1px;
+    left: 12px;
+    color: white;
+}
+.logincontent .inputitem .sendcode .pwd-icon{
+    width: 30px;
+    height: 30px;
+}
+.logincontent .inputitem .sendcode .pwd-span{
+    color: rgb(240, 88, 127);
+    float: left;
+}
+.logincontent .inputitem .sendcode-icon {
+    width: 100px;
+}
+
+.logincontent .inputitem .errormsg {
+    color: rgb(240, 88, 127);
+    font-size: 1px;
+    margin-left: 60px;
+}
+
+.logincontent .inputitem span {
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(82, 147, 226);
+}
+
+.logincontent .submitbtn {
+    width: 622px;
+}
+
+.logincontent .submitbtn .login-img {
+    width: 622px;
+    margin-top: 20px;
+}
+
+.logincontent .submitbtn .tip {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.logincontent .submitbtn .tip span {
+    color: rgb(240, 88, 127);
+}
+
+.logincontent .bgdiv-black {
+    width: 100%;
+    height: 250px;
+    margin-top: 20px;
+}
+
+.logincontent .bgdiv-white {
+    height: 100%;
+}
+
+.logincontent .submitbtn {
+    width: 100%;
+    margin-top: 30px;
+}
+
+/* ------------------*/
+
+.loginindex .loginindex-img {
+    width: 500px !important;
+}
+
+.inputitem .right {
+    float: right;
+    margin-right: 20px;
+    color: rgb(240, 88, 127) !important;
+}
+
+.inputitem .checkboxpwd {
+    width: 15px !important;
+    height: 15px !important;
+}
+
+.loginindex span hr {
+    width: 200px;
+    border-top: 1px solid gray;
+}
+
+.loginindex .fhr {
+    float: left;
+}
+
+.loginindex .lhr {
+    float: right;
+}
+
+.loginindex .wspan {
+    line-height: 40px;
+}
+
+.loginindex .wchatimg {
+    width: 100px;
+    height: 100px;
+}
+
+.loingindex div {
+    width: 80px !important;
+}
+
+.wspan {
+    color: gray !important;
+}
+
+.submitbtn .submit-span {
+    position: absolute;
+    top: 25px;
+    left: 290px;
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+}
+
+.loginindex .submit-span {
+    top: 20px;
+    left: 230px;
+}
+
+.loginindex .login-img {
+    width: 500px !important;
+}
+
+.updateinfo .bgdiv-black {
+    height: 710px;
+}
+
+.updateinfo .loginindex .submit-span {
+    left: 195px;
+}
+
+.updateinfo .user-icon {
+    height: 80px;
+    width: 200px;
+    line-height: 80px;
+}
+
+.updateinfo .user-icon .usericon {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    text-align: center;
+    line-height: 50px;
+    float: left;
+    border: 1px solid;
+    margin-right: 30px;
+    margin-top: 12px;
+}
+
+.updateinfo .user-icon .change-usericon {
+    position: absolute;
+    top: -2px;
+    right: 39px;
+    color: white;
+}
+
+.updateinfo .inputitem div:first-child {
+    width: 65px;
+}
+
+.updateinfo .inputitem .updateicon {
+    float: right;
+    width: 65px;
+    height: 70px;
+    line-height: 70px;
+}
+
+.updateinfo .inputitem .updateicon img {
+    width: 20px;
+    height: 20px;
+}
+
+.updateinfo .inputitem .updateicon span {
+    color: rgb(240, 88, 127);
+}
+.updateinfo .logintitle span{
+    color: gray;
+}
+
+.loginpage .bgdiv-black{
+    height: 350px;
+}
