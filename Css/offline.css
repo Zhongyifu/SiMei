@@ -1,0 +1,465 @@
+.classbody {
+    width: 100%;
+    background-image: url(../Img/bg.png);
+    padding: 50px 0px 100px 0px;
+}
+
+.classbody .bgdiv-black {
+    height: 1030px;
+    width: 800px;
+    margin-top: 10px;
+}
+
+.classbody .bgdiv-white {
+    height: 1030px;
+}
+
+.classcontent {
+    width: 800px;
+    margin: 0 auto;
+}
+
+/* table */
+
+.classinfotable {
+    width: 100%;
+    height: 350px;
+}
+
+.classinfotable .thead td {
+    text-align: center;
+    height: 35px;
+    color: white;
+    background-color: rgb(240, 88, 127);
+}
+
+.classinfotab td {
+    padding-left: 10px;
+}
+
+.classinfotable .thead .jieduan {
+    width: 85px;
+}
+
+.classinfotable .thead .mingchen {
+    width: 130px;
+}
+
+.classinfotable .thead .shezhi {
+    width: 130px;
+}
+
+.classinfotable .thead .keshi {
+    width: 60px;
+}
+
+.classinfotable .thead .xuefei {
+    width: 60px;
+}
+
+.classinfotable .thead .neirong {
+    width: 270px;
+}
+
+.classinfotable .neironginfo {
+    padding-top: 10px;
+}
+
+.classinfotable .thead .tixi {
+    width: 110px;
+}
+
+.classinfotable .tixiinfo p {
+    margin: 0px;
+}
+
+.jd td {
+    padding-left: 10px;
+}
+
+.jd td:first-child {
+    text-align: center;
+}
+
+.clcontent p {
+    line-height: 5px;
+}
+
+.classinfotable .jd-one {
+    background-color: rgb(217, 248, 248);
+}
+
+.classinfotab {
+    background-color: rgb(255, 242, 238);
+}
+
+.classinfotab .tdinfo-o {
+    width: 80px;
+}
+
+.classinfotab .tdinfo-t {
+    width: 120px;
+}
+
+.classinfotab .tdinfo-th {
+    width: 120px;
+}
+
+.classinfotab .tdinfo-f {
+    width: 60px;
+}
+
+.classinfotab .tdinfo-fi {
+    width: 60px;
+}
+
+.classinfotab .tdinfo-x {
+    width: 80px;
+}
+
+.classinfotab {
+    width: 100%;
+    height: 150px;
+    margin-top: 20px;
+}
+
+/* 以上位课程列表 */
+
+.achbody {
+    width: 100%;
+    background-image: url(../Img/bg.png);
+    padding: 50px 0px 100px 0px;
+}
+
+.achcontent {
+    width: 800px;
+    height: 800px;
+    margin: 0 auto;
+}
+
+.pagelist {
+    width: 100%;
+    height: 500px;
+}
+
+.achitem {
+    margin: 0;
+    margin-top: 30px;
+}
+
+.achitem .abgdiv-black {
+    width: 230px;
+    height: 150px;
+    background-color: #ffDBE0;
+    position: relative;
+    border: 1px solid;
+    margin-left: 20px;
+}
+
+.achitem .abgdiv-white {
+    width: 230px;
+    height: 150px;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    background-color: white;
+    border: 1px solid;
+}
+
+.achitem .stuname {
+    height: 50px;
+    line-height: 50px;
+}
+
+.achitem .stuname span {
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 0600;
+    color: rgb(19, 108, 216);
+}
+
+.achitem .stuname img {
+    float: right;
+    width: 120px;
+    margin-top: 18px;
+}
+
+.stuinfo {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.stuinfo p {
+    font-size: 15px;
+    color: rgb(19, 108, 216);
+    font-weight: 600;
+}
+
+/*以上是历年成绩 */
+
+.teachhbody {
+    width: 100%;
+    height: 800px;
+    background-image: url(../Img/bg.png);
+    padding: 50px 0px 100px 0px;
+}
+
+.teachhbody .achcontent {
+    width: 800px;
+    height: 800px;
+    margin: 0 auto;
+}
+
+.teachhbody .teachlist {
+    width: 800px;
+    height: 300px;
+}
+
+/* 以上是师资队伍 */
+
+.savebody {
+    width: 100%;
+    background-image: url(../Img/bg.png);
+    padding: 50px 0px 100px 0px;
+}
+
+.savecontent {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.savelist {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.savelist .bgdiv-black {
+    width: 800px;
+    height: 600px;
+    margin-top: 0px;
+}
+
+.savelist .bgdiv-white {
+    height: 600px;
+}
+
+.sitetable {
+    width: 796px;
+    text-align: center;
+}
+
+.sitetable thead tr th {
+    height: 40px;
+    text-align: center;
+    color: rgb(19, 108, 216);
+}
+
+.sitetable tbody .classname {
+    width: 125px;
+    padding-left: 10px;
+}
+
+.sitetable tbody .sitebtn {
+    width: 100px;
+    height: 35px;
+}
+
+.sitetable tbody .sitewd {
+    position: absolute;
+    top: 5px;
+    left: 55px;
+    color: white;
+    font-weight: 600;
+}
+
+/* 以上为占座系统 */
+
+.saveinfobody {
+    width: 100%;
+    background-image: url(../Img/bg.png);
+    padding: 50px 0px 100px 0px;
+}
+
+.saveinfocontent {
+    width: 800px;
+    margin: 0 auto;
+}
+.classroom{
+    min-height: 500px;
+    margin-top: 50px;
+}
+.saveinfolist .bgdiv-black {
+    width: 800px;
+    /* height: 1000px; */
+    margin-top: 0px;
+}
+
+.saveinfolist .bgdiv-white {
+    /* height: 1000px; */
+}
+.saveinfolist .hr-img {
+    width: 798px;
+    height: 20px;
+    margin-left: -1px;
+}
+
+.saveinfolist .hr-span {
+    position: absolute;
+    top: 0px;
+    left: 27px;
+    color: rgb(19, 108, 216);
+    background-color: white;
+    width: 80px;
+    font-weight: 600;
+}
+
+.order {
+    width: 700px;
+    line-height: 50px;
+}
+
+.order .title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: rgb(19, 108, 216);
+}
+
+.classinfo {
+    width: 700px;
+    margin-left: 20px;
+    margin-top: 15px;
+    ;
+}
+
+.classinfo p {
+    line-height: 15px;
+}
+
+.classinfo .shengyu {
+    color: rgb(240, 88, 127);
+}
+
+.aftersite {
+    width: 700px;
+    height: 100px;
+}
+
+.aftersite .air {
+    position: absolute;
+    top: 10px;
+    left: 65px;
+    width: 70px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    font-weight: 600;
+    border: 1px solid black;
+}
+
+.aftersite .air img {
+    position: absolute;
+    top: 40px;
+    left: 8px;
+}
+
+.aftersite .multimedia {
+    position: absolute;
+    top: 10px;
+    left: 170px;
+    width: 100px;
+    height: 5px;
+    text-align: center;
+    line-height: 35px;
+    font-weight: 600;
+    background-color: black;
+}
+
+.aftersite .platform {
+    position: absolute;
+    top: 10px;
+    left: 300px;
+    width: 200px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-weight: 600;
+    background-image: url(../Img/search/platform.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.sitearea {
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.sitearea .siterow {
+    margin: 0;
+}
+
+.sitearea .siterow .site {
+    min-width:115px;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.sitearea .siterow .site .siteimg {
+    width: 50px;
+    height: 50px;
+    /* margin: 0 auto; */
+    margin-bottom: 10px;
+}
+.sitearea .siterow .site .siteimg span{
+    color: white;
+    font-weight: 600;
+    line-height: 60px;
+    margin-left: 6px;
+}
+
+.sitearea .siterow .site .sitespan {
+    -webkit-transform-origin-x: 0;
+    transform: scale(0.75);
+    /* width: 165px; */
+    background-color: rgb(19, 108, 216);
+    padding: 2px;
+    margin-left: -30px;
+}
+
+/* 关于能否占位的不同图片 */
+
+.sitearea .siterow .site .site-icon {
+    background-image: url(../Img/search/site.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.sitearea .siterow .site .site-icon-un {
+    background-image: url(../Img/search/unsite.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.classabs{
+    width: 700px;
+    height: 500px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+/* 关于弹出框 */
+.site-pos-info{
+    border-bottom: 1px solid gray;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+.site-pos-info input{
+    border: 0;
+}
+.sitepagemodal .circle{
+    margin-left: 5px !important;
+}
+.sitepagemodal .site-pos-info img{
+    width: 20px;
+    height: 20px;
+}

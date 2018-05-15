@@ -1,0 +1,565 @@
+.onlineclassbody {
+    width: 100%;
+    background-image: url(../Img/bg.png);
+    padding: 50px 0px 100px 0px;
+}
+
+.onlineclasscontent {
+    width: 800px;
+    height: 800px;
+    margin: 0 auto;
+}
+
+.searchinput input,
+select {
+    height: 30px;
+}
+
+.searchinput img {
+    width: 20px;
+    height: 20px;
+    margin-left: -30px;
+}
+
+.classitem {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.classitem .itemlist {
+    margin: 0;
+}
+
+.classiteminfo {
+    height: 250px;
+    margin-top: 30px;
+}
+
+.ocbgdiv-black {
+    width: 170px;
+    height: 250px;
+    background-color: #ffDBE0;
+    position: relative;
+    border: 1px solid;
+    margin-left: -10px;
+}
+
+.ocdiv-white {
+    width: 170px;
+    height: 250px;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    background-color: white;
+    border: 1px solid;
+    text-align: center;
+}
+
+.ocdiv-white .class-cover {
+    height: 185px;
+    margin: 10px 10px 0 10px;
+    background-image: url(../Img/index/in-teach-img-01.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.ocdiv-white img {
+    width: 169px;
+    height: 20px;
+    margin-left: -1px;
+}
+
+.ocdiv-white span {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+/* 以上为在线课堂 */
+
+.annbody {
+    width: 100%;
+    background-image: url(../Img/bg.png);
+    padding: 50px 0px 100px 0px;
+}
+
+.anncontent {
+    width: 800px;
+    height: 800px;
+    margin: 0 auto;
+}
+
+.annbgdiv-black {
+    width: 800px;
+    height: 200px;
+}
+
+.annbgdiv-white {
+    height: 200px;
+}
+
+.itemtitle {
+    height: 50px;
+    width: 795px;
+}
+
+.itemtitle span {
+    line-height: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 35px;
+}
+
+.itemtitle a {
+    text-decoration: none;
+}
+
+.itemtitle .r-chip {
+    float: right;
+    height: 50px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.itemtitle .r-chip .chip-up {
+    height: 20px;
+    margin-top: 5px;
+    border: 1px solid black;
+    background: rgb(114, 222, 234);
+}
+
+.itemtitle .r-chip .chip-down {
+    margin-top: 5px;
+    height: 20px;
+    border: 1px solid black;
+    background: orangered;
+}
+
+.hr-line {
+    width: 798px;
+    margin-left: -1px;
+}
+
+.relative .word {
+    position: absolute;
+    top: 0px;
+    left: 35px;
+    width: 80px;
+    color: rgb(19, 108, 216);
+    font-size: 16px;
+    font-weight: 600;
+    background-color: white;
+}
+
+.relative .time {
+    position: absolute;
+    top: 0px;
+    right: 20px;
+    width: 80px;
+    background-color: white;
+}
+
+.iteminfo {
+    margin-left: 35px;
+    margin-top: 10px;
+}
+
+.iteminfo .info-cover {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    float: left;
+    margin-right: 10px;
+}
+
+.info-abs {
+    width: 630px;
+    float: right;
+    margin-right: 20px;
+}
+
+.info-abs .more-info {
+    position: absolute;
+    top: 80px;
+    right: 10px;
+    color: rgb(240, 88, 127);
+}
+
+/* 以上为官方 公告 */
+
+.incenbody {
+    width: 100%;
+    background-image: url(../Img/bg.png);
+    padding: 50px 0px 100px 0px;
+}
+
+.incencontent {
+    width: 800px;
+    height: 800px;
+    margin: 0 auto;
+}
+
+.incenbgdiv-black {
+    width: 800px;
+    height: 200px;
+}
+
+.incenbgdiv-white {
+    height: 200px;
+}
+
+/* 以上位考研资讯 */
+
+.stuetcbody {
+    width: 100%;
+    background-image: url(../Img/bg.png);
+    padding: 50px 0px 100px 0px;
+}
+
+.stuetccontent {
+    width: 800px;
+    height: 800px;
+    margin: 0 auto;
+}
+
+.stuetcbgdiv-black {
+    width: 350px;
+    height: 200px;
+}
+
+.stuetcbgdiv-white {
+    height: 200px;
+}
+
+.stuetclist .hr-line {
+    width: 348px;
+    margin-left: -1px;
+}
+
+.stuetc-abs {
+    width: 175px;
+    height: 100px;
+    float: right;
+    margin-right: 20px;
+}
+
+.stuetclist .more-info {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    color: rgb(240, 88, 127);
+}
+
+/* 以上位学员心得 */
+
+.ddbody {
+    width: 100%;
+    background-image: url(../Img/bg.png);
+    padding: 50px 0px 100px 0px;
+}
+
+.ddcontent {
+    width: 800px;
+    height: 800px;
+    margin: 0 auto;
+}
+
+.ddbgdiv-black {
+    width: 350px;
+    height: 200px;
+}
+
+.ddbgdiv-white {
+    height: 200px;
+}
+
+.ddbgdiv-black {
+    width: 240px;
+    height: 250px;
+    background-color: #ffDBE0;
+    position: relative;
+    border: 1px solid;
+    margin-left: -10px;
+}
+
+.dddiv-white {
+    width: 240px;
+    height: 250px;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    background-color: white;
+    border: 1px solid;
+}
+
+.dddiv {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.dddiv-white .class-cover {
+    height: 150px;
+    margin: 10px 10px 0 10px;
+    background-image: url(../Img/index/in-teach-img-01.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.dddiv-white .dddiv span {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.ddlist .relative .word-fi {
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    background-color: white;
+}
+
+.ddlist .relative .img-bwt {
+    position: absolute;
+    top: 5px;
+    left: 95px;
+    width: 75px;
+}
+
+.ddlist .relative .word-la {
+    position: absolute;
+    top: 0px;
+    right: 20px;
+    background-color: beige;
+}
+
+/* 以上位设计动态 */
+
+.etcinfocent {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.etcinfocent .bgdiv-black {
+    width: 800px;
+    height: 500px;
+    margin: 0;
+}
+
+.etcinfocent .bgdiv-white {
+    width: 800px;
+    height: 500px;
+}
+
+.ectinfo-title {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 0px;
+}
+
+.title-usericon {
+    height: 80px;
+    text-align: center;
+}
+
+.title-usericon img {
+    width: 75px;
+    height: 75px;
+}
+
+.title-info {
+    height: 80px;
+}
+
+.title-chip {
+    height: 80px;
+}
+
+.title-chip div {
+    width: 100px;
+    height: 26px;
+    border-radius: 13px;
+    line-height: 26px;
+    border: 1px solid;
+    text-align: center;
+    color: white;
+}
+
+.title-chip i {
+    margin-right: 5px;
+}
+
+.title-chip .title-chip-up {
+    background-color: aqua;
+}
+
+.title-chip .title-chip-down {
+    margin-top: 37px;
+    background-color: rgb(240, 88, 127);
+}
+
+.etcinfocent .hr-line {
+    width: 800px;
+    margin-left: -1px;
+    margin-top: 15px;
+}
+
+.ectinfo-cont {
+    width: 700px;
+    margin: 0 auto;
+}
+
+/* 以上位心得详情 */
+
+.stuworkbody {
+    width: 100%;
+    background-image: url(../Img/bg.png);
+    padding: 50px 0px 100px 0px;
+}
+
+.stuworkcontent {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.stuworklist {
+    width: 800px;
+    height: 800px;
+    margin-top: 30px;
+}
+
+.stuworkitemlist {
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.stuwork-black {
+    width: 230px;
+    height: 200px;
+    margin-top: 0px;
+}
+
+.stuwork-white {
+    height: 200px;
+    text-align: center;
+}
+
+.stuwork-white span {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.stuworkinfo-lb {
+    width: 800px;
+    margin-top: 30px;
+}
+
+.stuworkinfo-black {
+    width: 800px;
+    height: 740px;
+    margin-top: 0;
+}
+
+.stuworkinfo-white {
+    height: 740px;
+}
+
+.stuworkinfo-lb .lbcontainer {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.stuworkinfo-lb .warpper {
+    width: 700px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.stuworkinfo-lb .imgList {
+    width: 4800px;
+    position: absolute;
+    z-index: 5;
+}
+
+.stuworkinfo-lb .imgList>li {
+    float: left;
+    width: 800px;
+    height: 600px;
+}
+
+.stuworkinfo-lb .lbcontainer .imgList>li>img {
+    width: 100%;
+    height: 100%;
+}
+
+.stuworkcontent .hr-img {
+    width: 798px;
+    margin-left: -1px;
+    margin-top: 20px;
+}
+
+.work-abs {
+    width: 700px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.abs-title {
+    width: 700px;
+    height: 50px;
+}
+
+.abs-title .abs-left-span {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 50px;
+}
+
+.abs-title .abs-btw-btn {
+    margin-left: 50px;
+    margin-top: 10px;
+    width: 90px;
+    height: 16px;
+    border-radius: 8px;
+    border: 1px solid;
+    font-size: 12px;
+    background: -webkit-linear-gradient(right, rgb(225, 238, 167), white, rgb(225, 238, 167));
+}
+
+.abs-title .abs-right-span {
+    float: right;
+    line-height: 50px;
+    color: rgb(19, 108, 216);
+}
+
+.abs-center {
+    height: 50px;
+}
+
+.abs-footer {
+    height: 50px;
+}
+
+.abs-center span {
+    color: rgb(19, 108, 216);
+    font-weight: 600;
+    float: left;
+}
+
+.abs-footer span {
+    color: rgb(19, 108, 216);
+    font-weight: 600;
+    float: left;
+}
+
+.border {
+    border: 1px solid red;
+}
+
+.searchinput {
+    float: right;
+}

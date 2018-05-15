@@ -1,0 +1,134 @@
+.searchbody {
+    width: 100%;
+    background-image: url(../Img/bg.png);
+    padding: 50px 0px 100px 0px;
+}
+
+.search-bg-black {
+    width: 600px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 25px;
+    margin: 0 auto;
+    margin-top: 9px;
+    background: -webkit-linear-gradient(left, rgb(202, 231, 234), rgb(214, 208, 243));
+    position: relative;
+}
+
+.search-bg-white {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    width: 100%;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 25px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.search-input {
+    width: 500px;
+    height: 48px;
+    margin-left: 20px;
+}
+.searchbtn{
+    width: 60px;
+    border: 0;
+    margin-top: -4px;
+}
+.searchbtn i{
+    color: gray;
+}
+.searchsort{
+    width: 600px;
+    height: 45px;
+    margin: 0 auto;
+    color: gray;
+}
+.searchsort .sort-left{
+    float: left;
+    line-height: 45px;
+}
+.searchsort .sort-right{
+    float: right;
+    line-height: 45px;
+}
+.searchsort .sort-right .sortbtn{
+    margin-left: 10px;
+}
+.searchsort .sort-right .sortbtn img{
+    width: 20px;
+    height: 20px;
+}
+.searchsort .clicksort{
+    color:  rgb(240, 88, 127);
+}
+
+.searchreslist{
+    width: 600px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.searchreslist-bg-black {
+    width: 600px;
+    height: 130px;
+    border: 1px solid black;
+    margin: 0 auto;
+    margin-top: 9px;
+    background-color: rgb(255, 219, 224);
+    position: relative;
+}
+
+.searchreslist-bg-white {
+    position: absolute;
+    top: -10px;
+    left: -5px;
+    width: 100%;
+    height: 130px;
+    border: 1px solid black;
+    margin: 0 auto;
+    background-color: white;
+}
+.searchreslist-bg-white .hr-img{
+    width: 590px;
+    height: 20px;
+}
+.listtitle{
+    height: 50px;
+}
+.listtitle .listtitle-title{
+    float: left;
+    font-size: 23px;
+    line-height: 50px;
+    margin-left: 10px;
+}
+.listtitle .listinfo{
+    float: right;
+    width: 80px;
+    padding-top: 10px;
+}
+.listtitle .listinfo .info-form{
+    float: right;
+    margin-right: 10px;
+}
+.listbody .listinfp-ab{
+    width: 575px;
+    height: 50px;
+    margin: 0 auto;
+    line-height: 25px;
+}
+.listbody .more-info{
+    position: absolute;
+    top:26px;
+    right: 10px;
+    color: rgb(240, 88, 127);
+}
+
+/* 关键字变色 */
+em{
+    font-style: normal;
+    color: #5bc0de;
+}
+

@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>login and register</title>
-    <link rel="stylesheet" href="../Css/bootstrap.min.css">
-    <link rel="stylesheet" href="../Css/login.css">
-    <link rel="stylesheet" href="../Css/common/common.css">
+    <link rel="stylesheet" href="../../Css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../Css/login.css">
+    <link rel="stylesheet" href="../../Css/common/common.css">
 </head>
 
 <body>
@@ -17,7 +17,7 @@
         <nav class="navbar navbar-default">
             <div class="container-fluid">
                 <div class="navbar-header">
-                    <img src="../Img/icon/common/logo.png" alt="">
+                    <img src="../../Img/icon/common/logo.png" alt="">
                 </div>
 
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -67,7 +67,7 @@
                         <span>登陆</span>
                         <span>/</span>
                         <span>免费注册</span>
-                        <img src="../Img/icon/common/touxiang.png" alt="">
+                        <img src="../../Img/icon/common/touxiang.png" alt="">
                     </div>
                 </div>
             </div>
@@ -84,41 +84,42 @@
             <div class="bgdiv-black">
                 <div class="loginitem bgdiv-white">
                     <div class="inputitem">
-                        <div>
+                        <div class="inputword">
                             <span>手机号:</span>
                         </div>
                         <input type="text" name="" id="">
                         <div class="sendcode relative">
-                            <img class="sendcode-icon" src="../Img/icon/common/short-btn-icon.png" alt="">
+                            <img class="sendcode-icon" src="../../Img/icon/common/short-btn-icon.png" alt="">
                             <span>发送验证码</span>
                         </div>
                     </div>
-                    <img src="../Img/icon/common/hrline.png" alt="">
+                    <img src="../../Img/icon/common/hrline.png" alt="">
                     <div class="inputitem">
-                        <div>
+                        <div class="inputword">
                             <span>验证码:</span>
                         </div>
                         <input type="text" name="" id="">
                     </div>
-                    <img src="../Img/icon/common/hrline.png" alt="">
+                    <img src="../../Img/icon/common/hrline.png" alt="">
                     <div class="inputitem">
-                        <div>
-                            <span>密&nbsp;&nbsp;码:</span>
+                        <div class="inputword">
+                            <!-- <span>密&nbsp;&nbsp;码:</span> -->
+                            <span>新密码:</span>
                         </div>
-                        <input type="text" name="" id="">
+                        <input type="text" name="" id="" placeholder="和找回密码一个页面，JS判断就行">
                         <div class="sendcode relative">
-                            <img class="pwd-icon" src="../Img/login/showpwd.png" alt="">
+                            <img class="pwd-icon" src="../../Img/login/showpwd.png" alt="">
                         </div>
                     </div>
-                    <img src="../Img/icon/common/hrline.png" alt="">
+                    <img src="../../Img/icon/common/hrline.png" alt="">
                     <div class="inputitem">
-                        <div>
+                        <div class="inputword">
                             <span>确认密码:</span>
                         </div>
                         <input type="text" name="" id="" style="width: 180px;">
                         <div class="sendcode relative" style="width: 200px;">
                             <span class="pwd-span">两次密码输入不一致！</span>
-                            <img class="pwd-icon" style="float: right;margin-top: 20px;" src="../Img/login/hiddenpwd.png" alt="">
+                            <img class="pwd-icon" style="float: right;margin-top: 20px;" src="../../Img/login/hiddenpwd.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -126,9 +127,16 @@
 
             <div class="submitbtn loginindex">
                 <div class="relative ">
-                    <img class="login-img" src="../Img/icon/common/long0-btn-icon.png" data-toggle="modal" data-target="#loginModal">
+                    <img class="login-img" src="../../Img/icon/common/long0-btn-icon.png" data-toggle="modal" data-target="#loginModal">
                     <span class="submit-span">注册</span>
                 </div>
+
+                <!-- 和新旧密码nput同理 -->
+                <!-- <div class="relative ">
+                    <img class="login-img" src="../../Img/icon/common/long0-btn-icon.png">
+                    <span class="submit-span">登陆</span>
+                </div> -->
+
                 <div class="tip">
                     <span>已有账号，去登录</span>
                 </div>
@@ -145,8 +153,8 @@
 
                     <div class="rword">
                         <div class="hader-school">
-                            <img src="../Img/icon/common/joinus.png" class="sealine" alt="">
-                            <img src="../Img/icon/common/joinus.png" class="sealine img-2" alt="">
+                            <img src="../../Img/icon/common/joinus.png" class="sealine" alt="">
+                            <img src="../../Img/icon/common/joinus.png" class="sealine img-2" alt="">
                             <span class="rword-r">友情链接：</span>
                         </div>
                         <ul class="rword-ul school">
@@ -177,49 +185,49 @@
 
                     <div class="rword">
                         <div class="hader-school">
-                            <img src="../Img/icon/common/joinus.png" class="sealine" alt="">
-                            <img src="../Img/icon/common/joinus.png" class="sealine img-2" alt="">
+                            <img src="../../Img/icon/common/joinus.png" class="sealine" alt="">
+                            <img src="../../Img/icon/common/joinus.png" class="sealine img-2" alt="">
                             <span class="rword-r">官方账号：</span>
                         </div>
                         <ul class="rword-ul">
                             <li class="rword-li">
                                 <a href="#">
-                                    <img src="../Img/icon/common/zhihu.gif" data-toggle="tooltip" data-placement="bottom" title="知乎">
+                                    <img src="../../Img/icon/common/zhihu.gif" data-toggle="tooltip" data-placement="bottom" title="知乎">
                                 </a>
                             </li>
                             <li class="rword-li">
                                 <a href="#">
-                                    <img src="../Img/icon/common/xinlang.gif" data-toggle="tooltip" data-placement="bottom" title="新浪微博">
+                                    <img src="../../Img/icon/common/xinlang.gif" data-toggle="tooltip" data-placement="bottom" title="新浪微博">
                                 </a>
                             </li>
                             <li class="rword-li">
                                 <a href="#">
-                                    <img src="../Img/icon/common/huaban.gif" data-toggle="tooltip" data-placement="bottom" title="花瓣网">
+                                    <img src="../../Img/icon/common/huaban.gif" data-toggle="tooltip" data-placement="bottom" title="花瓣网">
                                 </a>
                             </li>
                             <li class="rword-li">
                                 <a href="#">
-                                    <img src="../Img/icon/common/tb001.gif" data-toggle="tooltip" data-placement="bottom" title="不知道">
+                                    <img src="../../Img/icon/common/tb001.gif" data-toggle="tooltip" data-placement="bottom" title="不知道">
                                 </a>
                             </li>
                             <li class="rword-li">
                                 <a href="#">
-                                    <img src="../Img/icon/common/xiangji.gif" data-toggle="tooltip" data-placement="bottom" title="不知道">
+                                    <img src="../../Img/icon/common/xiangji.gif" data-toggle="tooltip" data-placement="bottom" title="不知道">
                                 </a>
                             </li>
                             <li class="rword-li">
                                 <a href="#">
-                                    <img src="../Img/icon/common/weibo.gif" data-toggle="tooltip" data-placement="bottom" title="腾讯微博">
+                                    <img src="../../Img/icon/common/weibo.gif" data-toggle="tooltip" data-placement="bottom" title="腾讯微博">
                                 </a>
                             </li>
                             <li class="rword-li">
                                 <a href="#">
-                                    <img src="../Img/icon/common/txship.gif" data-toggle="tooltip" data-placement="bottom" title="腾讯视频">
+                                    <img src="../../Img/icon/common/txship.gif" data-toggle="tooltip" data-placement="bottom" title="腾讯视频">
                                 </a>
                             </li>
                             <li class="rword-li">
                                 <a href="#">
-                                    <img src="../Img/icon/common/txketang.gif" data-toggle="tooltip" data-placement="bottom" title="腾讯课堂">
+                                    <img src="../../Img/icon/common/txketang.gif" data-toggle="tooltip" data-placement="bottom" title="腾讯课堂">
                                 </a>
                             </li>
                             <li class="rword-li last-li">
@@ -246,12 +254,12 @@
     <!-- 右侧菜单 -->
     <div class="rightnav">
         <div class="classdate">
-            <img src="../Img/icon/common/classdate.png" alt="" srcset="">
+            <img src="../../Img/icon/common/classdate.png" alt="" srcset="">
         </div>
 
         <div class="askonline">
             <div class="askimg">
-                <img src="../Img/icon/common/askonline.png" alt="">
+                <img src="../../Img/icon/common/askonline.png" alt="">
             </div>
             <div class="askman">
                 <button class=" btn btn-info">冯老师</button>
@@ -264,13 +272,13 @@
             <div class="newstip bborder">今日推荐
                 <button type="button" id="toclose" class="close" data-dismiss="todaynews" aria-hidden="true">&times;</button>
             </div>
-            <img class="bborder" src="../Img/icon/common/todaynews.png" data-toggle="modal" data-target="#tadaynewModal">
+            <img class="bborder" src="../../Img/icon/common/todaynews.png" data-toggle="modal" data-target="#tadaynewModal">
             <div class="newstip bborder">点击放大查看</div>
         </div>
     </div>
 
     <!-- 注册提示框 -->
-    <div class="modal fade loginModal" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal fade simeiModal" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
@@ -301,25 +309,25 @@
             <div id="warpper" class="warpper">
                 <div class="lbcontainer">
                     <!-- 图片区域 -->
-                    <img class="lbcloser" data-dismiss="modal" aria-hidden="true" src="../Img/icon/common/todaycloser.png" alt="">
+                    <img class="lbcloser" data-dismiss="modal" aria-hidden="true" src="../../Img/icon/common/todaycloser.png" alt="">
                     <ul class="imgList">
                         <li>
-                            <img src="../Img/icon/common/todaynews.png" alt="">
+                            <img src="../../Img/icon/common/todaynews.png" alt="">
                         </li>
                         <li>
-                            <img src="../Img/icon/common/todaynews.png" alt="">
+                            <img src="../../Img/icon/common/todaynews.png" alt="">
                         </li>
                         <li>
-                            <img src="../Img/icon/common/todaynews.png" alt="">
+                            <img src="../../Img/icon/common/todaynews.png" alt="">
                         </li>
                         <li>
-                            <img src="../Img/icon/common/todaynews.png" alt="">
+                            <img src="../../Img/icon/common/todaynews.png" alt="">
                         </li>
                         <li>
-                            <img src="../Img/icon/common/todaynews.png" alt="">
+                            <img src="../../Img/icon/common/todaynews.png" alt="">
                         </li>
                         <li>
-                            <img src="../Img/icon/common/todaynews.png" alt="">
+                            <img src="../../Img/icon/common/todaynews.png" alt="">
                         </li>
                     </ul>
                     <!-- 左右切换图标 -->
@@ -347,14 +355,14 @@
                         </li>
                     </ul>
 
-                    <img id="lbclick" class="lbclick" src="../Img/icon/common/click.png" alt="" srcset="">
+                    <img id="lbclick" class="lbclick" src="../../Img/icon/common/click.png" alt="" srcset="">
                 </div>
             </div>
         </div>
     </div>
 </body>
-<script src="../Js/jquery-3.3.1.min.js"></script>
-<script src="../Js/bootstrap.min.js"></script>
-<script src="../Js/common.js"></script>
+<script src="../../Js/jquery-3.3.1.min.js"></script>
+<script src="../../Js/bootstrap.min.js"></script>
+<script src="../../Js/common.js"></script>
 
 </html>

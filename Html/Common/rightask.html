@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,14 +9,101 @@
     <link rel="stylesheet" href="../../Css/bootstrap.min.css">
     <link rel="stylesheet" href="../../Css/common/common.css">
 </head>
+
 <body>
-    <div class="askonline">
-        <div class="askimg border"></div>
-        <div class="askman">
-            <button class=" btn btn-info">冯老师</button>
-            <button class=" btn btn-info">陶老师</button>
-            <button class=" btn btn-info">王老师</button>
+    <div class="rightnav">
+        <div class="classdate">
+            <img src="../../Img/icon/common/classdate.png" alt="" srcset="">
+        </div>
+
+        <div class="askonline">
+            <div class="askimg">
+                <img src="../../Img/icon/common/askonline.png" alt="">
+            </div>
+            <div class="askman">
+                <button class=" btn btn-info">冯老师</button>
+                <button class=" btn btn-info">陶老师</button>
+                <button class=" btn btn-info">王老师</button>
+            </div>
+        </div>
+
+        <div class="todaynews">
+            <div class="newstip bborder">今日推荐
+                <button type="button" id="toclose" class="close" data-dismiss="todaynews" aria-hidden="true">&times;</button>
+            </div>
+            <img class="bborder" src="../../Img/icon/common/todaynews.png" data-toggle="modal" data-target="#tadaynewModal">
+            <div class="newstip bborder">点击放大查看</div>
         </div>
     </div>
+
+     <!-- 今日推荐 -->
+     <div class="modal fade tadaynewModal" id="tadaynewModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <!-- 轮播 -->
+                <div id="warpper" class="warpper">
+                    <div class="lbcontainer">
+                        <!-- 图片区域 -->
+                        <img class="lbcloser" data-dismiss="modal" aria-hidden="true" src="../../Img/icon/common/todaycloser.png" alt="">
+                        <ul class="imgList">
+                            <li>
+                                <img src="../../Img/icon/common/todaynews.png" alt="">
+                            </li>
+                            <li>
+                                <img src="../../Img/icon/common/todaynews.png" alt="">
+                            </li>
+                            <li>
+                                <img src="../../Img/icon/common/todaynews.png" alt="">
+                            </li>
+                            <li>
+                                <img src="../../Img/icon/common/todaynews.png" alt="">
+                            </li>
+                            <li>
+                                <img src="../../Img/icon/common/todaynews.png" alt="">
+                            </li>
+                            <li>
+                                <img src="../../Img/icon/common/todaynews.png" alt="">
+                            </li>
+                        </ul>
+                        <!-- 左右切换图标 -->
+                        <!-- <img src="../Img/icon/common/txship.gif" width="40px" height="60px" class="pre">
+                        <img src="../Img/icon/common/txship.gif" width="40px" height="60px" class="next"> -->
+                        <!-- 下方控制图片按钮 -->
+                        <ul class="dollList">
+                            <li class="sec">
+                                <a href="#">1</a>
+                            </li>
+                            <li>
+                                <a href="#">2</a>
+                            </li>
+                            <li>
+                                <a href="#">3</a>
+                            </li>
+                            <li>
+                                <a href="#">4</a>
+                            </li>
+                            <li>
+                                <a href="#">5</a>
+                            </li>
+                            <li>
+                                <a href="#">6</a>
+                            </li>
+                        </ul>
+    
+                        <img id="lbclick" class="lbclick" src="../../Img/icon/common/click.png" alt="" srcset="">
+                        <span class="lbbtn">点击查看详情</span>
+                    </div>
+                </div>
+            </div>
+        </div>
 </body>
+
+<script src="../../Js/jquery-3.3.1.min.js"></script>
+<script src="../../Js/bootstrap.min.js"></script>
+<script>
+    $(function(){
+        $(".lbbtn,#lbclick").click(function(){
+            alert("单机");
+        });
+    });
+</script>
 </html>
