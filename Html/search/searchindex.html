@@ -2,288 +2,434 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Search Result</title>
-    <link rel="stylesheet" href="../../Css/bootstrap.min.css">
-    <link rel="stylesheet" href="../../Css/common/common.css">
-    <link rel="stylesheet" href="../../Css/search.css">
-    <!-- 图标库 -->
-    <link rel="stylesheet" href="../../Img/font-awesome/css/font-awesome.min.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>Search Result</title>
+	<link rel="stylesheet" href="../../Css/bootstrap.min.css">
+	<link rel="stylesheet" href="../../Css/common/common.css">
+	<link rel="stylesheet" href="../../Css/search.css">
+	<!-- 图标库 -->
+	<link rel="stylesheet" href="../../Img/font-awesome/css/font-awesome.min.css">
 </head>
 
 <body>
 
-    <div class="top-page">
-        <nav class="navbar navbar-default">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <img src="../../Img/icon/common/logo.png" alt="">
-                </div>
+	<div class="top-page">
+		<nav class="navbar navbar-default">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<img src="../../Img/icon/common/logo.png" alt="">
+				</div>
 
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav">
-                        <li class="navbar-nav-itme">
-                            <a href="#">首页</a>
-                        </li>
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li class="navbar-nav-itme">
+							<a href="#">首页</a>
+						</li>
 
-                        <li class="dropdown navbar-nav-itme">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">线下课程</a>
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <a href="#">2018课程的设置</a>
-                                </li>
-                                <li>
-                                    <a href="#">2018课程设置</a>
-                                </li>
-                                <li>
-                                    <a href="#">18课程设置</a>
-                                </li>
-                                <li>
-                                    <a href="#">课程设置</a>
-                                </li>
-                                <li>
-                                    <a href="#">程设置</a>
-                                </li>
-                                <li>
-                                    <a href="#">设置</a>
-                                </li>
-                                <li>
-                                    <a href="#">置</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="navbar-nav-itme">
-                            <a href="#">线上课程</a>
-                        </li>
-                        <li class="navbar-nav-itme">
-                            <a href="#">资讯中心</a>
-                        </li>
-                        <li class="navbar-nav-itme">
-                            <a href="#">素材中心</a>
-                        </li>
-                    </ul>
+						<li class="dropdown navbar-nav-itme">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">线下课程</a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="#">2018课程的设置</a>
+								</li>
+								<li>
+									<a href="#">2018课程设置</a>
+								</li>
+								<li>
+									<a href="#">18课程设置</a>
+								</li>
+								<li>
+									<a href="#">课程设置</a>
+								</li>
+								<li>
+									<a href="#">程设置</a>
+								</li>
+								<li>
+									<a href="#">设置</a>
+								</li>
+								<li>
+									<a href="#">置</a>
+								</li>
+							</ul>
+						</li>
+						<li class="navbar-nav-itme">
+							<a href="#">线上课程</a>
+						</li>
+						<li class="navbar-nav-itme">
+							<a href="#">资讯中心</a>
+						</li>
+						<li class="navbar-nav-itme">
+							<a href="#">素材中心</a>
+						</li>
+					</ul>
 
-                    <div class="topnav-right">
-                        <span>登陆</span>
-                        <span>/</span>
-                        <span>免费注册</span>
-                        <img src="../../Img/icon/common/touxiang.png" alt="">
-                    </div>
-                </div>
-            </div>
-        </nav>
-    </div>
+					<div class="topnav-right">
+						<span>登陆</span>
+						<span>/</span>
+						<span>免费注册</span>
+						<img src="../../Img/icon/common/touxiang.png" alt="">
+					</div>
+				</div>
+			</div>
+		</nav>
+	</div>
 
-    <div class="searchbody">
+	<div class="searchbody">
 
-        <div class="serchtitle">
-            <div class="search-bg-black">
-                <div class="search-bg-white">
-                    <input type="text" class="search-input" id="search-input" placeholder="排序的逻辑不明确JS处理要改">
-                    <button id="searchbtn" class="btn btn-default searchbtn">
-                        <i class="fa fa-search fa-2x"></i>
-                    </button>
-                </div>
-            </div>
-            <div class="searchsort ">
-                <span class="sort-left">相关文章</span>
-                <div class="sort-right">
-                    <span class="sortbtn clicksort">
-                        <img class="sort-unclick" src="../../Img/search/sort.png" alt="" style="display:none">
-                        <img class="sort-clicked" src="../../Img/search/sort-click.png" alt=""> 按默认排序
-                    </span>
-                    <span class="sortbtn">
-                        <img class="sort-unclick" src="../../Img/search/sort.png" alt="">
-                        <img class="sort-clicked" src="../../Img/search/sort-click.png" alt="" style="display:none"> 按时间排序
-                    </span>
-                </div>
-            </div>
-        </div>
+		<div class="serchtitle">
+			<div class="search-bg-black">
+				<div class="search-bg-white">
+					<input type="text" class="search-input" id="search-input" placeholder="搜索关键词">
+					<button id="searchbtn" class="btn btn-secondary searchbtn">
+						<img class="search-icon" src="../../Img/index/search-img-icon.png" alt="">
+					</button>
+				</div>
+			</div>
+			<div class="searchsort ">
+				<span class="sort-left">相关文章</span>
+				<div class="sort-right">
+					<span class="sortbtn clicksort">
+						<img class="sort-unclick" src="../../Img/search/sort.png" alt="" style="display:none">
+						<img class="sort-clicked" src="../../Img/search/sort-click.png" alt=""> 按默认排序
+					</span>
+					<span class="sortbtn">
+						<img class="sort-unclick" src="../../Img/search/sort.png" alt="">
+						<img class="sort-clicked" src="../../Img/search/sort-click.png" alt="" style="display:none"> 按时间排序
+					</span>
+				</div>
+			</div>
+		</div>
 
-        <div class="searchreslist">
-            <div class="searchreslist-bg-black">
-                <div class="searchreslist-bg-white">
-                    <div class="listtitle">
-                        <span id="listtitle-title" class="listtitle-title"></span>
-                        <div class="listinfo">
-                            <span class="info-time">2018/01/01</span>
-                            <span class="info-form">人民日报</span>
-                        </div>
-                    </div>
-                    <img class="hr-img" src="../../Img/search/search-gary-hr.png" alt="">
-                    <div class="listbody relative">
-                        <p id="listinfp-ab" class="listinfp-ab">
-                        </p>
-                        <span class="more-info">【查看详情】</span>
-                    </div>
-                </div>
-            </div>
-        </div>
+		<div class="searchreslist">
+			<div class="searchreslist-bg-black">
+				<div class="searchreslist-bg-white">
+					<div class="listtitle">
+						<span id="listtitle-title" class="listtitle-title">
+							在框中输入”模拟“二字点击搜索
+						</span>
+						<div class="listinfo">
+							<span class="info-time">2018/01/01</span>
+							<span class="info-form">人民日报</span>
+						</div>
+					</div>
+					<img class="hr-img" src="../../Img/search/search-gary-hr.png" alt="">
+					<div class="listbody relative">
+						<p id="listinfp-ab" class="listinfp-ab">
+						</p>
+						<span class="more-info">【查看详情】</span>
+					</div>
+				</div>
+			</div>
 
-        <div class="paging">
-            <div class="pagingtotal">
-                <span>
-                    当前第
-                    <span class="pagenow">X</span>页, 共
-                    <span class="pagetotal">X</span>页
-                </span>
-            </div>
-            <div class="pagingitem row">
-                <div class="col-sm-4 itemafter ">
-                    <span class="firstpage">首页</span>
-                    <span class="afterpage">上一页</span>
-                </div>
-                <div class="col-sm-4 itmelist">
-                    <ul class="item">
-                        <li class="pageindex">
-                            <a href="">1</a>
-                        </li>
-                        <li class="pageindex">
-                            <a href="">2</a>
-                        </li>
-                        <li class="pageindex">
-                            <a href="">3</a>
-                        </li>
-                        <li class="pageindex">
-                            <a href="">...</a>
-                        </li>
-                    </ul>
-                    <a class="totalitem" href="">16</a>
-                </div>
-                <div class="col-sm-4 itemnext">
-                    <span class="nextpage">下一页</span>
-                    <span class="lastpage">末页</span>
-                </div>
-            </div>
-        </div>
-    </div>
+			<div class="searchreslist-bg-black">
+				<div class="searchreslist-bg-white">
+					<div class="listtitle">
+						<span id="listtitle-title" class="listtitle-title">
+							在框中输入”模拟“二字点击搜索
+						</span>
+						<div class="listinfo">
+							<span class="info-time">2018/01/01</span>
+							<span class="info-form">人民日报</span>
+						</div>
+					</div>
+					<img class="hr-img" src="../../Img/search/search-gary-hr.png" alt="">
+					<div class="listbody relative">
+						<p id="listinfp-ab" class="listinfp-ab">
+						</p>
+						<span class="more-info">【查看详情】</span>
+					</div>
+				</div>
+			</div>
 
+			<div class="searchreslist-bg-black">
+				<div class="searchreslist-bg-white">
+					<div class="listtitle">
+						<span id="listtitle-title" class="listtitle-title">
+							在框中输入”模拟“二字点击搜索
+						</span>
+						<div class="listinfo">
+							<span class="info-time">2018/01/01</span>
+							<span class="info-form">人民日报</span>
+						</div>
+					</div>
+					<img class="hr-img" src="../../Img/search/search-gary-hr.png" alt="">
+					<div class="listbody relative">
+						<p id="listinfp-ab" class="listinfp-ab">
+						</p>
+						<span class="more-info">【查看详情】</span>
+					</div>
+				</div>
+			</div>
 
-    <div id="footpage" class="foot-page">
-        <div class="fdiv">
-            <div class="flink">
+			<div class="searchreslist-bg-black">
+				<div class="searchreslist-bg-white">
+					<div class="listtitle">
+						<span id="listtitle-title" class="listtitle-title">
+							在框中输入”模拟“二字点击搜索
+						</span>
+						<div class="listinfo">
+							<span class="info-time">2018/01/01</span>
+							<span class="info-form">人民日报</span>
+						</div>
+					</div>
+					<img class="hr-img" src="../../Img/search/search-gary-hr.png" alt="">
+					<div class="listbody relative">
+						<p id="listinfp-ab" class="listinfp-ab">
+						</p>
+						<span class="more-info">【查看详情】</span>
+					</div>
+				</div>
+			</div>
 
-                <div class="fcontent">
+			<div class="searchreslist-bg-black">
+				<div class="searchreslist-bg-white">
+					<div class="listtitle">
+						<span id="listtitle-title" class="listtitle-title">
+							在框中输入”模拟“二字点击搜索
+						</span>
+						<div class="listinfo">
+							<span class="info-time">2018/01/01</span>
+							<span class="info-form">人民日报</span>
+						</div>
+					</div>
+					<img class="hr-img" src="../../Img/search/search-gary-hr.png" alt="">
+					<div class="listbody relative">
+						<p id="listinfp-ab" class="listinfp-ab">
+						</p>
+						<span class="more-info">【查看详情】</span>
+					</div>
+				</div>
+			</div>
 
-                    <div class="rword">
-                        <div class="hader-school">
-                            <img src="../../Img/icon/common/joinus.png" class="sealine" alt="">
-                            <img src="../../Img/icon/common/joinus.png" class="sealine img-2" alt="">
-                            <span class="rword-r">友情链接：</span>
-                        </div>
-                        <ul class="rword-ul school">
-                            <li class="rword-li ">
-                                <a href="#">清华大学美术学院</a>
-                            </li>
-                            <li class="rword-li">
-                                <a href="#">中央美术学院</a>
-                            </li>
-                            <li class="rword-li">
-                                <a href="#">北京服装学院</a>
-                            </li>
-                            <li class="rword-li">
-                                <a href="#">北京理工大学</a>
-                            </li>
-                            <li class="rword-li">
-                                <a href="#">北京林业大学</a>
-                            </li>
-                            <li class="rword-li">
-                                <a href="#">北京电影学院</a>
-                            </li>
-                        </ul>
-                    </div>
+			<div class="searchreslist-bg-black">
+				<div class="searchreslist-bg-white">
+					<div class="listtitle">
+						<span id="listtitle-title" class="listtitle-title">
+							在框中输入”模拟“二字点击搜索
+						</span>
+						<div class="listinfo">
+							<span class="info-time">2018/01/01</span>
+							<span class="info-form">人民日报</span>
+						</div>
+					</div>
+					<img class="hr-img" src="../../Img/search/search-gary-hr.png" alt="">
+					<div class="listbody relative">
+						<p id="listinfp-ab" class="listinfp-ab">
+						</p>
+						<span class="more-info">【查看详情】</span>
+					</div>
+				</div>
+			</div>
 
-                </div>
+			<div class="searchreslist-bg-black">
+				<div class="searchreslist-bg-white">
+					<div class="listtitle">
+						<span id="listtitle-title" class="listtitle-title">
+							在框中输入”模拟“二字点击搜索
+						</span>
+						<div class="listinfo">
+							<span class="info-time">2018/01/01</span>
+							<span class="info-form">人民日报</span>
+						</div>
+					</div>
+					<img class="hr-img" src="../../Img/search/search-gary-hr.png" alt="">
+					<div class="listbody relative">
+						<p id="listinfp-ab" class="listinfp-ab">
+						</p>
+						<span class="more-info">【查看详情】</span>
+					</div>
+				</div>
+			</div>
 
-                <div class="fcontent ">
+			<div class="searchreslist-bg-black">
+				<div class="searchreslist-bg-white">
+					<div class="listtitle">
+						<span id="listtitle-title" class="listtitle-title">
+							在框中输入”模拟“二字点击搜索
+						</span>
+						<div class="listinfo">
+							<span class="info-time">2018/01/01</span>
+							<span class="info-form">人民日报</span>
+						</div>
+					</div>
+					<img class="hr-img" src="../../Img/search/search-gary-hr.png" alt="">
+					<div class="listbody relative">
+						<p id="listinfp-ab" class="listinfp-ab">
+						</p>
+						<span class="more-info">【查看详情】</span>
+					</div>
+				</div>
+			</div>
 
-                    <div class="rword">
-                        <div class="hader-school">
-                            <img src="../../Img/icon/common/joinus.png" class="sealine" alt="">
-                            <img src="../../Img/icon/common/joinus.png" class="sealine img-2" alt="">
-                            <span class="rword-r">官方账号：</span>
-                        </div>
-                        <ul class="rword-ul">
-                            <li class="rword-li">
-                                <a href="#">
-                                    <img src="../../Img/icon/common/zhihu.gif" data-toggle="tooltip" data-placement="bottom" title="知乎">
-                                </a>
-                            </li>
-                            <li class="rword-li">
-                                <a href="#">
-                                    <img src="../../Img/icon/common/xinlang.gif" data-toggle="tooltip" data-placement="bottom" title="新浪微博">
-                                </a>
-                            </li>
-                            <li class="rword-li">
-                                <a href="#">
-                                    <img src="../../Img/icon/common/huaban.gif" data-toggle="tooltip" data-placement="bottom" title="花瓣网">
-                                </a>
-                            </li>
-                            <li class="rword-li">
-                                <a href="#">
-                                    <img src="../../Img/icon/common/tb001.gif" data-toggle="tooltip" data-placement="bottom" title="不知道">
-                                </a>
-                            </li>
-                            <li class="rword-li">
-                                <a href="#">
-                                    <img src="../../Img/icon/common/xiangji.gif" data-toggle="tooltip" data-placement="bottom" title="不知道">
-                                </a>
-                            </li>
-                            <li class="rword-li">
-                                <a href="#">
-                                    <img src="../../Img/icon/common/weibo.gif" data-toggle="tooltip" data-placement="bottom" title="腾讯微博">
-                                </a>
-                            </li>
-                            <li class="rword-li">
-                                <a href="#">
-                                    <img src="../../Img/icon/common/txship.gif" data-toggle="tooltip" data-placement="bottom" title="腾讯视频">
-                                </a>
-                            </li>
-                            <li class="rword-li">
-                                <a href="#">
-                                    <img src="../../Img/icon/common/txketang.gif" data-toggle="tooltip" data-placement="bottom" title="腾讯课堂">
-                                </a>
-                            </li>
-                            <li class="rword-li last-li">
-                                <span class="rword-r">随时随地，都有我们陪伴您的身影！</span>
-                            </li>
-                        </ul>
+			<div class="paging">
+				<div class="pagingtotal">
+					<span>
+						当前第
+						<span class="pagenow">X</span>页, 共
+						<span class="pagetotal">X</span>页
+					</span>
+				</div>
+				<div class="pagingitem row">
+					<div class="col-sm-4 itemafter ">
+						<span class="firstpage">首页</span>
+						<span class="afterpage">上一页</span>
+					</div>
+					<div class="col-sm-4 itmelist">
+						<ul class="item">
+							<li class="pageindex">
+								<a href="">1</a>
+							</li>
+							<li class="pageindex">
+								<a href="">2</a>
+							</li>
+							<li class="pageindex">
+								<a href="">3</a>
+							</li>
+							<li class="pageindex">
+								<a href="">...</a>
+							</li>
+						</ul>
+						<a class="totalitem" href="">16</a>
+					</div>
+					<div class="col-sm-4 itemnext">
+						<span class="nextpage">下一页</span>
+						<span class="lastpage">末页</span>
+					</div>
+				</div>
+			</div>
+		</div>
 
-                    </div>
+	</div>
 
-                </div>
+	<div id="footpage" class="foot-page">
+		<div class="fdiv">
+			<div class="flink">
 
-            </div>
+				<div class="fcontent">
 
-            <div class="fnote">
-                <span>Copyright &copy; 2011-2016 Mapla.All Rights Reserved.</span>
-                <span>关于我们</span>
-                <br>
-                <span>北京美博惠人国际教育科技有限公司 版权所有 京ICP备11044802号-1</span>
-            </div>
+					<div class="rword">
+						<div class="hader-school ">
+							<div class="school-img relative">
+								<span class="span-1">关于我们</span>
+								<span class="span-2">联系我们</span>
+								<img src="../../Img/icon/common/joinus.png" class="sealine img-1" alt="">
+								<img src="../../Img/icon/common/joinus.png" class="sealine img-2" alt="">
+							</div>
+							<span class="rword-r">友情链接：</span>
+						</div>
+						<ul class="rword-ul school">
+							<li class="rword-li ">
+								<a href="#">清华大学美术学院</a>
+							</li>
+							<li class="rword-li">
+								<a href="#">中央美术学院</a>
+							</li>
+							<li class="rword-li">
+								<a href="#">北京服装学院</a>
+							</li>
+							<li class="rword-li">
+								<a href="#">北京理工大学</a>
+							</li>
+							<li class="rword-li">
+								<a href="#">北京林业大学</a>
+							</li>
+							<li class="rword-li">
+								<a href="#">北京电影学院</a>
+							</li>
+						</ul>
+					</div>
 
-        </div>
-    </div>
+				</div>
 
-    <!-- 右侧菜单 -->
-    <div class="rightnav">
-        <div class="classdate">
-            <img src="../../Img/icon/common/classdate.png" alt="" srcset="">
-        </div>
+				<div class="fcontent ">
 
-        <div class="askonline">
-            <div class="askimg">
-                <img src="../../Img/icon/common/askonline.png" alt="">
-            </div>
-            <div class="askman">
-                <button class=" btn btn-info">冯老师</button>
-                <button class=" btn btn-info">陶老师</button>
-                <button class=" btn btn-info">王老师</button>
-            </div>
-        </div>
+					<div class="rword">
+						<div class="hader-school ">
+							<div class="school-img relative">
+								<span class="span-1">加入我们</span>
+								<span class="span-2">在线帮助</span>
+								<img src="../../Img/icon/common/joinus.png" class="sealine img-1" alt="">
+								<img src="../../Img/icon/common/joinus.png" class="sealine img-2" alt="">
+							</div>
+							<span class="rword-r">友情链接：</span>
+						</div>
+						<ul class="rword-ul">
+							<li class="rword-li">
+								<a href="#">
+									<img src="../../Img/icon/common/zhihu.gif" data-toggle="tooltip" data-placement="bottom" title="知乎">
+								</a>
+							</li>
+							<li class="rword-li">
+								<a href="#">
+									<img src="../../Img/icon/common/xinlang.gif" data-toggle="tooltip" data-placement="bottom" title="新浪微博">
+								</a>
+							</li>
+							<li class="rword-li">
+								<a href="#">
+									<img src="../../Img/icon/common/huaban.gif" data-toggle="tooltip" data-placement="bottom" title="花瓣网">
+								</a>
+							</li>
+							<li class="rword-li">
+								<a href="#">
+									<img src="../../Img/icon/common/tb001.gif" data-toggle="tooltip" data-placement="bottom" title="不知道">
+								</a>
+							</li>
+							<li class="rword-li">
+								<a href="#">
+									<img src="../../Img/icon/common/xiangji.gif" data-toggle="tooltip" data-placement="bottom" title="不知道">
+								</a>
+							</li>
+							<li class="rword-li">
+								<a href="#">
+									<img src="../../Img/icon/common/weibo.gif" data-toggle="tooltip" data-placement="bottom" title="腾讯微博">
+								</a>
+							</li>
+							<li class="rword-li">
+								<a href="#">
+									<img src="../../Img/icon/common/txship.gif" data-toggle="tooltip" data-placement="bottom" title="腾讯视频">
+								</a>
+							</li>
+							<li class="rword-li">
+								<a href="#">
+									<img src="../../Img/icon/common/txketang.gif" data-toggle="tooltip" data-placement="bottom" title="腾讯课堂">
+								</a>
+							</li>
+							<li class="rword-li last-li">
+								<span class="rword-r">随时随地，都有我们陪伴您的身影！</span>
+							</li>
+						</ul>
 
+					</div>
+
+				</div>
+
+			</div>
+
+			<div class="fnote">
+				<span>Copyright &copy; 2011-2016 Mapla.All Rights Reserved.</span>
+				<span>关于我们</span>
+				<br>
+				<span>北京美博惠人国际教育科技有限公司 版权所有 京ICP备11044802号-1</span>
+			</div>
+
+		</div>
+	</div>
+
+	<!-- 右侧菜单 -->
+	<div class="rightnav">
+		<div class="askonline">
+			<div class="askimg">
+				<img src="../../Img/icon/common/askonline.png" alt="">
+			</div>
+			<div class="askman">
+				<button class=" btn btn-info">冯老师</button>
+				<button class=" btn btn-info">陶老师</button>
+				<button class=" btn btn-info">王老师</button>
+			</div>
+		</div>
 
 </body>
 <script src="../../Js/jquery-3.3.1.min.js"></script>

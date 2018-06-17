@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>login and register</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>updatePwd</title>
     <link rel="stylesheet" href="../../Css/bootstrap.min.css">
     <link rel="stylesheet" href="../../Css/login.css">
     <link rel="stylesheet" href="../../Css/common/common.css">
@@ -84,17 +85,19 @@
                 <span>个人中心</span>
                 <span>/</span>
                 <span>修改个人信息</span>
+                <span>/</span>
+                <span>修改密码</span>
             </div>
 
-            <div class="bgdiv-black" style="height:265px;">
+            <div class="bgdiv-black" style="height:215px;">
                 <div class="loginitem bgdiv-white">
                     <div class="inputitem">
                         <div class="inputword">
                             <span>旧密码:</span>
                         </div>
-                        <input type="text" name="" id="">
-                        <div class="sendcode relative">
-                            <img class="pwd-icon" src="../../Img/login/showpwd.png" alt="">
+                        <input type="password" name="" id="">
+                        <div class="sendcode  relative">
+                            <img class="pwd-icon pointer" src="../../Img/login/showpwd.png" alt="">
                         </div>
                     </div>
                     <img src="../../Img/icon/common/hrline.png" alt="">
@@ -102,9 +105,9 @@
                         <div class="inputword">
                             <span>新密码:</span>
                         </div>
-                        <input type="text" name="" id="">
+                        <input type="password" name="" id="">
                         <div class="sendcode relative">
-                            <img class="pwd-icon" src="../../Img/login/showpwd.png" alt="">
+                            <img class="pwd-icon pointer" src="../../Img/login/hiddenpwd.png" alt="">
                         </div>
                     </div>
                     <img src="../../Img/icon/common/hrline.png" alt="">
@@ -112,22 +115,22 @@
                         <div class="inputword">
                             <span>确认密码:</span>
                         </div>
-                        <input type="text" name="" id="" style="width: 180px;">
+                        <input type="password" name="" id="" style="width: 180px;">
                         <div class="sendcode relative" style="width: 200px;">
                             <span class="pwd-span">两次密码输入不一致！</span>
-                            <img class="pwd-icon" style="float: right;margin-top: 20px;" src="../../Img/login/hiddenpwd.png" alt="">
+                            <img class="pwd-icon pointer" style="float: right;margin-top: 20px;" src="../../Img/login/hiddenpwd.png" alt="">
                         </div>
                     </div>
                 </div>
             </div>
 
             <div class="submitbtn loginindex">
-                <div class="relative ">
+                <div class="relative pointer">
                     <img class="login-img" src="../../Img/icon/common/long0-btn-icon.png" data-toggle="modal" data-target="#loginModal">
-                    <span class="submit-span">注册</span>
+                    <span class="submit-span" style="left: 180px;">确认修改密码</span>
                 </div>
-                <div class="tip">
-                    <span>已有账号，去登录</span>
+                <div class="tip" style="margin-top: 10px;">
+                    <span class="pointer" style="font-weight:600;">忘记密码？</span>
                 </div>
             </div>
         </div>
@@ -137,13 +140,17 @@
     <div id="footpage" class="foot-page">
         <div class="fdiv">
             <div class="flink">
-
+    
                 <div class="fcontent">
-
+    
                     <div class="rword">
-                        <div class="hader-school">
-                            <img src="../../Img/icon/common/joinus.png" class="sealine" alt="">
-                            <img src="../../Img/icon/common/joinus.png" class="sealine img-2" alt="">
+                        <div class="hader-school ">
+                            <div class="school-img relative">
+                                <span class="span-1">关于我们</span>
+                                <span class="span-2">联系我们</span>
+                                    <img src="../../Img/icon/common/joinus.png" class="sealine img-1" alt="">
+                                    <img src="../../Img/icon/common/joinus.png" class="sealine img-2" alt="">
+                            </div>
                             <span class="rword-r">友情链接：</span>
                         </div>
                         <ul class="rword-ul school">
@@ -167,17 +174,21 @@
                             </li>
                         </ul>
                     </div>
-
+    
                 </div>
-
+    
                 <div class="fcontent ">
-
+    
                     <div class="rword">
-                        <div class="hader-school">
-                            <img src="../../Img/icon/common/joinus.png" class="sealine" alt="">
-                            <img src="../../Img/icon/common/joinus.png" class="sealine img-2" alt="">
-                            <span class="rword-r">官方账号：</span>
-                        </div>
+                            <div class="hader-school ">
+                                    <div class="school-img relative">
+                                        <span class="span-1">加入我们</span>
+                                        <span class="span-2">在线帮助</span>
+                                            <img src="../../Img/icon/common/joinus.png" class="sealine img-1" alt="">
+                                            <img src="../../Img/icon/common/joinus.png" class="sealine img-2" alt="">
+                                    </div>
+                                    <span class="rword-r">友情链接：</span>
+                                </div>
                         <ul class="rword-ul">
                             <li class="rword-li">
                                 <a href="#">
@@ -223,28 +234,25 @@
                                 <span class="rword-r">随时随地，都有我们陪伴您的身影！</span>
                             </li>
                         </ul>
-
+    
                     </div>
-
+    
                 </div>
-
+    
             </div>
-
+    
             <div class="fnote">
                 <span>Copyright &copy; 2011-2016 Mapla.All Rights Reserved.</span>
                 <span>关于我们</span>
                 <br>
                 <span>北京美博惠人国际教育科技有限公司 版权所有 京ICP备11044802号-1</span>
             </div>
-
+    
         </div>
     </div>
 
     <!-- 右侧菜单 -->
     <div class="rightnav">
-        <div class="classdate">
-            <img src="../../Img/icon/common/classdate.png" alt="" srcset="">
-        </div>
 
         <div class="askonline">
             <div class="askimg">
@@ -254,98 +262,6 @@
                 <button class=" btn btn-info">冯老师</button>
                 <button class=" btn btn-info">陶老师</button>
                 <button class=" btn btn-info">王老师</button>
-            </div>
-        </div>
-
-        <div class="todaynews">
-            <div class="newstip bborder">今日推荐
-                <button type="button" id="toclose" class="close" data-dismiss="todaynews" aria-hidden="true">&times;</button>
-            </div>
-            <img class="bborder" src="../../Img/icon/common/todaynews.png" data-toggle="modal" data-target="#tadaynewModal">
-            <div class="newstip bborder">点击放大查看</div>
-        </div>
-    </div>
-
-    <!-- 注册提示框 -->
-    <div class="modal fade loginModal" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h4 class="modal-title" id="myModalLabel">注册成功，快去选课！</h4>
-                </div>
-                <!-- <div class="modal-body">在这里添加一些文本</div> -->
-                <div class="modal-footer">
-                    <button type="button" class="btn modal-closer" data-dismiss="modal">确定</button>
-                    <div class="circle">
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- 今日推荐 -->
-    <div class="modal fade tadaynewModal" id="tadaynewModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <!-- 轮播 -->
-            <div id="warpper" class="warpper">
-                <div class="lbcontainer">
-                    <!-- 图片区域 -->
-                    <img class="lbcloser" data-dismiss="modal" aria-hidden="true" src="../../Img/icon/common/todaycloser.png" alt="">
-                    <ul class="imgList">
-                        <li>
-                            <img src="../../Img/icon/common/todaynews.png" alt="">
-                        </li>
-                        <li>
-                            <img src="../../Img/icon/common/todaynews.png" alt="">
-                        </li>
-                        <li>
-                            <img src="../../Img/icon/common/todaynews.png" alt="">
-                        </li>
-                        <li>
-                            <img src="../../Img/icon/common/todaynews.png" alt="">
-                        </li>
-                        <li>
-                            <img src="../../Img/icon/common/todaynews.png" alt="">
-                        </li>
-                        <li>
-                            <img src="../../Img/icon/common/todaynews.png" alt="">
-                        </li>
-                    </ul>
-                    <!-- 左右切换图标 -->
-                    <!-- <img src="../Img/icon/common/txship.gif" width="40px" height="60px" class="pre">
-                    <img src="../Img/icon/common/txship.gif" width="40px" height="60px" class="next"> -->
-                    <!-- 下方控制图片按钮 -->
-                    <ul class="dollList">
-                        <li class="sec">
-                            <a href="#">1</a>
-                        </li>
-                        <li>
-                            <a href="#">2</a>
-                        </li>
-                        <li>
-                            <a href="#">3</a>
-                        </li>
-                        <li>
-                            <a href="#">4</a>
-                        </li>
-                        <li>
-                            <a href="#">5</a>
-                        </li>
-                        <li>
-                            <a href="#">6</a>
-                        </li>
-                    </ul>
-
-                    <img id="lbclick" class="lbclick" src="../../Img/icon/common/click.png" alt="" srcset="">
-                </div>
             </div>
         </div>
     </div>

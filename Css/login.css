@@ -1,732 +1,982 @@
-/*通用样式*/
+﻿/*通用样式*/
 
 .loginitem img {
-    width: 498px;
-    margin-left: -1px;
+	width: 498px;
+	margin-left: -1px;
 }
 
 .loginpage .bgdiv-black {
-    height: 350px;
+	height: 350px;
 }
 
 .loginitem .inputitem .inputword {
-    float: left;
-    margin-left: 10px;
+	float: left;
+	margin-left: 10px;
 }
 
 .logincontent {
-    background-image: url(../Img/login/bg-login.png);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    padding-bottom: 100px;
-    padding-top: 80px;
+	background-image: url(../Img/login/login-bg.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	padding-bottom: 250px;
+	padding-top: 80px;
 }
 
 .logincontent .logintitle span {
-    font-weight: 600;
-    color: rgb(240, 88, 127);
+	font-weight: 600;
+	color: rgb(240, 88, 127);
+	cursor: pointer;
 }
-
+.logintitle .changeicon img{
+	width: 110px;
+	height: 30px;
+}
+.logintitle .changeicon .change-usericon{
+	right: 45px;
+}
 .logincontent .loginform {
-    width: 500px;
-    margin: 0 auto;
+	width: 500px;
+	margin: 0 auto;
 }
-
-/* .logincontent .loginform .inputitem:first-child div{
-    width: 86px;
-} */
 
 .logincontent .logininput {
-    margin-top: 15px;
-    width: 622px;
-    height: 291px;
-    background-image: url(../Img/login/registerbg01.png);
+	margin-top: 15px;
+	width: 622px;
+	height: 291px;
+	background-image: url(../Img/login/registerbg01.png);
 }
 
 .logincontent .inputitem {
-    height: 70px;
-    line-height: 70px;
+	height: 55px;
+	line-height: 55px;
 }
 
 .logininput .inputitem div {
-    float: left;
-    width: 65px;
-    line-height: 70px;
-    margin-left: 15px;
+	float: left;
+	width: 65px;
+	line-height: 70px;
+	margin-left: 15px;
 }
 
 .logincontent .inputitem input {
-    height: 35px;
-    width: 280px;
+	height: 35px;
+	width: 275px;
+	padding-left: 10px;
+	line-height: 35px;
 }
 
 .logincontent .inputitem .sendcode {
-    float: right;
-    margin-right: 15px;
+	float: right;
+	margin-right: 15px;
 }
 
 .logincontent .inputitem .sendcode span {
-    position: absolute;
-    top: -1px;
-    left: 12px;
-    color: white;
+	position: absolute;
+	top: -1px;
+	left: 12px;
+	color: white;
 }
 
 .logincontent .inputitem .sendcode .pwd-icon {
-    width: 30px;
-    height: 30px;
+	width: 20px;
+	height: 14px;
 }
 
 .logincontent .inputitem .sendcode .pwd-span {
-    color: rgb(240, 88, 127);
-    float: left;
+	color: rgb(240, 88, 127);
+	float: left;
 }
 
 .logincontent .inputitem .sendcode-icon {
-    width: 100px;
+	width: 100px;
 }
 
 .logincontent .inputitem .errormsg {
-    color: rgb(240, 88, 127);
-    font-size: 1px;
-    margin-left: 60px;
+	color: rgb(240, 88, 127);
+	font-size: 1px;
+	margin-left: 60px;
 }
 
 .logincontent .inputitem span {
-    font-size: 14px;
-    font-weight: 600;
-    color: rgb(82, 147, 226);
+	font-size: 14px;
+	font-weight: 600;
+	color: rgb(82, 147, 226);
 }
 
-.logincontent .submitbtn {
-    width: 622px;
-}
+/* .logincontent .submitbtn {
+	width: 622px;
+} */
 
 .logincontent .submitbtn .login-img {
-    width: 622px;
-    margin-top: 20px;
+	width: 622px;
+	margin-top: 20px;
 }
 
 .logincontent .submitbtn .tip {
-    text-align: center;
-    margin-top: 10px;
+	text-align: center;
+	margin-top: 35px;
 }
 
 .logincontent .submitbtn .tip span {
-    color: rgb(240, 88, 127);
+	color: rgb(240, 88, 127);
 }
 
 .logincontent .bgdiv-black {
-    width: 100%;
-    height: 250px;
-    margin-top: 20px;
+	width: 100%;
+	height: 300px;
+	margin-top: 20px;
 }
 
 .logincontent .bgdiv-white {
-    height: 100%;
+	height: 100%;
 }
 
 .logincontent .submitbtn {
-    width: 100%;
+	width: 100%;
+	margin-top: 20px;
 }
+
 
 /* ------------------*/
 
 .loginindex .loginindex-img {
-    width: 500px !important;
+	width: 500px !important;
 }
 
 .inputitem .right {
-    float: right;
-    margin-right: 20px;
-    color: rgb(240, 88, 127) !important;
+	float: right;
+	margin-right: 20px;
+	color: rgb(240, 88, 127) !important;
+	cursor: pointer;
+}
+
+.loing-index .bgdiv-black {
+	height: 250px;
+}
+
+.login-next .bgdiv-black {
+	height: 215px;
 }
 
 .inputitem .checkboxpwd {
-    width: 15px !important;
-    height: 15px !important;
+	width: 18px !important;
+	height: 18px !important;
+	padding-left: 0px!important;
+	margin-bottom: 8px;
+	margin-top: 7px !important;
+	transform: scale(.8);
 }
 
 .loginindex span hr {
-    width: 200px;
-    border-top: 1px solid gray;
+	width: 200px;
+	border-top: 1px solid gray;
+}
+
+.rightWork {
+	color: #000 !important;
 }
 
 .loginindex .fhr {
-    float: left;
+	float: left;
 }
 
 .loginindex .lhr {
-    float: right;
+	float: right;
 }
 
 .loginindex .wspan {
-    line-height: 40px;
+	line-height: 40px;
 }
 
 .loginindex .wchatimg {
-    width: 100px;
-    height: 100px;
+	width: 80px;
+	height: 80px;
+	cursor: pointer;
 }
 
 .loingindex div {
-    width: 80px !important;
+	width: 80px !important;
 }
 
 .wspan {
-    color: gray !important;
+	color: gray !important;
 }
 
 .submitbtn .submit-span {
-    position: absolute;
-    top: 25px;
-    left: 290px;
-    font-size: 24px;
-    font-weight: 600;
-    color: white;
+	position: absolute;
+	top: 25px;
+	left: 290px;
+	font-size: 22px;
+	color: white;
 }
 
 .loginindex .submit-span {
-    top: 20px;
-    left: 230px;
+	top: 20px;
+	left: 230px;
 }
 
 .loginindex .login-img {
-    width: 500px !important;
+	width: 500px !important;
+}
+.updateinfo{
+	background-image: url(../Img/login/update-bg.png);
+	padding-bottom: 190px !important;
 }
 
 .updateinfo .bgdiv-black {
-    height: 710px;
+	height: 480px;
 }
 
 .updateinfo .loginindex .submit-span {
-    left: 195px;
+	left: 195px;
 }
 
 .user-icon {
-    height: 80px;
-    width: 200px;
-    line-height: 80px;
+	height: 80px;
+	line-height: 80px;
+}
+
+.user-icon .changeusericon {
+	float: right;
+	margin-right: 190px;
+}
+.user-icon .changeusericon img{
+	width: 110px;
+	height: 30px;
 }
 
 .user-icon .usericon {
-    width: 50px;
-    height: 50px;
-    border-radius: 25px;
+	width: 62px;
+    height: 62px;
+    border-radius: 31px;
     text-align: center;
     line-height: 45px;
     float: left;
-    border: 1px solid;
     margin-right: 30px;
     margin-top: 12px;
+    border: 1px solid black;
+}
+.user-icon .userid{
+	font-weight: 600;
 }
 
 .user-icon .usericon img {
-    width: 48px;
-    height: 48px;
-    border-radius: 24px;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
 }
 
 .user-icon .change-usericon {
-    position: absolute;
-    top: -2px;
-    right: 39px;
-    color: white !important;
+	position: absolute;
+	top: -2px;
+	right: 35px;
+	color: white !important;
+}
+
+.updateinfo .inputitem {
+	height: 40px;
+	line-height: 40px;
 }
 
 .updateinfo .inputitem div:first-child {
-    width: 65px;
+	width: 69px;
 }
 
 .updateinfo .inputitem .updateicon {
-    float: right;
-    width: 65px;
-    height: 70px;
-    line-height: 70px;
+	float: right;
+	width: 65px;
+	height: 40px;
+	line-height: 40px;
+	cursor: pointer;
 }
 
 .updateinfo .inputitem .updateicon img {
-    width: 20px;
-    height: 20px;
+	width: 20px;
+	height: 20px;
 }
 
 .updateinfo .inputitem .updateicon span {
-    color: rgb(240, 88, 127);
+	color: rgb(240, 88, 127);
 }
+
 
 /* 个人中心 */
 
 .userindexbody {
-    background-image: url(../Img/login/bg-login.png);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    padding-bottom: 50px;
+	background-image: url(../Img/login/login-bg.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	padding-bottom: 150px;
 }
 
 .userindexcontent {
-    width: 500px;
-    margin: 0 auto;
-    padding-top: 50px;
+	width: 600px;
+	margin: 0 auto;
+	padding-top: 50px;
 }
 
 .userindexcenter {
-    width: 500px;
-    margin: 0 auto;
+	width: 600px;
+	margin: 0 auto;
+	margin-top: 20px;
 }
 
 .userindex-black {
-    height: 420px !important;
-    width: 500px !important;
-    margin: 0 !important;
+	height: 420px !important;
+	width: 600px !important;
+	margin: 0 !important;
 }
 
 .userindex-white {
-    height: 420px !important;
+	height: 420px !important;
 }
 
 .tip {
-    margin: 10px 0 10px 0;
+	margin: 10px 0 10px 0;
+}
+
+.tipitem {
+	height: 46px;
+	cursor: pointer;
+}
+
+.tipitem span {
+	position: absolute;
+	top: 7px;
+	left: 40px;
+	font-size: 16px;
+	font-weight: 600;
 }
 
 .tipitem img {
-    width: 100px;
-    height: 50px;
+	width: 120px;
+	height: 40px;
+}
+
+.tipitem .news {
+	position: absolute;
+	top: -8px;
+	right: 5px;
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
+	text-align: center;
+	line-height: 20px;
+	background-color: hotpink;
+}
+
+.tipitem .news p {
+	color: white;
 }
 
 .userindexcenter .hr-img {
-    width: 498px;
-    margin-left: -1px;
+	width: 598px;
+	margin-left: -1px;
 }
 
 .history {
-    width: 460px;
-    height: 150px;
-    margin: 0 auto;
-    margin-top: 20px;
+	width: 560px;
+	height: 150px;
+	margin: 0 auto;
+	margin-top: 20px;
 }
 
 .history-title {
-    color: rgb(82, 147, 226);
-    width: 65px;
-    height: 150px;
-    float: left;
+	color: #136dd8;
+	width: 80px;
+	height: 150px;
+	float: left;
+	font-size: 16px;
 }
 
 .history-content {
-    width: 370px;
-    height: 150px;
-    float: right;
+	width: 470px;
+	height: 150px;
+	float: right;
+	font-weight: 600;
 }
 
 .step {
-    width: 390px;
-    height: 25px;
+	width: 390px;
+	height: 25px;
 }
 
 .step .circley {
-    background-color: yellow;
+	background-color: yellow;
 }
 
 .step .left-circle {
-    width: 16px;
-    height: 16px;
-    border-radius: 8px;
-    border: 1px solid;
-    position: absolute;
-    top: 2px;
-    left: 0px;
+	width: 16px;
+	height: 16px;
+	border-radius: 8px;
+	border: 1px solid;
+	position: absolute;
+	top: 2px;
+	left: 0px;
 }
 
 .step .center-span {
-    position: absolute;
-    top: 0px;
-    left: 25px;
+	position: absolute;
+	top: 0px;
+	left: 25px;
 }
 
 .step .right-div {
-    width: 200px;
-    height: 25px;
-    border-radius: 12px;
-    border: 1px solid;
-    text-align: center;
-    background: -webkit-linear-gradient(left, rgb(206, 243, 247), rgb(216, 225, 254));
-    position: absolute;
-    top: 0px;
-    right: 50px;
+	width: 250px;
+	height: 25px;
+	border-radius: 12px;
+	border: 1px solid;
+	background: -webkit-linear-gradient(left, rgb(206, 243, 247), rgb(216, 225, 254));
+	background: -ms-linear-gradient(left, rgb(206, 243, 247), rgb(216, 225, 254));
+	position: absolute;
+	top: 0px;
+	right: 00px;
+	padding-left: 20px;
 }
 
 .history-content .circle div {
-    float: none;
-    margin-bottom: 5px;
+	float: none;
+	margin-bottom: 5px;
 }
 
 .timeinfo {
-    width: 460px;
-    margin: 0 auto;
-    margin-top: 20px;
+	width: 540px;
+	margin: 0 auto;
+	margin-top: 20px;
 }
 
 .timeinfo span {
-    color: rgb(82, 147, 226);
+	color: #136dd8;
 }
 
 .time-left {
-    width: 300px;
-    height: 100px;
-    float: left;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 185px;
+	height: 100px;
 }
-
+.time-left .time-img{
+	/*margin-top: 0px;*/
+}
+.time-left .time-img span{
+	position: absolute;
+	top: 57px;
+    right: 15px;
+}
+.time-bet{
+	position: absolute;
+	top: 0px;
+	left: 185px;
+	width: 135px;
+	height: 100px;
+}
+.time-bet .time-img{
+	margin-top: 43px;
+}
+.time-bet .time-img span{
+	position: absolute;
+	top: 53px;
+    right: 9px;
+}
 .time-right {
-    width: 150px;
-    height: 100px;
-    float: right;
+	position: absolute;
+	top: 0px;
+	right: -2px;
+	width: 125px;
+	height: 100px;
 }
 
+.time-right .time-img span{
+	position: absolute;
+	top: 54px;
+    right: 10px;
+}
 .time-img {
-    width: 100px;
-    height: 80px;
-    border: 1px solid;
+	width: 100px;
+	height: 80px;
+	    margin-top: 20px;
 }
 
-/* 0.5透明 */
-
-.opacity {
-    opacity: 0.5;
+.time-img span {
+	color: black !important;
+	font-weight: 600 !important;
+	font-size: 17px;
 }
+
 
 /* 我的占座 */
 
 .mysitebody {
-    background-image: url(../Img/login/bg-login.png);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    padding-bottom: 50px;
+	background-image: url(../Img/login/login-bg.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	padding-bottom: 50px;
 }
 
 .mysitecontent {
-    width: 500px;
-    margin: 0 auto;
-    padding-top: 50px;
+	width: 500px;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+
+.mysiteitem {
+	margin-bottom: 35px;
 }
 
 .mysite-black {
-    height: 100px;
-    width: 500px
+	height: 100px;
+	width: 500px
 }
 
 .mysite-white {
-    height: 100px;
+	height: 100px;
 }
 
 .classname,
 .sitestate {
-    width: 500px;
-    height: 50px;
-    line-height: 50px;
-    margin-left: 20px;
-    font-weight: 600;
+	width: 500px;
+	height: 50px;
+	line-height: 50px;
+	margin-left: 20px;
+	font-weight: 600;
 }
 
 .sitestate .right-statue {
-    float: right;
-    margin-right: 40px;
+	float: right;
+	margin-right: 40px;
+	cursor: pointer;
 }
 
 .sitestate .sueecss {
-    color: rgb(240, 88, 127);
+	color: rgb(240, 88, 127);
 }
 
 .sitestate .fail {
-    color: rgb(32, 28, 231);
+	color: #136dd8;
 }
 
 .sitestate .normal {
-    color: black;
+	color: black;
 }
+
 
 /* 我的通知 */
 
 .mynoticebody {
-    background-image: url(../Img/login/bg-login.png);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    padding-bottom: 50px;
+	background-image: url(../Img/login/myclass-bg.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	padding-bottom: 50px;
 }
 
 .mynoticecontent {
-    width: 500px;
-    margin: 0 auto;
-    padding-top: 50px;
+	width: 800px;
+	margin: 0 auto;
+	padding-top: 50px;
+	margin-bottom: 20px;
 }
 
 .mynotice-black {
-    height: 300px;
-    width: 500px;
+	height: 300px;
+	width: 800px;
 }
 
 .mynotice-white {
-    height: 300px;
+	height: 300px;
 }
 
 .itemtitle {
-    height: 50px;
+	height: 50px;
 }
 
 .itemtitle span {
-    line-height: 50px;
-    font-size: 20px;
-    font-weight: 600;
-    margin-left: 35px;
+	line-height: 50px;
+	font-size: 16px;
+	font-weight: 600;
+	margin-left: 20px;
+	display: block;
+	float: left;
+	max-width: 66%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	word-wrap: break-word;
 }
 
 .itemtitle .r-chip {
-    float: right;
-    height: 50px;
-    margin-right: 20px;
-    text-align: center;
+	float: right;
+	/*height: 50px;*/
+	margin-right: 20px;
+	text-align: center;
+}
+
+.kaoyan {
+	background: -webkit-linear-gradient(left, rgb(216, 224, 254), rgb(205, 245, 246)) !important;
+	background: -ms-linear-gradient(left, rgb(216, 224, 254), rgb(205, 245, 246)) !important;
 }
 
 .chip {
-    width: 100px;
-    height: 26px;
-    line-height: 26px;
-    border-radius: 13px;
-    margin-top: 15px;
-    background: -webkit-linear-gradient(left, rgb(226, 228, 100), rgb(230, 74, 53));
+	width: 70px;
+	height: 18px;
+	line-height: 18px;
+	border-radius: 13px;
+	margin-top: 15px;
+	font-size: 10px;
+	font-weight: 600;
+	background: -webkit-linear-gradient(left, rgb(255, 214, 55), rgb(255, 219, 221));
+	background: -ms-linear-gradient(left, rgb(255, 214, 55), rgb(255, 219, 221));
 }
 
 .mynotice .hr-line {
-    width: 498px;
-    margin-left: -1px;
+	width: 799px;
 }
 
 .mynotice .word {
-    position: absolute;
-    top: 0px;
-    left: 20px;
-    color: rgb(82, 147, 226);
-    background-color: white;
-    width: 75px;
+	position: absolute;
+	top: 0px;
+	left: 26px;
+	color: rgb(82, 147, 226);
+	background-color: white;
+	width: 75px;
 }
 
 .mynotice .time {
-    position: absolute;
-    top: 0px;
-    right: 20px;
-    background-color: white;
-    width: 75px;
+	position: absolute;
+	top: 2px;
+	right: 30px;
+	background-color: white;
+	width: 80px;
+	text-align: center;
+	padding-left: 8px;
+}
+
+.xinde .chip {
+	margin-top: 0px;
+	background: -webkit-linear-gradient(left, rgb(216, 224, 254), rgb(205, 245, 246)) !important;
+	background: -ms-linear-gradient(left, rgb(216, 224, 254), rgb(205, 245, 246)) !important;
+}
+
+.xinde {
+	right: 10px!important;
+	top: 2px !important;
+	background: white;
+	padding-left: 10px;
 }
 
 .iteminfo {
-    margin-left: 35px;
-    margin-top: 10px;
+	margin-left: 20px;
+	margin-top: 15px;
 }
 
 .iteminfo .info-cover {
-    width: 100px;
-    height: 100px;
-    text-align: center;
-    line-height: 100px;
-    float: left;
-    margin-right: 10px;
+	width: 120px;
+	height: 120px;
+	float: left;
+}
+
+.iteminfo .info-cover img {
+	width: 90px;
+	height: 90px;
 }
 
 .info-abs {
-    width: 330px;
-    height: 100px;
-    float: right;
-    margin-right: 20px;
+	width: 430px;
+	float: right;
+	padding-right: 15px;
+	box-sizing: border-box;
+}
+
+.info-abs p {
+	word-wrap: break-all;
 }
 
 .info-abs .more-info {
-    position: absolute;
-    top: 75px;
-    right: 0px;
-    color: rgb(240, 88, 127);
+	position: absolute;
+	top: 100px;
+	right: 7px;
+	color: rgb(240, 88, 127);
+	cursor: pointer;
 }
 
-.border {
-    border: 1px solid red;
+.mycollect .info-abs {
+	width: 650px;
 }
 
 .color-bule {
-    color: rgb(82, 147, 226);
+	color: rgb(82, 147, 226);
+	font-size: 10px;
 }
 
 .tpye-pink-grad {
-    background: -webkit-linear-gradient(left, rgb(235, 94, 94), rgb(236, 167, 158));
+	background: -webkit-linear-gradient(left, rgb(235, 94, 94), rgb(236, 167, 158));
+	background: -ms-linear-gradient(left, rgb(235, 94, 94), rgb(236, 167, 158));
 }
 
 .tpye-pink {
-    background: rgb(240, 88, 127);
+	background: rgb(240, 88, 127);
+	color: white;
 }
 
 .tpye-bule {
-    background: rgb(82, 147, 226);
+	background: #12c8db;
+	color: white;
+}
+
+.noticeitem {
+	margin-bottom: 35px;
 }
 
 .type-one {
-    width: 500px;
-    height: 200px;
+	width: 800px;
+	height: 220px;
 }
 
 .type-two {
-    width: 500px;
-    height: 100px;
+	width: 800px;
+	height: 110px;
+}
+
+.type-two .xinde-chip {
+	width: 70px;
+	height: 18px;
+	line-height: 18px;
+	border-radius: 13px;
+	font-size: 10px;
+	font-weight: 600;
+	background: -webkit-linear-gradient(left, rgb(250, 191, 205), rgb(255, 233, 224));
+	background: -ms-linear-gradient(left, rgb(250, 191, 205), rgb(255, 233, 224));
+	/* IE*/
+}
+
+.type-two .word {
+	top: -6px;
+}
+
+.type-word {
+	font-size: 20px;
+	font-weight: 600;
 }
 
 .type-two .iteminfo .info-left {
-    font-size: 20px;
-    font-weight: 600;
+	font-size: 16px;
+	font-weight: 600;
 }
 
 .type-two .iteminfo .info-right {
-    float: right;
-    margin-right: 20px;
-    font-size: 20px;
-    font-weight: 600;
-    color: rgb(240, 88, 127);
+	float: right;
+	margin-right: 20px;
+	font-size: 14px;
+	/*font-weight: 600;*/
+	color: rgb(240, 88, 127);
+	cursor: pointer;
+}
+
+.type-two .iteminfo .info-right-Ac {
+	font-size: 14px;
+	color: black;
+}
+
+.type-two .itemtitle b {
+	line-height: 50px;
+}
+
+.type-two .iteminfo .info-rightAcw {
+	margin-right: 10px;
 }
 
 .type-three {
-    width: 500px;
-    height: 140px;
+	width: 800px;
+	height: 140px;
 }
 
 .type-three .iteminfo .info-cover {
-    height: 120px;
+	width: 110px;
+	height: 110px;
+}
+
+.iteminfo .info-cover img {
+	width: 100%;
+	height: 100%;
 }
 
 .type-three .info-abs {
-    height: 120px;
+	height: 120px;
 }
-
+/* 加粗部分字体*/
+.abs-p-w p{ 
+	font-weight: 600;
+}
+.abs-p-w span{ 
+	font-weight: 600;
+}
 .type-three .iteminfo .info-abs .info-title {
-    width: 330px;
-    height: 35px;
+	height: 35px;
 }
-
 .type-three .info-abs .more-info {
-    top: 90px;
+	top: 94px;
+	right: 9px;
 }
 
 .type-three .itemtitle span {
-    line-height: 0px;
-    margin-left: 0px;
+	line-height: 17px;
+	max-width: 59%;
+	margin-left: 0px;
 }
 
 .type-three .itemtitle .r-chip {
-    margin-right: 0px;
+	margin-right: 0px;
 }
 
 .type-three .itemtitle .chip {
-    margin-top: 0px;
+	margin-top: 0px;
 }
+
+.work-three {
+	margin-top: 15px;
+	margin-bottom: 22px;
+}
+
+.work-three span {
+	float: right;
+}
+
+.mycollect .type-two {
+	height: 190px;
+}
+
 
 /* 我的课程 */
 
 .myclassbody {
-    background-image: url(../Img/login/bg-login.png);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    padding-bottom: 50px;
+	background-image: url(../Img/login/login-bg.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	padding-bottom: 100px;
 }
 
 .myclasscontent {
-    width: 500px;
-    margin: 0 auto;
-    padding-top: 50px;
+	width: 600px;
+	margin: 0 auto;
+	padding-top: 50px;
 }
 
 .myclass-black {
-    height: 100px;
-    width: 500px
+	height: 110px;
+	width: 600px;
+	margin-top: 25px;
 }
 
 .myclass-white {
-    height: 100px;
+	height: 110px;
 }
 
 .myclassitem .classinfoitem {
-    font-weight: 600;
-    font-size: 16px;
-    margin-top: 10px;
-    height: 20px;
+	font-weight: 400;
+	font-size: 16px;
+	margin-top: 10px;
+	height: 20px;
 }
 
 .myclassitem .classinfoitem .item-left {
-    width: 200px;
-    float: left;
-    margin-left: 20px;
+	width: 250px;
+	float: left;
+	margin-left: 20px;
+}
+
+.myclassitem .classinfoitem .item-left-c span:nth-child(1) {
+	display: block;
+	float: left;
+	max-width: 75%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	word-wrap: break-word;
 }
 
 .myclassitem .tip {
-    color: rgb(82, 147, 226);
-    font-size: 12px;
+	color: rgb(82, 147, 226);
+	font-size: 12px;
 }
 
 .myclassitem .lasttip {
-    color: rgb(240, 88, 127);
+	color: rgb(240, 88, 127);
+	cursor: pointer;
 }
 
 .myclassitem .classinfoitem .item-right {
-    width: 100px;
-    float: right;
-    margin-right: 20px;
+	width: 130px;
+	float: right;
+	margin-right: 50px;
 }
 
 .myclassitem .item-type-left {
-    width: 100px;
-    height: 100px;
-    float: left;
-    margin-left: 20px;
+	width: 100px;
+	height: 100px;
+	float: left;
+	margin-left: 20px;
+	text-align: center;
+	line-height: 100px;
+}
+
+.myclassitem .item-type-left img {
+	width: 80px;
+	height: 80px;
 }
 
 .myclassitem .item-type-right {
-    width: 360px;
-    height: 100px;
-    float: right;
+	width: 470px;
+	height: 100px;
+	float: right;
 }
+
 
 /* 我的收藏 */
 
 .mycollectbody {
-    background-image: url(../Img/login/bg-login.png);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    padding-bottom: 50px;
+	background-image: url(../Img/login/update-bg.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	padding-bottom: 50px;
 }
 
 .mycollectcontent {
-    width: 600px;
-    margin: 0 auto;
-    padding-top: 50px;
+	width: 600px;
+	margin: 0 auto;
+	padding-top: 50px;
+	height: 85px;
 }
 
 .mycollect-black {
-    height: 300px;
-    width: 500px;
+	height: 300px;
+	width: 500px;
 }
 
 .mycollect-white {
-    height: 300px;
+	height: 300px;
 }
 
 .searchinput input,
 select {
-    height: 30px;
+	height: 30px;
 }
 
 .searchinput img {
-    width: 20px;
-    height: 20px;
-    margin-left: -30px;
+	width: 20px;
+	height: 20px;
+	margin-left: -30px;
 }
 
 .mycollectlist div[data-type|=type] {
-    width: 600px !important;
+	width: 600px !important;
 }
+
 .mycollectlist .hr-line {
-    width: 600px;
-    margin-left: -1px;
+	width: 600px;
+	margin-left: -1px;
+}
+
+.hr-gary {
+	width: 640px;
+	margin-left: 50px;
 }

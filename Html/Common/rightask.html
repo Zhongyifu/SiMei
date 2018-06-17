@@ -12,7 +12,7 @@
 
 <body>
     <div class="rightnav">
-        <div class="classdate">
+        <div class="classdate pointer">
             <img src="../../Img/icon/common/classdate.png" alt="" srcset="">
         </div>
 
@@ -89,8 +89,9 @@
                             </li>
                         </ul>
     
-                        <img id="lbclick" class="lbclick" src="../../Img/icon/common/click.png" alt="" srcset="">
-                        <span class="lbbtn">点击查看详情</span>
+							<div id="lbclick" class="lbclick pointer">
+	                    		<div>查看详情</div>
+	                    	</div>	 
                     </div>
                 </div>
             </div>
@@ -99,6 +100,7 @@
 
 <script src="../../Js/jquery-3.3.1.min.js"></script>
 <script src="../../Js/bootstrap.min.js"></script>
+<script src="../../Js/common.js"></script>
 <script>
     $(function(){
         $(".lbbtn,#lbclick").click(function(){

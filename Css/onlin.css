@@ -1,565 +1,1379 @@
-.onlineclassbody {
-    width: 100%;
-    background-image: url(../Img/bg.png);
-    padding: 50px 0px 100px 0px;
+﻿.onlineclassbody {
+	width: 100%;
+	background-image: url(../Img/login/login-bg.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	padding: 50px 0px 100px 0px;
 }
 
 .onlineclasscontent {
-    width: 800px;
-    height: 800px;
-    margin: 0 auto;
-}
-
-.searchinput input,
-select {
-    height: 30px;
-}
-
-.searchinput img {
-    width: 20px;
-    height: 20px;
-    margin-left: -30px;
+	width: 800px;
+	margin: 0 auto;
 }
 
 .classitem {
-    width: 800px;
-    margin: 0 auto;
+	width: 800px;
+	margin: 0 auto;
 }
 
 .classitem .itemlist {
-    margin: 0;
+	margin: 0;
 }
 
 .classiteminfo {
-    height: 250px;
-    margin-top: 30px;
+	height: 250px;
+	margin-top: 30px;
 }
 
 .ocbgdiv-black {
-    width: 170px;
-    height: 250px;
-    background-color: #ffDBE0;
-    position: relative;
-    border: 1px solid;
-    margin-left: -10px;
+	width: 180px;
+	height: 250px;
+	background-color: #ffDBE0;
+	position: relative;
+	border: 1px solid;
+	margin-left: -10px;
 }
 
 .ocdiv-white {
-    width: 170px;
-    height: 250px;
-    position: absolute;
-    top: -10px;
-    left: -10px;
-    background-color: white;
-    border: 1px solid;
-    text-align: center;
+	width: 180px;
+	height: 250px;
+	position: absolute;
+	top: -10px;
+	left: -10px;
+	background-color: white;
+	border: 1px solid;
+	text-align: center;
 }
 
 .ocdiv-white .class-cover {
-    height: 185px;
-    margin: 10px 10px 0 10px;
-    background-image: url(../Img/index/in-teach-img-01.png);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+	height: 190px;
+	margin: 10px 10px 0 10px;
+	background-image: url(../Img/index/in-teach-img-01.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
 }
 
 .ocdiv-white img {
-    width: 169px;
-    height: 20px;
-    margin-left: -1px;
+	width: 180px;
+	height: 10px;
+	margin-left: -1px;
 }
 
 .ocdiv-white span {
-    font-weight: 600;
-    font-size: 16px;
+	font-weight: 600;
+	font-size: 16px;
 }
+
 
 /* 以上为在线课堂 */
 
+.onlineclassinfobody {
+	width: 100%;
+	background-image: url(../Img/login/siteinfo-bg.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	padding: 50px 0px 200px 0px;
+}
+
+.onlineclassinfocontent {
+	width: 800px;
+	margin: 0 auto;
+}
+
+.classinfobody {
+	width: 800px;
+}
+
+.infotitle {
+	width: 800px;
+	height: 100px;
+}
+
+.titlecover {
+	width: 100px;
+	height: 100px;
+	float: left;
+	text-align: center;
+	line-height: 100px;
+}
+.titlecover img{
+	width: 85px;
+	height: 85px;
+}
+
+.titleinfo {
+	float: right;
+	width: 680px;
+	height: 100px;
+}
+
+.titleinfo .name {
+	font-size :30px;
+	font-weight: 600;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.titleinfo .titlechip {
+	width: 170px;
+}
+
+.titleinfo .titlechip .fir {
+	width: 50px;
+	float: left;
+	font-weight: 600;
+}
+
+.titleinfo .titlechip .las {
+	width: 90px;
+	float: right;
+}
+
+.titleinfo .chip {
+	height: 20px;
+	text-align: center;
+	line-height: 20px;
+	color: white;
+	border-radius: 10px;
+	background-color: rgb(241, 88, 128);
+}
+
+.offsale {
+	width: 800px;
+	height: 20px;
+	margin-top: 20px;
+	padding-left: 20px;
+	color: gray;
+	background: -webkit-linear-gradient(left, rgb(114, 222, 234), rgb(19, 108, 216), rgb(114, 222, 234));
+	background: -ms-linear-gradient(left, rgb(114, 222, 234), rgb(19, 108, 216), rgb(114, 222, 234));
+}
+
+.price {
+	width: 500px;
+	height: 40px;
+	color: gray;
+}
+
+
+.span-b {
+	position: absolute;
+	top: 10px;
+	left: 90px;
+}
+
+.span-c {
+	position: absolute;
+	top: 5px;
+	left: 140px;
+}
+
+.span-d {
+	position: absolute;
+	top: 10px;
+	left: 280px;
+}
+
+.span-e {
+	position: absolute;
+	top: 10px;
+	left: 320px;
+	text-decoration: line-through;
+}
+
+.span-f {
+	position: absolute;
+	top: 10px;
+	left: 410px;
+	color: gray;
+}
+
+.offprice {
+	font-size: 25px;
+	color: deeppink;
+	line-height: 30px;
+	margin-right: 20px;
+}
+
+.pricebgdiv {
+	width: 500px;
+	height: 45px;
+	margin-top: 20px;
+	background-image: url('../Img/icon/common/classinfo-pirce.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+
+.submitprice {
+	margin-top: 20px;
+}
+
+.submitprice img {
+	width: 790px;
+	height: 50px;
+}
+
+.submitprice span {
+	position: absolute;
+	top: 5px;
+	left: 350px;
+	font-weight: 600;
+	color: white;
+	font-size: 22px;
+}
+
+.classinfobody .tabbtn {
+	border: 1px solid black;
+	width: 800px;
+	height: 51px;
+	margin: 0 auto;
+	margin-top: 50px;
+	font-size: 20px;
+}
+
+.classinfobody .tabbtn .btn-item {
+	width: 399px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+}
+.classinfobody .tabbtn .btn-item .btn-text{
+	font-weight: 600;
+}
+
+.classinfobody .hideleftborder {
+	border-left: white;
+}
+
+.classinfobody .hiderightborder {
+	border-right: white;
+}
+
+.classinfobody .tabbtn .checkon {
+	color: white;
+	border: 1px solid black;
+	border-top: none;
+	background-color: rgb(241, 88, 128);
+}
+
+.classinfobody .tabbtn .classinfo {
+	float: left;
+}
+
+.classinfobody .tabbtn .classchapter {
+	float: right;
+}
+
+.classinfobody .bgdiv-black {
+	width: 800px;
+	height: 500px;
+	margin-top: 35px;
+}
+
+.classinfobody .cinfolist-black .bgdiv-white {
+	height: 500px;
+}
+
+.classinfobody .cinfoul {
+	overflow: auto;
+	height: 480px;
+	width: 840px;
+}
+
+
+/* 滚动条样式 */
+
+.cinfoul::-webkit-scrollbar {
+	width: 6px;
+	height: 6px;
+	background-color: #F5F5F5;
+}
+
+.cinfoul::-webkit-scrollbar-thumb {
+	background: pink;
+}
+
+.cinfoul::-webkit-scrollbar-track {
+	background: rgb(114, 222, 234);
+}
+
+.classinfobody .classitem {
+	width: 798px;
+	height: 55px;
+}
+
+.classitem .hr-left {
+	width: 800px;
+	height: 55px;
+}
+
+.classitem .hr-right {
+	height: 15px;
+	width: 800px;
+}
+
+.hr-right .hr-img {
+	width: 798px;
+	margin-left: -1px;
+}
+
+.classitem .leftitem {
+	width: 500px;
+	height: 55px;
+	line-height: 55px;
+	float: left;
+	margin-left: 35px;
+}
+
+.classitem .leftitem .tip {
+	margin-right: 20px;
+	color: gray;
+}
+
+.classitem .leftitem .title {
+	font-weight: 600;
+	font-size: 20px;
+}
+
+.classitem .rightitem {
+	width: 60px;
+	height: 20px;
+	text-align: center;
+	line-height: 20px;
+	float: right;
+	margin-right: 50px;
+	margin-top: 15px;
+}
+
+.classitem .lisbtn {
+	border-radius: 10px;
+	background: -webkit-linear-gradient(left, rgb(114, 222, 234), rgb(19, 108, 216));
+	background: -ms-linear-gradient(left, rgb(114, 222, 234), rgb(19, 108, 216));
+}
+
+.comment-black {
+	height: 510px !important;
+	width: 800px !important;
+}
+
+.comment-black .bgdiv-white {
+	height: 510px;
+}
+
+.commentlist {
+	width: 700px;
+	margin: 0 auto;
+}
+
+.commenttitle {
+	width: 700px;
+	height: 50px;
+	line-height: 50px;
+}
+
+.commenttitle .leftspan {
+	height: 50px;
+	width: 60px;
+	float: left;
+}
+
+.commenttitle .hrline {
+	width: 625px;
+	height: 25px;
+	border-bottom: 1px dashed gray;
+	float: right;
+}
+
+.commenttitle span {
+	font-weight: 600;
+	color: rgb(19, 108, 216);
+}
+
+.commentitem {
+	width: 700px;
+}
+
+.commentitem .item {
+	width: 700px;
+	height: 85px;
+	margin-bottom: 15px;
+	border-bottom: 1px dotted gray;
+}
+
+
+.item .cover {
+	height: 64px;
+	width: 64px;
+	border-radius: 32px;
+	float: left;
+	text-align: center;
+}
+
+.commentitem .item .cover img{
+	height: 60px;
+	width: 60px;
+	border-radius: 30px;
+}
+
+.content {
+	width: 490px;
+	float: left;
+	margin-left: 20px;
+}
+
+.content .userinfo {
+	height: 30px;
+	line-height: 30px;
+}
+
+.content .star {
+	margin-left: 20px;
+	color: rgb(241,88,128);
+}
+
+.comment {
+	font-weight: 600;
+	font-size: 20px;
+}
+
+.timepoint {
+	width: 75px;
+	float: right;
+}
+
+.send-comment-black {
+	width: 800px !important;
+	height: 430px !important;
+}
+
+.send-comment-black .bgdiv-white {
+	height: 430px;
+}
+
+.send-comment-black .classname {
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-weight: 600;
+	font-size: 20px;
+}
+
+.starinfo {
+	width: 700px;
+	height: 70px;
+	border-bottom: 1px dotted gray;
+	margin: 0 auto;
+}
+
+.starinfo i {
+	color: rgb(241,88,128);
+}
+
+.starinfo .badstar {
+	color: gray;
+}
+
+.line-left {
+	width: 300px;
+	height: 30px;
+	float: left;
+}
+
+.line-right {
+	width: 300px;
+	height: 30px;
+	float: right;
+}
+
+.yourcomment {
+	width: 700px;
+	height: 170px;
+	margin: 0 auto;
+	margin-top: 20px;
+	border-bottom: 1px dotted gray;
+}
+
+.yourcomment p {
+	color: grey;
+}
+
+.yourword {
+	resize: none
+}
+
+.eimoji {
+	width: 700px;
+	height: 50px;
+	margin: 0 auto;
+	border-bottom: 1px dotted gray;
+	line-height: 50px;
+}
+
+.eimoji img{
+	width: 29px;
+	height: 30px;
+	margin-right: 5px;
+}
+.sendbtn {
+	width: 700px;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+.sendbtn button {
+	width: 130px;
+	height: 30px;
+	line-height: 17px;
+	text-align: center;
+	border-radius: 15px;
+	color: white;
+	font-weight: 600;
+	background-color: pink;
+}
+
+.sendbtn button:hover {
+	color: white;
+	outline: none;
+}
+.sendbtn button:focus{
+	color: white;
+	outline: none;
+}
+
+.bottom-btn{
+	width: 800px;
+	height: 22px;
+	margin-top: 20px;
+}
+.bottom-btn .titlechip{
+	float: left;
+}
+.bottom-btn .titlechip {
+	width: 170px;
+}
+
+.bottom-btn .titlechip .fir {
+	width: 50px;
+	float: left;
+}
+
+.bottom-btn .titlechip .las {
+	width: 90px;
+	float: right;
+}
+
+.bottom-btn .chip {
+	height: 20px;
+	text-align: center;
+	line-height: 20px;
+	color: white;
+	border-radius: 10px;
+	background-color: rgb(241, 88, 128);
+}
+.bottom-btn .buyclass{
+	width: 600px;
+	float: right;
+}
+.buyclass span{
+	color: white;
+}
+
+/* 以上为在线课堂详情 */
+.info-chart{
+	width: 800px;
+	margin: 0 auto;
+}
+.info-chart .bgdiv-black{
+	width: 800px;
+	height: 1975px;
+}
+.info-chart .bgdiv-white{
+	height: 1975px;
+}
+.info-chart .bgdiv-white span{
+	font-size: 16px;
+	font-weight: 600;
+}
+.info-chart .bgdiv-white p{
+	font-size: 16px;
+	font-weight: 600;
+}
+.chart-title{
+	width: 800px;
+	height: 50px;
+	line-height: 65px;
+}
+.chart-title .title{
+	display: block;
+	float: left;
+	margin-left: 60px;
+	width: 400px;
+    max-width: 35%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	word-wrap: break-word;
+}
+.titele-right{
+	float: right;
+	margin-right: 50px;
+}
+.titele-right span{
+	color: gray;
+	margin-right: 20px;
+	font-weight: 500 !important;
+}
+.info-chart .hr-line {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.info-chart .hr-line .lineword{
+	position: absolute;
+	top: 0px;
+	left: 60px;
+	display: block;
+	width: 53px;
+	background-color: white;
+	color: #00BFFF;
+}
+.info-chart .hr-line img{
+	width: 798px;
+	margin-left: 0;
+}
+.chart-lb{
+	width: 800px;
+	height: 150px;
+	margin-top: 15px;
+}
+
+.chart-lb .leftbtn{
+	position: absolute;
+	top: 0px;
+	left: 30px;
+	width: 20px;
+	height: 150px;
+	text-align: center;
+	line-height: 150px;
+}
+
+.chart-lb .imgbody{
+	position: absolute;
+	top: 0px;
+	right: 50px;
+	width: 685px;
+	height: 150px;
+}
+.chart-lb .imgbody .lb-img{
+	width: 150px;
+	height: 150px;
+	margin-left: 15px;
+	float: left;
+	text-align: center;
+}
+.chart-lb .imgbody .lb-img img{
+	width: 131px;
+	height: 125px;
+}
+.chart-lb .rightbtn{
+	position: absolute;
+	top: 0px;
+	right: 30px;
+	width: 20px;
+	height: 150px;
+	text-align: center;
+	line-height: 150px;
+}
+.chart-imp{
+	width: 750px;
+	height: 150px;
+	margin: 0 auto;
+}
+.chart-downimg{
+	width: 800px;
+	height: 190px;
+	margin: 0 auto;
+}
+.chart-downimg img{
+	position: absolute;
+	top: 0px;
+	left: 20px;
+	width: 500px;
+	height: 195px;
+}
+.chart-downimg span{
+	position: absolute;
+	top: 175px;
+	right: 190px;
+	color: rgb(241, 88, 128);
+}
+.chart-wechat{
+	width: 800px;
+	height: 120px;
+	line-height: 50px;
+}
+.chart-wechat .wechatimgdiv {
+	position: absolute;
+	top: 0px;
+	left: 20px;
+	width: 110px;
+	height: 110px;
+	border: 3px solid gainsboro;
+	border-radius: 55px;
+	text-align: center;
+	line-height: 102px;
+}
+.chart-wechat img{
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+}
+.chart-wechat span{
+	position: absolute;
+	top: 30px;
+	right: 180px;
+	color: black;
+}
+.chart-page {
+	width: 750px;
+	height: 900px;
+	margin: 0 auto;
+	border: 1px solid gainsboro;
+	margin-top: 10px;
+	
+	text-align: center;
+	line-height: 900px;
+	color: gray;
+}
+.chart-jiexi{
+	border: 1px solid white;
+	width: 795px;
+	height: 90px;
+}
+.chart-jiexi .chart-black{
+	width: 500px;
+	height: 44px;
+	background: -webkit-linear-gradient(left, yellow , pink);
+	background: -ms-linear-gradient(left, yellow , pink);
+	position: relative;	
+	border: 1px solid;
+	margin-top: 25px;
+    margin-left: 65px;
+	border-radius: 22px;
+	cursor: pointer;
+}
+.chart-jiexi .chart-white{
+	width: 500px;
+	height: 44px;
+	background-color: white;
+	position: relative;
+	top: -10px;
+	left: -10px;
+	border: 1px solid;
+	border-radius: 22px;
+	text-align: center;
+	line-height: 44px;
+}
+/* 以上为具体章节详情*/
 .annbody {
-    width: 100%;
-    background-image: url(../Img/bg.png);
-    padding: 50px 0px 100px 0px;
+	width: 100%;
+	background-image: url(../Img/login/search-bg.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	padding: 50px 0px 100px 0px;
 }
 
 .anncontent {
-    width: 800px;
-    height: 800px;
-    margin: 0 auto;
+	width: 800px;
+	margin: 0 auto;
 }
 
 .annbgdiv-black {
-    width: 800px;
-    height: 200px;
+	width: 800px;
+	height: 200px;
+	margin-top: 20px;
 }
 
 .annbgdiv-white {
-    height: 200px;
+	height: 200px;
 }
 
 .itemtitle {
-    height: 50px;
-    width: 795px;
+	height: 50px;
+	width: 795px;
+	margin-bottom: 5px;
 }
 
+
 .itemtitle span {
-    line-height: 50px;
+	line-height: 50px;
     font-size: 20px;
     font-weight: 600;
     margin-left: 35px;
+    float: left;
+    display: block;
+    max-width: 60%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: break-word;
+}
+
+.annlist .itemtitle span {
+	display: block;
+	float: left;
 }
 
 .itemtitle a {
-    text-decoration: none;
+	text-decoration: none;
+	line-height: 55px;
+	color: rgb(19, 108, 216);
 }
 
 .itemtitle .r-chip {
-    float: right;
-    height: 50px;
-    margin-right: 20px;
-    text-align: center;
+	float: right;
+	height: 50px;
+	margin-right: 20px;
+	text-align: center;
 }
 
 .itemtitle .r-chip .chip-up {
-    height: 20px;
-    margin-top: 5px;
-    border: 1px solid black;
-    background: rgb(114, 222, 234);
+	height: 20px;
+	width: 90px;
+	font-size: 10px;
+	border-radius: 10px;
+	margin-top: 5px;
+	line-height: 20px;
+	background-image: url(../Img/icon/common/blue-div.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
 }
 
 .itemtitle .r-chip .chip-down {
-    margin-top: 5px;
-    height: 20px;
-    border: 1px solid black;
-    background: orangered;
+	margin-top: 5px;
+	height: 20px;
+	font-size: 10px;
+	border-radius: 10px;
+	line-height: 20px;
+	background-image: url(../Img/icon/common/yello-div.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	padding-right: 5px;
+	padding-left: 5px;
 }
 
 .hr-line {
-    width: 798px;
-    margin-left: -1px;
+	width: 798px;
+	margin-left: -1px;
 }
 
 .relative .word {
-    position: absolute;
-    top: 0px;
-    left: 35px;
-    width: 80px;
-    color: rgb(19, 108, 216);
-    font-size: 16px;
-    font-weight: 600;
-    background-color: white;
+	position: absolute;
+	top: 0px;
+	left: 35px;
+	width: 88px;
+	color: rgb(19, 108, 216);
+	font-size: 15px;
+	font-weight: 600;
+	background-color: white;
+	padding-left: 6px;
 }
 
 .relative .time {
-    position: absolute;
-    top: 0px;
-    right: 20px;
-    width: 80px;
-    background-color: white;
+	position: absolute;
+	top: 3px;
+	right: 25px;
+    width: 85px;
+	background-color: white;
+	font-weight: 500;
+	padding-left: 5px;
 }
 
 .iteminfo {
-    margin-left: 35px;
-    margin-top: 10px;
+	margin-left: 20px;
+	margin-top: 10px;
 }
 
 .iteminfo .info-cover {
-    width: 100px;
-    height: 100px;
-    text-align: center;
-    line-height: 100px;
-    float: left;
-    margin-right: 10px;
+	width: 116px;
+	height: 116px;
+	float: left;
+	margin-right: 10px;
 }
-
+.iteminfo .info-cover img{
+	width: 114px;
+	height: 114px;
+}
+.gonggao .info-cover img{
+	height: 102px !important;
+}
 .info-abs {
-    width: 630px;
-    float: right;
-    margin-right: 20px;
+	width: 630px;
+	height: 100px;
+	float: right;
+	margin-right: 20px;
 }
 
 .info-abs .more-info {
-    position: absolute;
-    top: 80px;
-    right: 10px;
-    color: rgb(240, 88, 127);
+	position: absolute;
+	top: 70px;
+	right: 10px;
+	color: rgb(240, 88, 127);
+	cursor: pointer;
 }
+
 
 /* 以上为官方 公告 */
 
 .incenbody {
-    width: 100%;
-    background-image: url(../Img/bg.png);
-    padding: 50px 0px 100px 0px;
+	width: 100%;
+	background-image: url(../Img/login/search-bg.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	padding: 50px 0px 100px 0px;
 }
 
 .incencontent {
-    width: 800px;
-    height: 800px;
-    margin: 0 auto;
+	width: 800px;
+	margin: 0 auto;
 }
-
+.incenlist{
+	margin-top: 35px;
+}
 .incenbgdiv-black {
-    width: 800px;
-    height: 200px;
+	width: 800px;
+	height: 200px;
+	margin-bottom: 20px;
 }
 
 .incenbgdiv-white {
-    height: 200px;
+	height: 200px;
 }
+
 
 /* 以上位考研资讯 */
 
 .stuetcbody {
-    width: 100%;
-    background-image: url(../Img/bg.png);
-    padding: 50px 0px 100px 0px;
+	width: 100%;
+	background-image: url(../Img/login/class-bg.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	padding: 50px 0px 100px 0px;
 }
 
 .stuetccontent {
-    width: 800px;
-    height: 800px;
-    margin: 0 auto;
+	width: 800px;
+	margin: 0 auto;
 }
 
+.stuetclist{
+	margin-top: 20px;
+}
 .stuetcbgdiv-black {
-    width: 350px;
-    height: 200px;
+	width: 390px;
+	height: 180px;
 }
 
 .stuetcbgdiv-white {
-    height: 200px;
+	height: 180px;
+}
+.stuetclist .row{
+	margin-bottom: 20px;
 }
 
 .stuetclist .hr-line {
-    width: 348px;
-    margin-left: -1px;
+	width: 275px;
+	height: 30px;
+	margin-left: 110px;
 }
 
 .stuetc-abs {
-    width: 175px;
-    height: 100px;
-    float: right;
-    margin-right: 20px;
+	width: 215px;
+	height: 100px;
+	float: right;
+	margin-right: 20px;
 }
 
 .stuetclist .more-info {
-    position: absolute;
-    bottom: 0px;
-    right: 0px;
-    color: rgb(240, 88, 127);
+	position: absolute;
+	bottom: -23px;
+	right: 0px;
+	color: rgb(240, 88, 127);
+	cursor: pointer;
 }
+
+.stuetclist .stuetc{
+	margin-top: 20px;
+	height: 20px;
+}
+.stuetclist .stuetc .word{
+	width: 100px;
+	left: 15px;
+	top: -5px;
+	font-size: 20px;
+}
+
 
 /* 以上位学员心得 */
 
 .ddbody {
-    width: 100%;
-    background-image: url(../Img/bg.png);
-    padding: 50px 0px 100px 0px;
+	width: 100%;
+	background-image: url(../Img/login/class-bg.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	padding: 50px 0px 100px 0px;
 }
 
 .ddcontent {
-    width: 800px;
-    height: 800px;
-    margin: 0 auto;
+	width: 800px;
+	margin: 0 auto;
 }
 
 .ddbgdiv-black {
-    width: 350px;
-    height: 200px;
+	width: 350px;
+	height: 200px;
 }
 
 .ddbgdiv-white {
-    height: 200px;
+	height: 200px;
 }
 
 .ddbgdiv-black {
-    width: 240px;
-    height: 250px;
-    background-color: #ffDBE0;
-    position: relative;
-    border: 1px solid;
-    margin-left: -10px;
+	width: 240px;
+	height: 250px;
+	background-color: #ffDBE0;
+	position: relative;
+	border: 1px solid;
+	margin-left: -10px;
 }
 
 .dddiv-white {
-    width: 240px;
-    height: 250px;
-    position: absolute;
-    top: -10px;
-    left: -10px;
-    background-color: white;
-    border: 1px solid;
+	width: 240px;
+	height: 250px;
+	position: absolute;
+	top: -10px;
+	left: -10px;
+	background-color: white;
+	border: 1px solid;
 }
 
 .dddiv {
+	width: 205px;
+    height: 45px;
     margin-left: 20px;
-    margin-right: 20px;
     margin-top: 10px;
+	overflow: hidden;
 }
 
 .dddiv-white .class-cover {
-    height: 150px;
-    margin: 10px 10px 0 10px;
-    background-image: url(../Img/index/in-teach-img-01.png);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+	height: 150px;
+	margin: 10px 10px 0 10px;
+	background-image: url(../Img/index/in-teach-img-01.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
 }
-
+.dddiv-hr{
+	height: 20px;
+	margin-top: 10px;
+}
 .dddiv-white .dddiv span {
-    font-weight: 600;
-    font-size: 16px;
+	font-weight: 600;
+	font-size: 16px;
+	/* color: gray; */
 }
 
 .ddlist .relative .word-fi {
-    position: absolute;
-    top: 0px;
-    left: 20px;
-    background-color: white;
+	position: absolute;
+	top: 0px;
+	left: 15px;
+	background-color: white;
+	font-size: 12px;
 }
 
 .ddlist .relative .img-bwt {
-    position: absolute;
-    top: 5px;
-    left: 95px;
-    width: 75px;
+	position: absolute;
+	top: 6px;
+    left: 90px;
+    width: 60px;
 }
 
 .ddlist .relative .word-la {
-    position: absolute;
-    top: 0px;
-    right: 20px;
-    background-color: beige;
+	position: absolute;
+	top: 0px;
+	right: 10px;
+	background-image: url(../Img/icon/common/yello-div.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	border-radius: 20px;
+	width: 82px;
+	height: 17px;
+	font-size: 12px;
+	text-align: center;
 }
+
 
 /* 以上位设计动态 */
 
 .etcinfocent {
-    width: 800px;
-    margin: 0 auto;
+	width: 800px;
+	margin: 0 auto;
 }
 
 .etcinfocent .bgdiv-black {
-    width: 800px;
-    height: 500px;
-    margin: 0;
+	width: 800px;
+	height: 500px;
+	margin: 0;
 }
 
 .etcinfocent .bgdiv-white {
-    width: 800px;
-    height: 500px;
+	width: 800px;
+	height: 500px;
 }
 
 .ectinfo-title {
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-right: 0px;
+	margin-top: 20px;
+	margin-right: 0px;
 }
 
 .title-usericon {
-    height: 80px;
-    text-align: center;
+	height: 78px;
+	margin-left: 35px;
+	text-align: center;
 }
 
 .title-usericon img {
-    width: 75px;
-    height: 75px;
+	width: 75px;
+	height: 75px;
 }
 
 .title-info {
-    height: 80px;
+	height: 80px;
 }
 
+.title-w p{
+	font-weight: 600;
+}
+.title-w span{
+	font-weight: 600;
+}
 .title-chip {
-    height: 80px;
+	height: 80px;
 }
 
 .title-chip div {
-    width: 100px;
-    height: 26px;
-    border-radius: 13px;
-    line-height: 26px;
-    border: 1px solid;
-    text-align: center;
-    color: white;
+	width: 100px;
+	height: 26px;
+	border-radius: 13px;
+	line-height: 22px;
+	border: 1px solid;
+	text-align: center;
+	color: white;
 }
 
 .title-chip i {
-    margin-right: 5px;
+	margin-right: 5px;
 }
 
 .title-chip .title-chip-up {
-    background-color: aqua;
+	background-color: rgb(248, 125, 151);
+	cursor: pointer;
 }
 
 .title-chip .title-chip-down {
-    margin-top: 37px;
-    background-color: rgb(240, 88, 127);
+	margin-top: 20px;
+	background: -webkit-linear-gradient(left, rgb(128, 232, 231), rgb(159, 174, 254));
+	background: -ms-linear-gradient(left, rgb(128, 232, 231), rgb(159, 174, 254));
+	cursor: pointer;
 }
 
 .etcinfocent .hr-line {
-    width: 800px;
-    margin-left: -1px;
-    margin-top: 15px;
+	width: 800px;
+	margin-left: -1px;
+	margin-top: 15px;
 }
 
 .ectinfo-cont {
-    width: 700px;
-    margin: 0 auto;
+	width: 700px;
+	margin: 0 auto;
 }
+
 
 /* 以上位心得详情 */
 
 .stuworkbody {
-    width: 100%;
-    background-image: url(../Img/bg.png);
-    padding: 50px 0px 100px 0px;
+	width: 100%;
+	background-image: url(../Img/login/class-bg.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	padding: 50px 0px 100px 0px;
+}
+.stuwinfo{
+	background-image: url(../Img/login/login-bg.png);
 }
 
 .stuworkcontent {
-    width: 800px;
-    margin: 0 auto;
+	width: 800px;
+	margin: 0 auto;
 }
 
 .stuworklist {
-    width: 800px;
-    height: 800px;
-    margin-top: 30px;
+	width: 800px;
+	margin-top: 30px;
 }
 
 .stuworkitemlist {
-    margin: 0;
-    margin-bottom: 20px;
+	margin: 0;
+	margin-bottom: 30px;
 }
 
 .stuwork-black {
-    width: 230px;
-    height: 200px;
-    margin-top: 0px;
+	width: 245px;
+	height: 245px;
+	margin-top: 0px;
 }
 
 .stuwork-white {
-    height: 200px;
-    text-align: center;
+	height: 245px;
+	text-align: center;
 }
-
+.stuwork-info img{
+	width: 220px;
+    height: 200px;
+}
 .stuwork-white span {
-    display: block;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    font-weight: 600;
+	display: block;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-weight: 600; 
+    /* float: left;
+    max-width: 50%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: break-word; */
 }
 
 .stuworkinfo-lb {
-    width: 800px;
-    margin-top: 30px;
+	width: 800px;
+	margin-top: 30px;
 }
 
 .stuworkinfo-black {
-    width: 800px;
-    height: 740px;
-    margin-top: 0;
+	width: 800px;
+	height: 765px;
+	margin-top: 0;
 }
 
 .stuworkinfo-white {
-    height: 740px;
+	height: 765px;
 }
 
 .stuworkinfo-lb .lbcontainer {
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    position: relative;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
 }
 
 .stuworkinfo-lb .warpper {
-    width: 700px;
-    height: 500px;
-    margin: 0 auto;
-    margin-top: 20px;
+	width: 700px;
+	height: 500px;
+	margin: 0 auto;
+	margin-top: 20px;
 }
 
 .stuworkinfo-lb .imgList {
-    width: 4800px;
-    position: absolute;
-    z-index: 5;
+	width: 5600px;
+	position: absolute;
+	z-index: 5;
+	list-style: none;
+	margin-left: -40px;
 }
 
 .stuworkinfo-lb .imgList>li {
-    float: left;
-    width: 800px;
-    height: 600px;
+	float: left;
+	width: 800px;
+	height: 600px;
 }
 
 .stuworkinfo-lb .lbcontainer .imgList>li>img {
-    width: 100%;
-    height: 100%;
+	width: 100%;
+	height: 100%;
 }
 
 .stuworkcontent .hr-img {
-    width: 798px;
-    margin-left: -1px;
-    margin-top: 20px;
+	width: 798px;
+	height: 25px;
+	margin-left: -1px;
+	margin-top: 20px;
 }
 
 .work-abs {
-    width: 700px;
-    height: 200px;
-    margin: 0 auto;
+	width: 700px;
+	height: 200px;
+	margin: 0 auto;
 }
 
 .abs-title {
-    width: 700px;
-    height: 50px;
+	width: 700px;
+	height: 50px;
 }
 
 .abs-title .abs-left-span {
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 50px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 50px;
 }
 
 .abs-title .abs-btw-btn {
-    margin-left: 50px;
-    margin-top: 10px;
-    width: 90px;
-    height: 16px;
-    border-radius: 8px;
-    border: 1px solid;
-    font-size: 12px;
-    background: -webkit-linear-gradient(right, rgb(225, 238, 167), white, rgb(225, 238, 167));
+	position: absolute;
+	top: 18px;
+	left: 75px;
+	width: 100px;
+	height: 18px;
+	line-height: 18px;
+	text-align: center;
+	border-radius: 9px;
+	font-size: 12px;
+	background: -webkit-linear-gradient(right, rgb(225, 218, 68), white, rgb(225, 218, 68));
+	background: -ms-linear-gradient(right, rgb(225, 218, 68), white, rgb(225, 218, 68));
 }
 
 .abs-title .abs-right-span {
-    float: right;
-    line-height: 50px;
-    color: rgb(19, 108, 216);
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	line-height: 50px;
+	color: rgb(19, 108, 216);
 }
 
 .abs-center {
-    height: 50px;
+	height: 50px;
+	margin-bottom: 20px;
 }
-
+.abs-center p{
+	color: gray;
+}
 .abs-footer {
-    height: 50px;
+	height: 50px;
+	margin-top: 35px;
 }
 
 .abs-center span {
-    color: rgb(19, 108, 216);
-    font-weight: 600;
-    float: left;
+	color: rgb(19, 108, 216);
+	font-weight: 600;
+	float: left;
 }
 
 .abs-footer span {
-    color: rgb(19, 108, 216);
-    font-weight: 600;
-    float: left;
+	color: rgb(19, 108, 216);
+	font-weight: 600;
+	float: left;
+}
+.abs-footer p{
+color: gray;
 }
 
-.border {
-    border: 1px solid red;
-}
-
-.searchinput {
-    float: right;
-}

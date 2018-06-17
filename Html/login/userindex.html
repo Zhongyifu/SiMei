@@ -1,304 +1,332 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>user index</title>
-    <link rel="stylesheet" href="../../Css/bootstrap.min.css">
-    <link rel="stylesheet" href="../../Css/login.css">
-    <link rel="stylesheet" href="../../Css/common/common.css">
-</head>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>user index</title>
+		<link rel="stylesheet" href="../../Css/bootstrap.min.css">
+		<link rel="stylesheet" href="../../Css/login.css">
+		<link rel="stylesheet" href="../../Css/common/common.css">
+	</head>
 
-<body>
+	<body>
 
-    <div class="top-page">
-        <nav class="navbar navbar-default">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <img src="../../Img/icon/common/logo.png" alt="">
-                </div>
+		<div class="top-page">
+			<nav class="navbar navbar-default">
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<img src="../../Img/icon/common/logo.png" alt="">
+					</div>
 
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav">
-                        <li class="navbar-nav-itme">
-                            <a href="#">首页</a>
-                        </li>
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav">
+							<li class="navbar-nav-itme">
+								<a href="#">首页</a>
+							</li>
 
-                        <li class="dropdown navbar-nav-itme">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">线下课程</a>
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <a href="#">2018课程的设置</a>
-                                </li>
-                                <li>
-                                    <a href="#">2018课程设置</a>
-                                </li>
-                                <li>
-                                    <a href="#">18课程设置</a>
-                                </li>
-                                <li>
-                                    <a href="#">课程设置</a>
-                                </li>
-                                <li>
-                                    <a href="#">程设置</a>
-                                </li>
-                                <li>
-                                    <a href="#">设置</a>
-                                </li>
-                                <li>
-                                    <a href="#">置</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="navbar-nav-itme">
-                            <a href="#">线上课程</a>
-                        </li>
-                        <li class="navbar-nav-itme">
-                            <a href="#">资讯中心</a>
-                        </li>
-                        <li class="navbar-nav-itme">
-                            <a href="#">素材中心</a>
-                        </li>
-                    </ul>
+							<li class="dropdown navbar-nav-itme">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">线下课程</a>
+								<ul class="dropdown-menu">
+									<li>
+										<a href="#">2018课程的设置</a>
+									</li>
+									<li>
+										<a href="#">2018课程设置</a>
+									</li>
+									<li>
+										<a href="#">18课程设置</a>
+									</li>
+									<li>
+										<a href="#">课程设置</a>
+									</li>
+									<li>
+										<a href="#">程设置</a>
+									</li>
+									<li>
+										<a href="#">设置</a>
+									</li>
+									<li>
+										<a href="#">置</a>
+									</li>
+								</ul>
+							</li>
+							<li class="navbar-nav-itme">
+								<a href="#">线上课程</a>
+							</li>
+							<li class="navbar-nav-itme">
+								<a href="#">资讯中心</a>
+							</li>
+							<li class="navbar-nav-itme">
+								<a href="#">素材中心</a>
+							</li>
+						</ul>
 
-                    <div class="topnav-right">
-                        <span>登陆</span>
-                        <span>/</span>
-                        <span>免费注册</span>
-                        <img src="../../Img/icon/common/touxiang.png" alt="">
-                    </div>
-                </div>
-            </div>
-        </nav>
-    </div>
+						<div class="topnav-right">
+							<span>登陆</span>
+							<span>/</span>
+							<span>免费注册</span>
+							<img src="../../Img/icon/common/touxiang.png" alt="">
+						</div>
+					</div>
+				</div>
+			</nav>
+		</div>
 
-    <div class="userindexbody">
-        <div class="userindexcontent">
-            <div class="logintitle pageaddress">
-                <span>您的位置：</span>
-                <span>首页</span>
-                <span>/</span>
-                <span>个人中心</span>
-            </div>
-            <div class="logintitle user-icon">
-                <div class="usericon">
-                    <img src="../../Img/icon/common/touxiang.png" alt="">
-                </div>
-                <div class="relative">
-                    <img src="../../Img/icon/common/short-btn-icon.png" alt="">
-                    <span class="change-usericon">更换头像</span>
-                </div>
-            </div>
+		<div class="userindexbody">
+			<div class="userindexcontent">
+				<div class="logintitle pageaddress">
+					<span>您的位置：</span>
+					<span>首页</span>
+					<span>/</span>
+					<span>个人中心</span>
+				</div>
+				<div class="logintitle user-icon">
+					<div class="usericon">
+						<img src="../../Img/icon/common/touxiang.png" alt="">
+					</div>
+					<span class="userid" id="userid">userID-CommunionInSky</span>
+					<div class="relative pointer changeusericon">
+						<img src="../../Img/icon/common/short-btn-icon.png" alt="">
+						<span class="change-usericon" style="right: 16px;">修改个人信息</span>
+					</div>
+				</div>
 
-            <div class="userindexcenter">
-                <div class="bgdiv-black userindex-black">
-                    <div class="bgdiv-white userindex-white">
-                        <div class="tip row">
-                            <div class="tipitem col-sm-3">
-                                <img src="../../Img/index/in-info.png" alt="">
-                            </div>
-                            <div class="tipitem col-sm-3">
-                                <img src="../../Img/index/in-info.png" alt="">
-                            </div>
-                            <div class="tipitem col-sm-3">
-                                <img src="../../Img/index/in-info.png" alt="">
-                            </div>
-                            <div class="tipitem col-sm-3">
-                                <img src="../../Img/index/in-info.png" alt="">
-                            </div>
-                        </div>
-                        <img class="hr-img" src="../../Img/icon/common/hrline.png" alt="">
-                        <div class="history">
-                            <div class="history-title">
-                                <span>学习足迹:</span>
-                            </div>
-                            <div class="history-content">
-                                <div class="step relative">
-                                    <div class="left-circle"></div>
-                                    <div class="center-span">
-                                        <span>世界近代史</span>
-                                    </div>
-                                    <div class="right-div">
-                                        <span>1.近代</span>
-                                    </div>
-                                </div>
-                                <div class="circle">
-                                    <div></div>
-                                    <div></div>
-                                    <div></div>
-                                    <div></div>
-                                </div>
-                                <div class="step relative opacity">
-                                    <div class="left-circle circley"></div>
-                                    <div class="center-span">
-                                        <span>世界近代史</span>
-                                    </div>
-                                    <div class="right-div">
-                                        <span>1.近代</span>
-                                    </div>
-                                </div>
-                                <div class="circle">
-                                    <div></div>
-                                    <div></div>
-                                    <div></div>
-                                    <div></div>
-                                </div>
-                                <div class="step relative opacity">
-                                    <div class="left-circle circley"></div>
-                                    <div class="center-span">
-                                        <span>世界近代史</span>
-                                    </div>
-                                    <div class="right-div">
-                                        <span>1.近代</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <img class="hr-img" src="../../Img/icon/common/hrline.png" alt="">
-                        <div class="timeinfo">
-                            <div class="time-left">
-                                <span>你你你你：</span>
-                                <div class="time-img">放图片</div>
-                            </div>
-                            <div class="time-right">
-                                <span>你你你你：</span>
-                                <div class="time-img"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+				<div class="userindexcenter">
+					<div class="bgdiv-black userindex-black">
+						<div class="bgdiv-white userindex-white">
+							<div class="tip row">
+								<div class="tipitem col-sm-3 relative">
+									<div class="news">
+										<p>
+											2
+										</p>
+									</div>
+									<span>我的占座</span>
+									<img src="../../Img/index/in-info.png" alt="">
+								</div>
+								<div class="tipitem col-sm-3">
+									<span>我的通知</span>
+									<img src="../../Img/index/in-info.png" alt="">
+								</div>
+								<div class="tipitem col-sm-3">
+									<span>我的课程</span>
+									<img src="../../Img/index/in-info.png" alt="">
+								</div>
+								<div class="tipitem col-sm-3">
+									<span>我的收藏</span>
+									<img src="../../Img/index/in-info.png" alt="">
+								</div>
+							</div>
+							<img class="hr-img" src="../../Img/icon/common/hrline.png" alt="">
+							<div class="history">
+								<div class="history-title">
+									<span>学习足迹:</span>
+								</div>
+								<div class="history-content">
+									<div class="step relative">
+										<div class="left-circle"></div>
+										<div class="center-span">
+											<span>世界近代设计史</span>
+										</div>
+										<div class="right-div">
+											<span>1 世界近代设计史</span>
+										</div>
+									</div>
+									<div class="circle">
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+									</div>
+									<div class="step relative opacity">
+										<div class="left-circle circley"></div>
+										<div class="center-span">
+											<span>世界近代史</span>
+										</div>
+										<div class="right-div">
+											<span>1 近代世界近代史</span>
+										</div>
+									</div>
+									<div class="circle">
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+									</div>
+									<div class="step relative opacity">
+										<div class="left-circle circley"></div>
+										<div class="center-span">
+											<span>世界近代史</span>
+										</div>
+										<div class="right-div">
+											<span>3 近世界近代史代</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<img class="hr-img" src="../../Img/icon/common/hrline.png" alt="">
+							<div class="timeinfo relative">
+								<div class="time-left">
+									<span>你已经学习了：</span>
+									<div class="time-img">
+										<span>158節課程</span>
+										<img style="width: 180px;height: 60px;" src="../../Img/login/userindex-01.png" />
+									</div>
+								</div>
+								<div class="time-bet">
+									<div class="time-img">
+										<span>57天</span>
+										<img src="../../Img/login/userindex-02.png" />
+									</div>
+								</div>
+								<div class="time-right">
+									<span>距离考研还有：</span>
+									<div class="time-img">
+										<span>133天</span>
+										<img src="../../Img/login/userindex-03.png" />
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 
+		<div id="footpage" class="foot-page">
+			<div class="fdiv">
+				<div class="flink">
 
-    <div id="footpage" class="foot-page">
-        <div class="fdiv">
-            <div class="flink">
+					<div class="fcontent">
 
-                <div class="fcontent">
+						<div class="rword">
+							<div class="hader-school ">
+								<div class="school-img relative">
+									<span class="span-1">关于我们</span>
+									<span class="span-2">联系我们</span>
+									<img src="../../Img/icon/common/joinus.png" class="sealine img-1" alt="">
+									<img src="../../Img/icon/common/joinus.png" class="sealine img-2" alt="">
+								</div>
+								<span class="rword-r">友情链接：</span>
+							</div>
+							<ul class="rword-ul school">
+								<li class="rword-li ">
+									<a href="#">清华大学美术学院</a>
+								</li>
+								<li class="rword-li">
+									<a href="#">中央美术学院</a>
+								</li>
+								<li class="rword-li">
+									<a href="#">北京服装学院</a>
+								</li>
+								<li class="rword-li">
+									<a href="#">北京理工大学</a>
+								</li>
+								<li class="rword-li">
+									<a href="#">北京林业大学</a>
+								</li>
+								<li class="rword-li">
+									<a href="#">北京电影学院</a>
+								</li>
+							</ul>
+						</div>
 
-                    <div class="rword">
-                        <div class="hader-school">
-                            <img src="../../Img/icon/common/joinus.png" class="sealine" alt="">
-                            <img src="../../Img/icon/common/joinus.png" class="sealine img-2" alt="">
-                            <span class="rword-r">友情链接：</span>
-                        </div>
-                        <ul class="rword-ul school">
-                            <li class="rword-li ">
-                                <a href="#">清华大学美术学院</a>
-                            </li>
-                            <li class="rword-li">
-                                <a href="#">中央美术学院</a>
-                            </li>
-                            <li class="rword-li">
-                                <a href="#">北京服装学院</a>
-                            </li>
-                            <li class="rword-li">
-                                <a href="#">北京理工大学</a>
-                            </li>
-                            <li class="rword-li">
-                                <a href="#">北京林业大学</a>
-                            </li>
-                            <li class="rword-li">
-                                <a href="#">北京电影学院</a>
-                            </li>
-                        </ul>
-                    </div>
+					</div>
 
-                </div>
+					<div class="fcontent ">
 
-                <div class="fcontent ">
-                    <div class="rword">
-                        <div class="hader-school">
-                            <img src="../../Img/icon/common/joinus.png" class="sealine" alt="">
-                            <img src="../../Img/icon/common/joinus.png" class="sealine img-2" alt="">
-                            <span class="rword-r">官方账号：</span>
-                        </div>
-                        <ul class="rword-ul">
-                            <li class="rword-li">
-                                <a href="#">
-                                    <img src="../../Img/icon/common/zhihu.gif" data-toggle="tooltip" data-placement="bottom" title="知乎">
-                                </a>
-                            </li>
-                            <li class="rword-li">
-                                <a href="#">
-                                    <img src="../../Img/icon/common/xinlang.gif" data-toggle="tooltip" data-placement="bottom" title="新浪微博">
-                                </a>
-                            </li>
-                            <li class="rword-li">
-                                <a href="#">
-                                    <img src="../../Img/icon/common/huaban.gif" data-toggle="tooltip" data-placement="bottom" title="花瓣网">
-                                </a>
-                            </li>
-                            <li class="rword-li">
-                                <a href="#">
-                                    <img src="../../Img/icon/common/tb001.gif" data-toggle="tooltip" data-placement="bottom" title="不知道">
-                                </a>
-                            </li>
-                            <li class="rword-li">
-                                <a href="#">
-                                    <img src="../../Img/icon/common/xiangji.gif" data-toggle="tooltip" data-placement="bottom" title="不知道">
-                                </a>
-                            </li>
-                            <li class="rword-li">
-                                <a href="#">
-                                    <img src="../../Img/icon/common/weibo.gif" data-toggle="tooltip" data-placement="bottom" title="腾讯微博">
-                                </a>
-                            </li>
-                            <li class="rword-li">
-                                <a href="#">
-                                    <img src="../../Img/icon/common/txship.gif" data-toggle="tooltip" data-placement="bottom" title="腾讯视频">
-                                </a>
-                            </li>
-                            <li class="rword-li">
-                                <a href="#">
-                                    <img src="../../Img/icon/common/txketang.gif" data-toggle="tooltip" data-placement="bottom" title="腾讯课堂">
-                                </a>
-                            </li>
-                            <li class="rword-li last-li">
-                                <span class="rword-r">随时随地，都有我们陪伴您的身影！</span>
-                            </li>
-                        </ul>
+						<div class="rword">
+							<div class="hader-school ">
+								<div class="school-img relative">
+									<span class="span-1">加入我们</span>
+									<span class="span-2">在线帮助</span>
+									<img src="../../Img/icon/common/joinus.png" class="sealine img-1" alt="">
+									<img src="../../Img/icon/common/joinus.png" class="sealine img-2" alt="">
+								</div>
+								<span class="rword-r">友情链接：</span>
+							</div>
+							<ul class="rword-ul">
+								<li class="rword-li">
+									<a href="#">
+										<img src="../../Img/icon/common/zhihu.gif" data-toggle="tooltip" data-placement="bottom" title="知乎">
+									</a>
+								</li>
+								<li class="rword-li">
+									<a href="#">
+										<img src="../../Img/icon/common/xinlang.gif" data-toggle="tooltip" data-placement="bottom" title="新浪微博">
+									</a>
+								</li>
+								<li class="rword-li">
+									<a href="#">
+										<img src="../../Img/icon/common/huaban.gif" data-toggle="tooltip" data-placement="bottom" title="花瓣网">
+									</a>
+								</li>
+								<li class="rword-li">
+									<a href="#">
+										<img src="../../Img/icon/common/tb001.gif" data-toggle="tooltip" data-placement="bottom" title="不知道">
+									</a>
+								</li>
+								<li class="rword-li">
+									<a href="#">
+										<img src="../../Img/icon/common/xiangji.gif" data-toggle="tooltip" data-placement="bottom" title="不知道">
+									</a>
+								</li>
+								<li class="rword-li">
+									<a href="#">
+										<img src="../../Img/icon/common/weibo.gif" data-toggle="tooltip" data-placement="bottom" title="腾讯微博">
+									</a>
+								</li>
+								<li class="rword-li">
+									<a href="#">
+										<img src="../../Img/icon/common/txship.gif" data-toggle="tooltip" data-placement="bottom" title="腾讯视频">
+									</a>
+								</li>
+								<li class="rword-li">
+									<a href="#">
+										<img src="../../Img/icon/common/txketang.gif" data-toggle="tooltip" data-placement="bottom" title="腾讯课堂">
+									</a>
+								</li>
+								<li class="rword-li last-li">
+									<span class="rword-r">随时随地，都有我们陪伴您的身影！</span>
+								</li>
+							</ul>
 
-                    </div>
+						</div>
 
-                </div>
+					</div>
 
-            </div>
+				</div>
 
-            <div class="fnote">
-                <span>Copyright &copy; 2011-2016 Mapla.All Rights Reserved.</span>
-                <span>关于我们</span>
-                <br>
-                <span>北京美博惠人国际教育科技有限公司 版权所有 京ICP备11044802号-1</span>
-            </div>
+				<div class="fnote">
+					<span>Copyright &copy; 2011-2016 Mapla.All Rights Reserved.</span>
+					<span>关于我们</span>
+					<br>
+					<span>北京美博惠人国际教育科技有限公司 版权所有 京ICP备11044802号-1</span>
+				</div>
 
-        </div>
-    </div>
+			</div>
+		</div>
 
-    <!-- 右侧菜单 -->
-    <div class="rightnav">
-        <div class="classdate">
-            <img src="../../Img/icon/common/classdate.png" alt="" srcset="">
-        </div>
+		<!-- 右侧菜单 -->
+		<div class="rightnav">
 
-        <div class="askonline">
-            <div class="askimg">
-                <img src="../../Img/icon/common/askonline.png" alt="">
-            </div>
-            <div class="askman">
-                <button class=" btn btn-info">冯老师</button>
-                <button class=" btn btn-info">陶老师</button>
-                <button class=" btn btn-info">王老师</button>
-            </div>
-        </div>
-    </div>
-</body>
-<script src="../../Js/jquery-3.3.1.min.js"></script>
-<script src="../../Js/bootstrap.min.js"></script>
-<script src="../../Js/common.js"></script>
+			<div class="askonline">
+				<div class="askimg">
+					<img src="../../Img/icon/common/askonline.png" alt="">
+				</div>
+				<div class="askman">
+					<button class=" btn btn-info">冯老师</button>
+					<button class=" btn btn-info">陶老师</button>
+					<button class=" btn btn-info">王老师</button>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script src="../../Js/jquery-3.3.1.min.js"></script>
+	<script src="../../Js/bootstrap.min.js"></script>
+	<script src="../../Js/common.js"></script>
 
 </html>

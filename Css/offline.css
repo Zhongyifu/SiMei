@@ -1,465 +1,638 @@
-.classbody {
-    width: 100%;
-    background-image: url(../Img/bg.png);
-    padding: 50px 0px 100px 0px;
+﻿.classbody {
+	width: 100%;
+	background-image: url(../Img/login/myclass-bg.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	padding-bottom: 230px;
+	padding: 50px 0px 100px 0px;
 }
 
 .classbody .bgdiv-black {
-    height: 1030px;
-    width: 800px;
-    margin-top: 10px;
+	height: 1030px;
+	width: 800px;
+	margin-top: 10px;
 }
 
 .classbody .bgdiv-white {
-    height: 1030px;
+	height: 1030px;
 }
 
 .classcontent {
-    width: 800px;
-    margin: 0 auto;
+	width: 800px;
+	margin: 0 auto;
 }
+
 
 /* table */
 
 .classinfotable {
-    width: 100%;
-    height: 350px;
+	width: 100%;
+	height: 350px;
+	font-weight: 600;
 }
 
 .classinfotable .thead td {
-    text-align: center;
-    height: 35px;
-    color: white;
-    background-color: rgb(240, 88, 127);
+	text-align: center;
+	height: 35px;
+	color: white;
+	background-color: rgb(240, 88, 127);
+}
+
+.classinfotable-c .bgdiv-black {
+	height: 911px;
+}
+
+.classinfotable-c .bgdiv-white {
+	height: 911px;
 }
 
 .classinfotab td {
-    padding-left: 10px;
+	padding-left: 10px;
 }
 
 .classinfotable .thead .jieduan {
-    width: 85px;
+	width: 85px;
 }
 
 .classinfotable .thead .mingchen {
-    width: 130px;
+	width: 130px;
 }
 
 .classinfotable .thead .shezhi {
-    width: 130px;
+	width: 130px;
 }
 
 .classinfotable .thead .keshi {
-    width: 60px;
+	width: 70px;
 }
 
 .classinfotable .thead .xuefei {
-    width: 60px;
+	width: 60px;
 }
 
 .classinfotable .thead .neirong {
-    width: 270px;
+	width: 270px;
 }
 
 .classinfotable .neironginfo {
-    padding-top: 10px;
+	padding-top: 10px;
 }
 
 .classinfotable .thead .tixi {
-    width: 110px;
+	width: 110px;
 }
 
 .classinfotable .tixiinfo p {
-    margin: 0px;
+	margin: 0px;
+}
+
+.classinfotable .tixiinfo p:nth-child(1) {
+	font-size: 30px;
+	font-weight: 500;
+	width: 110px;
 }
 
 .jd td {
-    padding-left: 10px;
+	padding-left: 10px;
 }
 
 .jd td:first-child {
-    text-align: center;
+	text-align: center;
 }
 
 .clcontent p {
-    line-height: 5px;
+	line-height: 5px;
 }
 
 .classinfotable .jd-one {
-    background-color: rgb(217, 248, 248);
+	background: -webkit-linear-gradient(left, rgb(217, 248, 248), rgb( 226, 231, 255));
+	background: -ms-linear-gradient(left, rgb(217, 248, 248), rgb( 226, 231, 255));
 }
 
 .classinfotab {
-    background-color: rgb(255, 242, 238);
+	font-weight: 600;
+	background: -webkit-linear-gradient(left, rgb(252, 223, 230), rgb( 255, 245, 240));
+	background: -ms-linear-gradient(left, rgb(252, 223, 230), rgb( 255, 245, 240));
 }
 
 .classinfotab .tdinfo-o {
-    width: 80px;
+	width: 80px;
 }
 
 .classinfotab .tdinfo-t {
-    width: 120px;
+	width: 120px;
 }
 
 .classinfotab .tdinfo-th {
-    width: 120px;
+	width: 110px;
 }
 
 .classinfotab .tdinfo-f {
-    width: 60px;
+	width: 70px;
 }
 
 .classinfotab .tdinfo-fi {
-    width: 60px;
+	width: 60px;
 }
 
 .classinfotab .tdinfo-x {
-    width: 80px;
+	width: 80px;
 }
 
 .classinfotab {
-    width: 100%;
-    height: 150px;
-    margin-top: 20px;
+	width: 100%;
+	height: 165px;
+	margin-top: 20px;
 }
+
 
 /* 以上位课程列表 */
 
 .achbody {
-    width: 100%;
-    background-image: url(../Img/bg.png);
-    padding: 50px 0px 100px 0px;
+	width: 100%;
+	background-image: url(../Img/login/myclass-bg.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	padding: 50px 0px 100px 0px;
 }
 
 .achcontent {
-    width: 800px;
-    height: 800px;
-    margin: 0 auto;
+	width: 800px;
+	margin: 0 auto;
 }
 
 .pagelist {
-    width: 100%;
-    height: 500px;
+	width: 100%;
 }
 
 .achitem {
-    margin: 0;
-    margin-top: 30px;
+	margin: 0;
+	margin-top: 30px;
 }
 
 .achitem .abgdiv-black {
-    width: 230px;
-    height: 150px;
-    background-color: #ffDBE0;
-    position: relative;
-    border: 1px solid;
-    margin-left: 20px;
+	width: 230px;
+	height: 150px;
+	background-color: #ffDBE0;
+	position: relative;
+	border: 1px solid;
+	margin-left: 20px;
 }
 
 .achitem .abgdiv-white {
-    width: 230px;
-    height: 150px;
-    position: absolute;
-    top: -10px;
-    left: -10px;
-    background-color: white;
-    border: 1px solid;
+	width: 230px;
+	height: 150px;
+	position: absolute;
+	top: -10px;
+	left: -10px;
+	background-color: white;
+	border: 1px solid;
 }
 
 .achitem .stuname {
-    height: 50px;
-    line-height: 50px;
+	height: 50px;
+	line-height: 50px;
+	margin-right: 2px;
+	;
 }
 
 .achitem .stuname span {
-    margin-left: 20px;
-    font-size: 20px;
-    font-weight: 0600;
-    color: rgb(19, 108, 216);
+	margin-left: 20px;
+	font-size: 20px;
+	font-weight: 0600;
+	color: #136dd8;
 }
 
 .achitem .stuname img {
-    float: right;
-    width: 120px;
-    margin-top: 18px;
+	float: right;
+	width: 120px;
+	margin-top: 21px;
 }
 
 .stuinfo {
-    margin-top: 10px;
-    margin-left: 20px;
+	margin-top: 10px;
+	margin-left: 20px;
 }
 
 .stuinfo p {
-    font-size: 15px;
-    color: rgb(19, 108, 216);
-    font-weight: 600;
+	font-size: 15px;
+	color: #136dd8;
+	font-weight: 600;
 }
+
 
 /*以上是历年成绩 */
 
 .teachhbody {
-    width: 100%;
-    height: 800px;
-    background-image: url(../Img/bg.png);
-    padding: 50px 0px 100px 0px;
+	width: 100%;
+	background-image: url(../Img/login/login-bg.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	padding: 50px 0px 100px 0px;
 }
 
 .teachhbody .achcontent {
-    width: 800px;
-    height: 800px;
-    margin: 0 auto;
+	width: 800px;
+	margin: 0 auto;
 }
 
 .teachhbody .teachlist {
-    width: 800px;
-    height: 300px;
+	width: 800px;
 }
+
+.teachlist {
+	width: 800px;
+}
+
+.listrow {
+	margin: 0px;
+	margin-bottom: 20px;
+}
+
+.listrow .listitem {
+	height: 250px;
+	margin-left: 25px;
+	width: 30%;
+	background-image: url('../Img/search/teachlist.png');
+	background-size: 100% 100%;
+}
+
+.listitem .name {
+	position: absolute;
+	top: 17px;
+	left: 15px;
+	font-size: 16px;
+	font-weight: 600;
+	overflow-x: hidden;
+}
+
+.listitem .work {
+	position: absolute;
+	top: 65px;
+	left: 20px;
+	width: 100px;
+}
+
+.listitem .class {
+	position: absolute;
+	top: 115px;
+	left: 20px;
+	color: rgb(19, 108, 216);
+	width: 100px;
+}
+
+.listitem .ach-div {
+	position: absolute;
+	top: 160px;
+	left: 20px;
+	width: 205px;
+	height: 60px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.listitem .ach {
+	color: gray;
+	font-size: 12px;
+	margin-right: 11px;
+	/*display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 4;
+	overflow: hidden;
+	word-wrap: break-word;
+	line-height: 14px;*/
+}
+
+.listitem .teachphoto {
+	position: absolute;
+	top: 4px;
+	left: 127px;
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+	text-align: center;
+	line-height: 100px;
+}
+
+.listitem .teachphoto img {
+	width: 90px;
+	height: 90px;
+	border-radius: 50%;
+}
+
+.border {
+	border: 1px solid gold;
+}
+
 
 /* 以上是师资队伍 */
 
 .savebody {
-    width: 100%;
-    background-image: url(../Img/bg.png);
-    padding: 50px 0px 100px 0px;
+	width: 100%;
+	background-image: url(../Img/login/class-bg.png);
+	padding: 50px 0px 100px 0px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
 }
 
 .savecontent {
-    width: 800px;
-    margin: 0 auto;
+	width: 800px;
+	margin: 0 auto;
 }
 
 .savelist {
-    width: 800px;
-    margin: 0 auto;
+	width: 800px;
+	margin: 0 auto;
 }
 
 .savelist .bgdiv-black {
-    width: 800px;
-    height: 600px;
-    margin-top: 0px;
+	width: 800px;
+	height: 600px;
+	margin-top: 30px;
 }
 
 .savelist .bgdiv-white {
-    height: 600px;
+	height: 600px;
 }
 
 .sitetable {
-    width: 796px;
-    text-align: center;
+	width: 796px;
+	font-weight: 600;
+}
+
+.sitetable tbody tr td {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	border-bottom: 1px solid whitesmoke;
+	;
 }
 
 .sitetable thead tr th {
-    height: 40px;
-    text-align: center;
-    color: rgb(19, 108, 216);
+	height: 40px;
+	padding-left: 20px;
+	color: rgb(19, 108, 206);
+	border-bottom: 1px solid whitesmoke;
 }
 
 .sitetable tbody .classname {
-    width: 125px;
-    padding-left: 10px;
+	width: 130px;
+	padding-left: 10px;
 }
 
 .sitetable tbody .sitebtn {
-    width: 100px;
-    height: 35px;
+	width: 100px;
+	height: 35px;
 }
 
 .sitetable tbody .sitewd {
-    position: absolute;
-    top: 5px;
-    left: 55px;
-    color: white;
-    font-weight: 600;
+	position: absolute;
+	width: 100px;
+	top: 0;
+	left: 0;
+	height: 35px;
+	line-height: 28px;
+	text-align: center;
+	color: white;
+	font-weight: 600;
 }
+
+.DriAC {
+	width: 140px;
+}
+
+.sitetable {
+	padding: 0 10px;
+	box-sizing: border-box;
+}
+
 
 /* 以上为占座系统 */
 
 .saveinfobody {
-    width: 100%;
-    background-image: url(../Img/bg.png);
-    padding: 50px 0px 100px 0px;
+	width: 100%;
+	background-image: url(../Img/login/siteinfo-bg.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	padding: 50px 0px 100px 0px;
 }
 
 .saveinfocontent {
-    width: 800px;
-    margin: 0 auto;
-}
-.classroom{
-    min-height: 500px;
-    margin-top: 50px;
-}
-.saveinfolist .bgdiv-black {
-    width: 800px;
-    /* height: 1000px; */
-    margin-top: 0px;
+	width: 800px;
+	margin: 0 auto;
+	font-weight: 600;
 }
 
-.saveinfolist .bgdiv-white {
-    /* height: 1000px; */
+.classroom {
+	min-height: 500px;
+	margin-top: 50px;
 }
+
+.saveinfolist .bgdiv-black {
+	width: 800px;
+	margin-top: 10px;
+}
+
+/* .saveinfolist .bgdiv-white {
+	height: 1000px;
+} */
+
 .saveinfolist .hr-img {
-    width: 798px;
-    height: 20px;
-    margin-left: -1px;
+	width: 798px;
+	height: 20px;
+	margin-left: -1px;
 }
 
 .saveinfolist .hr-span {
-    position: absolute;
-    top: 0px;
-    left: 27px;
-    color: rgb(19, 108, 216);
-    background-color: white;
-    width: 80px;
-    font-weight: 600;
+	position: absolute;
+	top: 0px;
+	left: 27px;
+	color: rgb(19, 108, 216);
+	background-color: white;
+	width: 80px;
+	font-weight: 600;
 }
 
 .order {
-    width: 700px;
-    line-height: 50px;
+	width: 722px;
+	line-height: 50px;
 }
 
 .order .title {
-    font-size: 20px;
-    font-weight: 600;
-    margin-left: 20px;
-    margin-right: 20px;
-    color: rgb(19, 108, 216);
+	font-size: 20px;
+	font-weight: 600;
+	margin-left: 20px;
+	margin-right: 20px;
+	color: rgb(19, 108, 216);
 }
 
 .classinfo {
-    width: 700px;
-    margin-left: 20px;
-    margin-top: 15px;
-    ;
+	width: 700px;
+	margin-left: 20px;
+	margin-top: 15px;
+	;
 }
 
 .classinfo p {
-    line-height: 15px;
+	line-height: 15px;
 }
 
 .classinfo .shengyu {
-    color: rgb(240, 88, 127);
+	color: rgb(240, 88, 127);
 }
 
 .aftersite {
-    width: 700px;
-    height: 100px;
+	width: 640px;
+	height: 100px;
+	margin: 0 auto;
 }
 
 .aftersite .air {
-    position: absolute;
-    top: 10px;
-    left: 65px;
-    width: 70px;
-    height: 35px;
-    line-height: 35px;
-    text-align: center;
-    font-weight: 600;
-    border: 1px solid black;
+	position: absolute;
+	top: 10px;
+	left: 0px;
+	width: 52px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	font-weight: 600;
+	border: 1px solid black;
 }
 
 .aftersite .air img {
-    position: absolute;
-    top: 40px;
-    left: 8px;
+	position: absolute;
+	top: 40px;
+	left: 0px;
 }
 
 .aftersite .multimedia {
-    position: absolute;
-    top: 10px;
-    left: 170px;
-    width: 100px;
-    height: 5px;
-    text-align: center;
-    line-height: 35px;
-    font-weight: 600;
-    background-color: black;
+	position: absolute;
+	top: 10px;
+	left: 110px;
+	width: 100px;
+	height: 5px;
+	text-align: center;
+	line-height: 35px;
+	font-weight: 600;
+	background-color: black;
 }
 
 .aftersite .platform {
-    position: absolute;
-    top: 10px;
-    left: 300px;
-    width: 200px;
-    height: 60px;
-    line-height: 60px;
-    text-align: center;
-    font-weight: 600;
-    background-image: url(../Img/search/platform.png);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+	position: absolute;
+	top: 10px;
+	left: 270px;
+	width: 200px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-weight: 600;
+	background-image: url(../Img/search/platform.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
 }
 
 .sitearea {
-    width: 700px;
-    margin: 0 auto;
-    margin-top: 20px;
+	width: 710px;
+	margin: 0 auto;
+	margin-top: 20px;
+	overflow: auto;
 }
 
 .sitearea .siterow {
-    margin: 0;
+	margin: 0;
+	/* width: 715px; */
+	height: 80px;
+	margin-bottom: 20px;
 }
 
 .sitearea .siterow .site {
-    min-width:115px;
-    float: left;
-    margin-bottom: 20px;
+	width: 125px;
+	height: 92px;
+	float: left;
+	text-align: center;
 }
 
 .sitearea .siterow .site .siteimg {
-    width: 50px;
-    height: 50px;
-    /* margin: 0 auto; */
-    margin-bottom: 10px;
+	position: absolute;
+	top: 0px;
+	left: 35px;
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
 }
-.sitearea .siterow .site .siteimg span{
-    color: white;
-    font-weight: 600;
-    line-height: 60px;
-    margin-left: 6px;
+
+.sitearea .siterow .site .siteimg span {
+	color: white;
+	font-weight: 600;
+	line-height: 60px;
+	margin-left: -8px;
 }
 
 .sitearea .siterow .site .sitespan {
-    -webkit-transform-origin-x: 0;
-    transform: scale(0.75);
-    /* width: 165px; */
-    background-color: rgb(19, 108, 216);
-    padding: 2px;
-    margin-left: -30px;
+	position: absolute;
+	top: 55px;
+	left: 15px;
+	background-color: #a0e9f1;
+	width: 111px;
+	height: 18px;
 }
+
+.sitearea .siterow .site .sitespan p {
+	transform: scale(0.75);
+	margin-top: -2px;
+	margin-left: -15px;
+	width: 142px;
+}
+
 
 /* 关于能否占位的不同图片 */
 
 .sitearea .siterow .site .site-icon {
-    background-image: url(../Img/search/site.png);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+	background-image: url(../Img/search/site.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
 }
 
 .sitearea .siterow .site .site-icon-un {
-    background-image: url(../Img/search/unsite.png);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+	background-image: url(../Img/search/unsite.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
 }
-.classabs{
-    width: 700px;
-    height: 500px;
-    margin-top: 20px;
-    margin-left: 20px;
+
+.classabs {
+	width: 700px;
+	height: 500px;
+	margin-top: 20px;
+	margin-left: 20px;
 }
+
+.classabs .classabs-title {
+	font-weight: 600;
+	font-size: 20px;
+}
+
+.classabs .classabs-pink {
+	color: rgb(240, 88, 127);
+}
+
+
 /* 关于弹出框 */
-.site-pos-info{
-    border-bottom: 1px solid gray;
-    margin-top: 10px;
-    padding-bottom: 10px;
+
+.site-pos-info {
+	border-bottom: 1px solid gray;
+	margin-top: 10px;
+	padding-bottom: 10px;
 }
-.site-pos-info input{
-    border: 0;
+
+.site-pos-info input {
+	border: 0;
 }
-.sitepagemodal .circle{
-    margin-left: 5px !important;
+
+.sitepagemodal .circle {
+	margin-left: 5px !important;
 }
-.sitepagemodal .site-pos-info img{
-    width: 20px;
-    height: 20px;
+
+.sitepagemodal .site-pos-info img {
+	width: 20px;
+	height: 20px;
 }

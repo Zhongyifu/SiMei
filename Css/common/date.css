@@ -1,0 +1,217 @@
+.datecontent{
+  background-image: url(../../Img/login/myclass-bg.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	padding-bottom: 230px;
+	padding-top: 80px;
+}
+.datebody{
+  width: 800px;
+  margin: 0 auto;
+}
+.datetitle{
+  width: 800px;
+  height: 50px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  background-color: pink;
+  text-align: center;
+  line-height: 50px;
+}
+.datetitle span{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.dateabs{
+  width: 800px;
+  height: 70px;
+  margin-bottom: 20px;
+}
+.dateabs span{
+  color: gray;
+}
+.datemonthlist{
+  width: 800px;
+  height: 50px;
+}
+.datecontent .bgdiv-black{
+  width: 800px;
+}
+
+/* .datecontent .bgdiv-white{
+  height: 760px;
+} */
+.dateMonth li{
+  cursor: pointer;
+}
+/* 不同的小方块的不同底色 */
+.type-one{  /* 协议 */
+  background-color: rgb(241, 88, 128);
+  color: white !important;
+}
+.type-two{  /* 甲字 */
+  background-color: rgb(18, 200, 219);
+  color: white !important;
+}
+.type-three{ /* 环艺 */
+  background: -webkit-linear-gradient(left, rgb(249, 190, 205), rgb( 255, 233, 223));
+  background: -ms-linear-gradient(left,rgb(249, 190, 205), rgb( 255, 233, 223));
+}
+.type-four{ /* 工业 */
+  background: -webkit-linear-gradient(left, rgb(216, 223, 254), rgb( 205, 246, 246));
+	background: -ms-linear-gradient(left, rgb(216, 223, 254), rgb( 205, 246, 246));
+}
+.type-five{ /* 视传 */
+  background: -webkit-linear-gradient(left, rgb(255, 214, 54), rgb( 255, 233, 223));
+	background: -ms-linear-gradient(left, rgb(255, 214, 54), rgb( 255, 233, 223));
+}
+.type-six{ /* 服装 */
+  background: -webkit-linear-gradient(left, rgb( 205, 246, 246), rgb( 255, 233, 223));
+	background: -ms-linear-gradient(left, rgb( 205, 246, 246), rgb( 255, 233, 223));
+}
+.nothing{ /* 当日历项什么tip都没有的时候的文字颜色 */
+  color: gray;
+}
+.cont{
+  width: 765px;
+  margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+ .dateMonth {
+  width: 100%;
+}
+ .dateMonth ul {
+  display: flex;
+  justify-content: space-between;
+  margin-left: -40px;
+}
+ .dateMonth ul li {
+  list-style-type: none;
+  width: 6%;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  font-size: 12px;
+  border-radius: 20px;
+  border: 1px solid #89888b;
+  background-color: white;
+}
+ .dateMonth ul .atMonth {
+  background-image: url(../../Img/icon/common/dateD.png);
+  background-size: 100% 100%;
+}
+.cont .dateDay {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.cont .dateDay .dateDay-c {
+  width: 14.28%;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  margin-top: 20px;
+  border-top: 1px dotted #ccc;
+  border-bottom: 1px dotted #ccc;
+  border-right: 1px dotted #ccc;
+}
+.cont .dateDay .dateDay-c:nth-child(7n) {
+  border-right: none;
+}
+.cont .dateDate {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+.cont .dateDate .dateDay-c {
+  width: 14.28%;
+  min-height: 50px;
+  padding: 20px 0;
+  box-sizing: border-box;
+  text-align: center;
+  /* border-top: 1px dotted #ccc; */
+  border-bottom: 1px dotted #ccc;
+  border-right: 1px dotted #ccc;
+  font-size: 46px;
+}
+.cont .dateDate .dateDay-c div {
+  width: 100%;
+}
+.cont .dateDate .dateDay-c p {
+  float: left;
+  width: 42.5%;
+  display: block;
+  font-size: 10px;
+  margin: 5px 0;
+  margin-left: 5%;
+  font-size: 12px;
+  cursor: pointer;
+  font-weight: 600;
+  /* color: white; */
+}
+/* .cont .dateDate .dateDay-c .Thck:nth-child(2) {
+  background-image: url(../../Img/icon/common/dateD1.png);
+  background-size: 100% 100%;
+}
+.cont .dateDate .dateDay-c .Thck:nth-child(3) {
+  background-image: url(../../Img/icon/common/dateD2.png);
+  background-size: 100% 100%;
+}
+.cont .dateDate .dateDay-c .Thck:nth-child(4) {
+  background-image: url(../../Img/icon/common/dateD3.png);
+  background-size: 100% 100%;
+}
+.cont .dateDate .dateDay-c .Thck:nth-child(5) {
+  background-image: url(../../Img/icon/common/dateD4.png);
+  background-size: 100% 100%;
+}
+.cont .dateDate .dateDay-c .Thck:nth-child(6) {
+  background-image: url(../../Img/icon/common/dateD5.png);
+  background-size: 100% 100%;
+}
+.cont .dateDate .dateDay-c .Thck:nth-child(7) {
+  background-image: url(../../Img/icon/common/dateD6.png);
+  background-size: 100% 100%;
+} */
+.cont .dateDate .dateDay-c:nth-child(7n) {
+  border-right: none;
+}
+.cont .dateDate .dateDayCbg {
+  background-color: #F2F2F2;
+}
+.cont .dateDate .dateDayCbg .colorCB {
+  /* color: #EBEBEB; */
+  color:  #F2F2F2;
+}
+.cont .dateDate .onshow {
+  position: absolute;
+  width: 145px;
+  height: 160px;
+  border: 1px solid;
+  padding: 0 10px;
+  box-sizing: border-box;
+  background-color: white;
+  z-index: 9;
+  display: none;
+}
+.cont .dateDate .onshow .onshowTitle {
+  font-size: 14px;
+  font-weight: 500;
+  margin: 10px 0;
+}
+.cont .dateDate .onshow .onshowCont {
+  font-size: 12px;
+}
+.cont .dateDate .onshow a {
+  color: #f05880;
+}
